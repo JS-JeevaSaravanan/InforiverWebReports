@@ -68,6 +68,25 @@
                 "fileName":"cash-flow.json"    
             }
         ]
+    },
+    "nike":{
+        "name": "Nike",
+        "location": "nike/",
+        "pages":[
+            {
+                "label":"Income Statement",
+                "fileName":"income-statement.json"
+            },{
+                "label":"Balance Sheet",
+                "fileName":"balance-sheet.json"
+            },{
+                "label":"Cash Flow",
+                "fileName":"cash-flow.json"    
+            },{
+                "label":"Shareholder Equity",
+                "fileName":"shareholder-equity.json"    
+            }
+        ]
     }
     
 }
