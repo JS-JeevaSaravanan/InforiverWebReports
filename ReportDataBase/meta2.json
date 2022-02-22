@@ -155,7 +155,18 @@
             {
                 "label":"Variance P&L",
                 "fileName":"variance_pl.json"
-            }        
+            } 
+        ]
+    },
+
+    "regional_profitability":{
+        "name": "Regional Profitability Analysis",
+        "location": "regional_profitability/",
+        "pages":[
+            {
+                "label":"Profitability",
+                "fileName":"profitability.json"
+            } 
         ]
     }
     
