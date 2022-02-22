@@ -120,6 +120,18 @@
                 "fileName":"five-year.json"
             }
         ]
+    },
+
+    "profitability-analysis":{
+        "name": "Profitability Analysis",
+        "location": "profitability-analysis/",
+        "pages":[
+            {
+                "label":"Profitability",
+                "fileName":"profitability.json"
+            }        
+        ]
     }
+
     
 }
