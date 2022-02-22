@@ -131,7 +131,23 @@
                 "fileName":"profitability.json"
             }        
         ]
+    },
+
+    "comparitive_pL":{
+        "name": "Comparitive P&L",
+        "location": "comparitive_pl/",
+        "pages":[
+            {
+                "label":"Comparitive P&L",
+                "fileName":"comparitive_pl.json"
+            },
+            {
+                "label":"Variance P&L",
+                "fileName":"variance_pl.json"
+            }        
+        ]
     }
+
 
     
 }
