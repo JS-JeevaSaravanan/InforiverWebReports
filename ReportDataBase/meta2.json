@@ -100,6 +100,26 @@
                 "fileName":"assumptions.json"
             }
         ]
+    },
+    
+    "walmart":{
+        "name": "Walmart",
+        "location": "walmart/",
+        "pages":[
+            {
+                "label":"BS",
+                "fileName":"bs.json"
+            },{
+                "label":"IS",
+                "fileName":"is.json"
+            },{
+                "label":"CF",
+                "fileName":"cf.json"
+            },{
+                "label":"Five Year",
+                "fileName":"five-year.json"
+            }
+        ]
     }
     
 }
