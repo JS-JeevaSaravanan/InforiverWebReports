@@ -1,10 +1,10 @@
 {
     "demo":{
-        "location": "/DemoReports/Demo1/",
+        "location": "DemoReports/Demo1/",
         "pagesCount":3
     },
     "report1":{
-        "location": "/Report1/",
+        "location": "Report1/",
         "pagesCount":1
     }
 }
