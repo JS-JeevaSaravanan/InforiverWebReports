@@ -146,8 +146,19 @@
                 "fileName":"variance_pl.json"
             }        
         ]
-    }
+    },
 
+    "variance_pl":{
+        "name": "Variance P&L",
+        "location": "variance_pl/",
+        "pages":[
+            {
+                "label":"Variance P&L",
+                "fileName":"variance_pl.json"
+            }        
+        ]
+    }
+    
 
     
 }
