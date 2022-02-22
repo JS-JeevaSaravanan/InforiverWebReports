@@ -2,37 +2,32 @@
 {
     
     "demo":{
-        "location": "DemoReports/Demo1/",
+        "location": "demo/",
         "name":  "First Demo Data",
         "pages":[
             {
-                "id":1,
-                "label": "FG Demand",
-                "filename":"page1.json"
+                "label": "FG-Demand",
+                "filename":"fg-demand.json"
             },{
-                "id":2,
                 "label": "April",
-                "filename":"page2.json"
+                "filename":"april.json"
             },{
-                "id":3,
                 "label": "Month",
-                "filename":"page3.json"
+                "filename":"month.json"
             }
         ]
     },
     "report1":{
-        "location": "Report1/",
+        "location": "report1/",
+        "name":"Report One",
         "pages":[
             {
-                "id":1,
                 "label": "April",
-                "filename":"page1.json"
+                "filename":"april.json"
             },{
-                "id":2,
                 "label": "Var Plan",
-                "filename":"page2.json"
+                "filename":"var-plan.json"
             }
-
         ]
     }
 }
