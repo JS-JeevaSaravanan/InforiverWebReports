@@ -1,0 +1,19 @@
+{
+    "amazon":{
+        "name": "Amazon",
+        "location": "amazon/",
+        "pages":[
+            {
+                "label":"Income Statement",
+                "fileName":"income-statement.json"
+            },{
+                "label":"Cash Flow",
+                "fileName":"cash-flow.json"    
+            },{
+                "label":"Balance Sheet",
+                "fileName":"balance-sheet.json"
+            }
+        ]
+        
+    }
+}
