@@ -87,6 +87,19 @@
                 "fileName":"shareholder-equity.json"    
             }
         ]
+    },
+    "ge":{
+        "name": "GE",
+        "location": "ge/",
+        "pages":[
+            {
+                "label":"P&L by Segment (Non-GAAP)",
+                "fileName":"pl_by_segment_non_gaasp.json"
+            },{
+                "label":"Assumptions",
+                "fileName":"assumptions.json"
+            }
+        ]
     }
     
 }
