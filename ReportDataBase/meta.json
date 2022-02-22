@@ -7,13 +7,13 @@
         "pages":[
             {
                 "label": "FG-Demand",
-                "filename":"fg-demand.json"
+                "fileName":"fg-demand.json"
             },{
                 "label": "April",
-                "filename":"april.json"
+                "fileName":"april.json"
             },{
                 "label": "Month",
-                "filename":"month.json"
+                "fileName":"month.json"
             }
         ]
     },
@@ -23,10 +23,10 @@
         "pages":[
             {
                 "label": "April",
-                "filename":"april.json"
+                "fileName":"april.json"
             },{
                 "label": "Var Plan",
-                "filename":"var-plan.json"
+                "fileName":"var-plan.json"
             }
         ]
     }
