@@ -7,14 +7,13 @@ meta.json format
 js
 ```
 {
-"nameFromUrl":{
-         "location":"folder",
+"reportTitle":{
+         "location":"folderName/",
          "name": "reportName",
          "pages": [
              {
-                 "id":"uniqueIDStartsFrom1",
-                 "lable":"pageLabel",
-                 "filename":"nameOfTheFile"
+                 "label":"pageLabel",
+                 "fileName":"fileName.json"
              }
          ]
      }
