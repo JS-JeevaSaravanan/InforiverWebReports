@@ -52,5 +52,22 @@
                 "fileName":"cash-flow.json"    
             }
         ]
+    },
+    "chevron":{
+        "name": "Chevron",
+        "location": "chevron/",
+        "pages":[
+            {
+                "label":"Balance Sheet",
+                "fileName":"balance-sheet.json"
+            },{
+                "label":"Income Statement",
+                "fileName":"income-statement.json"
+            },{
+                "label":"Cash Flow",
+                "fileName":"cash-flow.json"    
+            }
+        ]
     }
+    
 }
