@@ -1,0 +1,18 @@
+{
+    "demo":{
+        "location": "/DemoReports/",
+        "pagesCount":3
+    },
+    "report1":{
+        "location": "/Report1/",
+        "pagesCount":1
+    }
+}
+
+
+
+
+
+
+
+
