@@ -17,7 +17,7 @@
     },
     "amd":{
         "name": "AMD",
-        "location": "amd/" ,
+        "location": "amd/",
         "pages":[
             {
                 "label":"P&L_GAAP",
@@ -34,6 +34,22 @@
             },{
                 "label":"Non-GAAP_2",
                 "fileName":"non-gaap-2.json"    
+            }
+        ]
+    },
+    "apple":{
+        "name": "Apple",
+        "location": "apple/",
+        "pages":[
+            {
+                "label":"Income Statement",
+                "fileName":"income-statement.json"
+            },{
+                "label":"Balance Sheet",
+                "fileName":"balance-sheet.json"
+            },{
+                "label":"Cash Flow",
+                "fileName":"cash-flow.json"    
             }
         ]
     }
