@@ -14,6 +14,27 @@
                 "fileName":"balance-sheet.json"
             }
         ]
-        
+    },
+    "amd":{
+        "name": "AMD",
+        "location": "amd/" ,
+        "pages":[
+            {
+                "label":"P&L_GAAP",
+                "fileName":"pl-gaap.json"
+            },{
+                "label":"Balance Sheet",
+                "fileName":"balance-sheet.json"
+            },{
+                "label":"SEG1",
+                "fileName":"seg1.json"    
+            },{
+                "label":"Non-GAAP",
+                "fileName":"non-gaap.json"    
+            },{
+                "label":"Non-GAAP_2",
+                "fileName":"non-gaap-2.json"    
+            }
+        ]
     }
 }
