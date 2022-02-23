@@ -73,6 +73,6 @@ module.exports = {
     filename: "index.js",
     libraryTarget: "umd",
     library: "IBCSModule",
-    path: path.resolve(__dirname, "public/dist/")
+    path: path.resolve(__dirname, "docs/dist/")
   }
 };

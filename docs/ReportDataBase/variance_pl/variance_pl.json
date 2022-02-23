@@ -1,0 +1,3090 @@
+{
+    "noData": false,
+    "rawData": {
+        "rows": [
+            {
+                "id": "T04.Account Level 2",
+                "role": {
+                    "rows": true
+                },
+                "label": "Account Level 2",
+                "memberKey": "Software revenue",
+                "member": "Software revenue",
+                "level": 0,
+                "ref": {
+                    "deepestNodeLevelInPath": -1,
+                    "measures": [],
+                    "dataMap": {
+                        "T04.Account Level 2": [
+                            {
+                                "identityIndex": 0
+                            }
+                        ]
+                    },
+                    "nodeIsCollapsed": null,
+                    "key": "{\"T04.Account Level 2\":[{\"identityIndex\":0}]}[]"
+                },
+                "expandRef": {
+                    "deepestNodeLevelInPath": -1,
+                    "measures": [],
+                    "dataMap": {
+                        "T04.Account Level 2": [
+                            {
+                                "identityIndex": 0
+                            }
+                        ]
+                    },
+                    "nodeIsCollapsed": null,
+                    "key": "{\"T04.Account Level 2\":[{\"identityIndex\":0}]}[]"
+                },
+                "values": [
+                    265,
+                    278
+                ],
+                "isSubtotal": false
+            },
+            {
+                "id": "T04.Account Level 2",
+                "role": {
+                    "rows": true
+                },
+                "label": "Account Level 2",
+                "memberKey": "Support revenue",
+                "member": "Support revenue",
+                "level": 0,
+                "ref": {
+                    "deepestNodeLevelInPath": -1,
+                    "measures": [],
+                    "dataMap": {
+                        "T04.Account Level 2": [
+                            {
+                                "identityIndex": 1
+                            }
+                        ]
+                    },
+                    "nodeIsCollapsed": null,
+                    "key": "{\"T04.Account Level 2\":[{\"identityIndex\":1}]}[]"
+                },
+                "expandRef": {
+                    "deepestNodeLevelInPath": -1,
+                    "measures": [],
+                    "dataMap": {
+                        "T04.Account Level 2": [
+                            {
+                                "identityIndex": 1
+                            }
+                        ]
+                    },
+                    "nodeIsCollapsed": null,
+                    "key": "{\"T04.Account Level 2\":[{\"identityIndex\":1}]}[]"
+                },
+                "values": [
+                    87,
+                    90
+                ],
+                "isSubtotal": false
+            },
+            {
+                "id": "T04.Account Level 2",
+                "role": {
+                    "rows": true
+                },
+                "label": "Account Level 2",
+                "memberKey": "Consulting revenue",
+                "member": "Consulting revenue",
+                "level": 0,
+                "ref": {
+                    "deepestNodeLevelInPath": -1,
+                    "measures": [],
+                    "dataMap": {
+                        "T04.Account Level 2": [
+                            {
+                                "identityIndex": 2
+                            }
+                        ]
+                    },
+                    "nodeIsCollapsed": null,
+                    "key": "{\"T04.Account Level 2\":[{\"identityIndex\":2}]}[]"
+                },
+                "expandRef": {
+                    "deepestNodeLevelInPath": -1,
+                    "measures": [],
+                    "dataMap": {
+                        "T04.Account Level 2": [
+                            {
+                                "identityIndex": 2
+                            }
+                        ]
+                    },
+                    "nodeIsCollapsed": null,
+                    "key": "{\"T04.Account Level 2\":[{\"identityIndex\":2}]}[]"
+                },
+                "values": [
+                    121,
+                    128
+                ],
+                "isSubtotal": false
+            },
+            {
+                "id": "T04.Account Level 2",
+                "role": {
+                    "rows": true
+                },
+                "label": "Account Level 2",
+                "memberKey": "Cost of sales",
+                "member": "Cost of sales",
+                "level": 0,
+                "ref": {
+                    "deepestNodeLevelInPath": -1,
+                    "measures": [],
+                    "dataMap": {
+                        "T04.Account Level 2": [
+                            {
+                                "identityIndex": 3
+                            }
+                        ]
+                    },
+                    "nodeIsCollapsed": null,
+                    "key": "{\"T04.Account Level 2\":[{\"identityIndex\":3}]}[]"
+                },
+                "expandRef": {
+                    "deepestNodeLevelInPath": -1,
+                    "measures": [],
+                    "dataMap": {
+                        "T04.Account Level 2": [
+                            {
+                                "identityIndex": 3
+                            }
+                        ]
+                    },
+                    "nodeIsCollapsed": null,
+                    "key": "{\"T04.Account Level 2\":[{\"identityIndex\":3}]}[]"
+                },
+                "values": [
+                    122,
+                    128
+                ],
+                "isSubtotal": false
+            },
+            {
+                "id": "T04.Account Level 2",
+                "role": {
+                    "rows": true
+                },
+                "label": "Account Level 2",
+                "memberKey": "Research and development expenses",
+                "member": "Research and development expenses",
+                "level": 0,
+                "ref": {
+                    "deepestNodeLevelInPath": -1,
+                    "measures": [],
+                    "dataMap": {
+                        "T04.Account Level 2": [
+                            {
+                                "identityIndex": 4
+                            }
+                        ]
+                    },
+                    "nodeIsCollapsed": null,
+                    "key": "{\"T04.Account Level 2\":[{\"identityIndex\":4}]}[]"
+                },
+                "expandRef": {
+                    "deepestNodeLevelInPath": -1,
+                    "measures": [],
+                    "dataMap": {
+                        "T04.Account Level 2": [
+                            {
+                                "identityIndex": 4
+                            }
+                        ]
+                    },
+                    "nodeIsCollapsed": null,
+                    "key": "{\"T04.Account Level 2\":[{\"identityIndex\":4}]}[]"
+                },
+                "values": [
+                    78,
+                    91
+                ],
+                "isSubtotal": false
+            },
+            {
+                "id": "T04.Account Level 2",
+                "role": {
+                    "rows": true
+                },
+                "label": "Account Level 2",
+                "memberKey": "Selling and general administrative expenses",
+                "member": "Selling and general administrative expenses",
+                "level": 0,
+                "ref": {
+                    "deepestNodeLevelInPath": -1,
+                    "measures": [],
+                    "dataMap": {
+                        "T04.Account Level 2": [
+                            {
+                                "identityIndex": 5
+                            }
+                        ]
+                    },
+                    "nodeIsCollapsed": null,
+                    "key": "{\"T04.Account Level 2\":[{\"identityIndex\":5}]}[]"
+                },
+                "expandRef": {
+                    "deepestNodeLevelInPath": -1,
+                    "measures": [],
+                    "dataMap": {
+                        "T04.Account Level 2": [
+                            {
+                                "identityIndex": 5
+                            }
+                        ]
+                    },
+                    "nodeIsCollapsed": null,
+                    "key": "{\"T04.Account Level 2\":[{\"identityIndex\":5}]}[]"
+                },
+                "values": [
+                    97,
+                    102
+                ],
+                "isSubtotal": false
+            },
+            {
+                "id": "T04.Account Level 2",
+                "role": {
+                    "rows": true
+                },
+                "label": "Account Level 2",
+                "memberKey": "Other operating income",
+                "member": "Other operating income",
+                "level": 0,
+                "ref": {
+                    "deepestNodeLevelInPath": -1,
+                    "measures": [],
+                    "dataMap": {
+                        "T04.Account Level 2": [
+                            {
+                                "identityIndex": 6
+                            }
+                        ]
+                    },
+                    "nodeIsCollapsed": null,
+                    "key": "{\"T04.Account Level 2\":[{\"identityIndex\":6}]}[]"
+                },
+                "expandRef": {
+                    "deepestNodeLevelInPath": -1,
+                    "measures": [],
+                    "dataMap": {
+                        "T04.Account Level 2": [
+                            {
+                                "identityIndex": 6
+                            }
+                        ]
+                    },
+                    "nodeIsCollapsed": null,
+                    "key": "{\"T04.Account Level 2\":[{\"identityIndex\":6}]}[]"
+                },
+                "values": [
+                    33,
+                    27
+                ],
+                "isSubtotal": false
+            },
+            {
+                "id": "T04.Account Level 2",
+                "role": {
+                    "rows": true
+                },
+                "label": "Account Level 2",
+                "memberKey": "Other operating expenses",
+                "member": "Other operating expenses",
+                "level": 0,
+                "ref": {
+                    "deepestNodeLevelInPath": -1,
+                    "measures": [],
+                    "dataMap": {
+                        "T04.Account Level 2": [
+                            {
+                                "identityIndex": 7
+                            }
+                        ]
+                    },
+                    "nodeIsCollapsed": null,
+                    "key": "{\"T04.Account Level 2\":[{\"identityIndex\":7}]}[]"
+                },
+                "expandRef": {
+                    "deepestNodeLevelInPath": -1,
+                    "measures": [],
+                    "dataMap": {
+                        "T04.Account Level 2": [
+                            {
+                                "identityIndex": 7
+                            }
+                        ]
+                    },
+                    "nodeIsCollapsed": null,
+                    "key": "{\"T04.Account Level 2\":[{\"identityIndex\":7}]}[]"
+                },
+                "values": [
+                    11,
+                    10
+                ],
+                "isSubtotal": false
+            },
+            {
+                "id": "T04.Account Level 2",
+                "role": {
+                    "rows": true
+                },
+                "label": "Account Level 2",
+                "memberKey": "Other financial income,net",
+                "member": "Other financial income,net",
+                "level": 0,
+                "ref": {
+                    "deepestNodeLevelInPath": -1,
+                    "measures": [],
+                    "dataMap": {
+                        "T04.Account Level 2": [
+                            {
+                                "identityIndex": 8
+                            }
+                        ]
+                    },
+                    "nodeIsCollapsed": null,
+                    "key": "{\"T04.Account Level 2\":[{\"identityIndex\":8}]}[]"
+                },
+                "expandRef": {
+                    "deepestNodeLevelInPath": -1,
+                    "measures": [],
+                    "dataMap": {
+                        "T04.Account Level 2": [
+                            {
+                                "identityIndex": 8
+                            }
+                        ]
+                    },
+                    "nodeIsCollapsed": null,
+                    "key": "{\"T04.Account Level 2\":[{\"identityIndex\":8}]}[]"
+                },
+                "values": [
+                    34,
+                    30
+                ],
+                "isSubtotal": false
+            },
+            {
+                "id": "T04.Account Level 2",
+                "role": {
+                    "rows": true
+                },
+                "label": "Account Level 2",
+                "memberKey": "Income tax expenses",
+                "member": "Income tax expenses",
+                "level": 0,
+                "ref": {
+                    "deepestNodeLevelInPath": -1,
+                    "measures": [],
+                    "dataMap": {
+                        "T04.Account Level 2": [
+                            {
+                                "identityIndex": 9
+                            }
+                        ]
+                    },
+                    "nodeIsCollapsed": null,
+                    "key": "{\"T04.Account Level 2\":[{\"identityIndex\":9}]}[]"
+                },
+                "expandRef": {
+                    "deepestNodeLevelInPath": -1,
+                    "measures": [],
+                    "dataMap": {
+                        "T04.Account Level 2": [
+                            {
+                                "identityIndex": 9
+                            }
+                        ]
+                    },
+                    "nodeIsCollapsed": null,
+                    "key": "{\"T04.Account Level 2\":[{\"identityIndex\":9}]}[]"
+                },
+                "values": [
+                    23,
+                    27
+                ],
+                "isSubtotal": false
+            },
+            {
+                "id": "T04.Account Level 2",
+                "role": {
+                    "rows": true
+                },
+                "label": "Account Level 2",
+                "memberKey": "Income from discontinued operations",
+                "member": "Income from discontinued operations",
+                "level": 0,
+                "ref": {
+                    "deepestNodeLevelInPath": -1,
+                    "measures": [],
+                    "dataMap": {
+                        "T04.Account Level 2": [
+                            {
+                                "identityIndex": 10
+                            }
+                        ]
+                    },
+                    "nodeIsCollapsed": null,
+                    "key": "{\"T04.Account Level 2\":[{\"identityIndex\":10}]}[]"
+                },
+                "expandRef": {
+                    "deepestNodeLevelInPath": -1,
+                    "measures": [],
+                    "dataMap": {
+                        "T04.Account Level 2": [
+                            {
+                                "identityIndex": 10
+                            }
+                        ]
+                    },
+                    "nodeIsCollapsed": null,
+                    "key": "{\"T04.Account Level 2\":[{\"identityIndex\":10}]}[]"
+                },
+                "values": [
+                    6,
+                    25
+                ],
+                "isSubtotal": false
+            }
+        ],
+        "columns": [
+            {
+                "id": "Sum(T04.PY)",
+                "role": {
+                    "pymeasure": true
+                },
+                "label": "PY",
+                "memberKey": "PY",
+                "member": "PY",
+                "level": 0,
+                "ref": {
+                    "deepestNodeLevelInPath": -1,
+                    "measures": [],
+                    "dataMap": null,
+                    "nodeIsCollapsed": null,
+                    "key": "null[]"
+                },
+                "expandRef": {
+                    "deepestNodeLevelInPath": -1,
+                    "measures": [],
+                    "dataMap": null,
+                    "nodeIsCollapsed": null,
+                    "key": "null[]"
+                },
+                "isMeasure": true,
+                "isSubtotal": false
+            },
+            {
+                "id": "Sum(T04.AC)",
+                "role": {
+                    "ameasure": true
+                },
+                "label": "AC",
+                "memberKey": "AC",
+                "member": "AC",
+                "level": 0,
+                "ref": {
+                    "deepestNodeLevelInPath": -1,
+                    "measures": [],
+                    "dataMap": null,
+                    "nodeIsCollapsed": null,
+                    "key": "null[]"
+                },
+                "expandRef": {
+                    "deepestNodeLevelInPath": -1,
+                    "measures": [],
+                    "dataMap": null,
+                    "nodeIsCollapsed": null,
+                    "key": "null[]"
+                },
+                "isMeasure": true,
+                "isSubtotal": false
+            }
+        ],
+        "metadata": {
+            "dimensions": {
+                "measures": [
+                    {
+                        "name": "Sum(T04.PY)",
+                        "label": "PY",
+                        "format": "0",
+                        "roles": {
+                            "PY": true
+                        },
+                        "dataType": "NUMERIC"
+                    },
+                    {
+                        "name": "Sum(T04.AC)",
+                        "label": "AC",
+                        "format": "0",
+                        "roles": {
+                            "AC": true
+                        },
+                        "dataType": "NUMERIC"
+                    }
+                ],
+                "columns": [],
+                "rows": [
+                    {
+                        "id": "T04.Account Level 2",
+                        "label": "Account Level 2",
+                        "type": "TEXT"
+                    }
+                ]
+            },
+            "fetchStatus": {
+                "segmentCount": 1,
+                "segmentIndex": 0,
+                "isFetchingData": false,
+                "segmentLimitReached": false
+            }
+        },
+        "subTotals": {
+            "rows": {
+                "values": [
+                    877,
+                    936
+                ]
+            },
+            "columns": {}
+        }
+    },
+    "dataUpdated": false,
+    "isEditMode": true,
+    "landingPage": false,
+    "isInFocus": false,
+    "isPBIDesktop": false,
+    "isPBIRS": false,
+    "hasDrillDownCapabilities": "",
+    "pbiThemeColor": {
+        "rowLevelTheme": {
+            "0": "#118DFF",
+            "1": "#12239E"
+        },
+        "measureLevelTheme": {
+            "0": "#118DFF",
+            "1": "#12239E",
+            "2": "#E66C37"
+        }
+    },
+    "valueFormatter": {
+        "DefaultIntegerFormat": "g",
+        "DefaultNumericFormat": "#,0.00",
+        "DefaultDateFormat": "d"
+    },
+    "locale": "en-US",
+    "exportSettings": {
+        "exportType": "matrix",
+        "scaling": "1",
+        "scaleRatio": 0,
+        "pageSize": "a4",
+        "columnWidth": "normal",
+        "orientation": "l",
+        "margin": "md",
+        "logo": {
+            "filename": "",
+            "base64": "",
+            "width": 60,
+            "height": 30
+        },
+        "title": "",
+        "subTitle": "",
+        "displaydate": true,
+        "pageNumber": true,
+        "pageLabel": "1",
+        "footerNote": "dynamic",
+        "displayHeaderFooter": "everyPage",
+        "fileName": "",
+        "printApproach": "rowFirst"
+    },
+    "exportExcelSettings": {
+        "exportType": "matrix",
+        "logo": {
+            "filename": "",
+            "base64": "",
+            "width": 60,
+            "height": 30
+        },
+        "title": "",
+        "subTitle": "",
+        "footerNote": "",
+        "hierarchyView": "visualView",
+        "includeComments": true,
+        "fileName": ""
+    },
+    "writeBack": {
+        "show": true,
+        "writeBackURL": "",
+        "writeBackHeaders": {},
+        "writeBackLabel": "Writeback"
+    },
+    "themeColors": {
+        "showTable": false,
+        "valueColor": "",
+        "invertVarianceColor": false,
+        "enableVarianceColor": false,
+        "positiveColor": "#7BCA01",
+        "negativeColor": "#FF000A",
+        "chartTheme": "trafficlights",
+        "chartThemeTable": false,
+        "themeType": "trafficlights",
+        "previousThemeType": "trafficlights",
+        "tableThemeType": false,
+        "highContrast": null,
+        "enableRowHover": "off",
+        "rowHoverColor": "#f5f5f5",
+        "rowHoverTextColor": "#212121",
+        "rowOddColor": "#ffffff",
+        "rowEvenColor": "#f5f5f5"
+    },
+    "totalUtility": {
+        "rowGrandTotal": false,
+        "rowGrandTotalPosition": "clear",
+        "rowSubTotalPosition": "below",
+        "columnGrandTotal": false,
+        "columnGrandTotalPosition": "clear",
+        "columnSubTotalPosition": "right",
+        "summaryTotal": true
+    },
+    "hierarchy": {
+        "raggedHierarchy": true,
+        "hideBlanks": "vc",
+        "hideZeros": false,
+        "unbalancedHierarchy": "off"
+    },
+    "headerOption": {
+        "showHeaderIndicator": true,
+        "showHeader": true
+    },
+    "overRideScaleFactor": true,
+    "tableState": {
+        "rowHierarchyLevel": {},
+        "compareMeasure": null,
+        "expandCollapseIcon": "plusMinusSquare",
+        "columnExpandCollapseIcon": "arrows",
+        "columnHierarchyLevel": {},
+        "headerHeight": 25
+    },
+    "aggregationType": "sum",
+    "calculatedColumns": [],
+    "calculatedColumnMeta": {
+        "newColumnIndex": 0
+    },
+    "sorting": [],
+    "numberFormatting": {
+        "enabled": true,
+        "formatType": "ibcs",
+        "enablePrefixAsUnit": true,
+        "ibcsformat": true,
+        "thousandSeperator": " ",
+        "decimalSeperator": ".",
+        "noOfDecimal": 0,
+        "noOfDecimalPercent": 2,
+        "prefix": "",
+        "suffix": "",
+        "scalingFactor": "autoFixed",
+        "showScalingUnit": false,
+        "customizeScalingLabel": false,
+        "thousands": "k",
+        "billions": "b",
+        "millions": "m",
+        "trillion": "t",
+        "thousandsFullText": "in Thousands",
+        "billionsFullText": "in Billions",
+        "millionsFullText": "in Millions",
+        "trillionFullText": "in Trillions",
+        "crores": "c",
+        "lakhs": "l",
+        "semanticFormatting": false,
+        "positiveValueColor": "#8DB901",
+        "positiveValueFormat": "x",
+        "negativeValueColor": "#FB0209",
+        "negativeValueFormat": "-x",
+        "showPercentageSymbol": false,
+        "showZeroAs": "zero",
+        "customZeroText": "",
+        "showNullAs": "blank",
+        "customNullText": ""
+    },
+    "chartTitleOption": {
+        "show": true,
+        "primaryTitleText": "",
+        "customTitleHeight": 22,
+        "measurescale": "",
+        "currencyValue": "",
+        "titlContainer": {
+            "display": "flex",
+            "flexDirection": "column",
+            "height": "22px"
+        },
+        "primaryTitle": {
+            "color": "#ffffff",
+            "fontSize": "14px",
+            "fontWeight": "normal",
+            "fontStyle": "normal",
+            "paddingRight": "5px",
+            "lineHeight": "22px"
+        },
+        "secondaryTitle": {
+            "color": "#ffffff",
+            "fontSize": "14px",
+            "fontWeight": "normal",
+            "fontStyle": "normal",
+            "paddingRight": "5px",
+            "lineHeight": "22px",
+            "order": 2
+        },
+        "secondaryTitleFont": {
+            "fontWeight": "normal"
+        },
+        "titleMeasure": {
+            "color": "#ffffff",
+            "fontSize": "14px",
+            "fontWeight": "normal",
+            "fontStyle": "normal",
+            "lineHeight": "22px",
+            "order": 1
+        },
+        "unitScale": {
+            "fontWeight": "bold"
+        },
+        "measureHeading": []
+    },
+    "groupInColumn": true,
+    "ranking": {
+        "rules": [],
+        "othersLabel": "Others",
+        "enableOthersSuffix": false,
+        "enableOthersCount": true
+    },
+    "kpiExplorer": {
+        "showExplorer": false,
+        "mode": "detailed",
+        "selectedMeasure": "",
+        "filterValues": {},
+        "rows": [],
+        "columns": [],
+        "sort": {},
+        "panelWidthMeta": {},
+        "showKPI": {
+            "row": {},
+            "column": {}
+        }
+    },
+    "chartCustomTitle": {
+        "secondaryTitle": "",
+        "measureTitle": "",
+        "primaryTitle": "",
+        "customTitle": {
+            "elements": [
+                {
+                    "type": "DEFAULT_TITLE",
+                    "id": "left-col",
+                    "position": {
+                        "top": 0,
+                        "left": 0
+                    },
+                    "dimension": {
+                        "width": "1250",
+                        "height": "68"
+                    },
+                    "layout": {
+                        "x": 0,
+                        "y": 0,
+                        "w": 64,
+                        "h": 10,
+                        "i": "left-col",
+                        "static": false
+                    },
+                    "content": "<p><span style=\"font-family: \"Segoe UI\", wf_segoe-ui_normal, helvetica, arial, sans-serif\"><span style=\"line-height: 1.5\">SoftCons International Inc.</span></span></p><p><span style=\"font-family: \"Segoe UI\", wf_segoe-ui_normal, helvetica, arial, sans-serif\"><span style=\"line-height: 1.5\"><b>Profit and loss statement </b>in mUSD</span></span></p><p><span style=\"font-family: \"Segoe UI\", wf_segoe-ui_normal, helvetica, arial, sans-serif\"><span style=\"line-height: 1.5\"><b>2014 </b>PY, AC</span></span></p>",
+                    "align": "left",
+                    "background": null,
+                    "containerBackground": null,
+                    "border": [],
+                    "borderColor": "",
+                    "borderRadius": "0px",
+                    "borderWidth": "1px",
+                    "shadowColor": "",
+                    "shadowPosition": ""
+                }
+            ],
+            "layout": "left-col",
+            "layoutType": "CUSTOM",
+            "containerMeta": {
+                "width": 1250,
+                "height": 68
+            }
+        },
+        "customTitleHeight": 68
+    },
+    "rowReorder": {
+        "enabled": false,
+        "rowOrderConfig": {},
+        "rowOrderConfigMeta": {}
+    },
+    "enableWordWrap": "labelHeader",
+    "enableDrillThrough": false,
+    "templateConfig": {
+        "template": "T04",
+        "type": "ibcs"
+    },
+    "compareMesLabelAlign": false,
+    "gridStyles": {
+        "majorGridLines": "single",
+        "minorGridLines": "solid",
+        "rowGrandTotalLine": "on",
+        "compactSplitLine": false,
+        "compactSplitLineColor": "#A6A6A6",
+        "chartSpacing": true,
+        "topSpace": 0,
+        "bottomSpace": 0,
+        "leftSpace": 0,
+        "rightSpace": 0,
+        "titleAndChartSpace": 10,
+        "indentSpacing": 15,
+        "columnSpacing": "off",
+        "columnSpacingValue": 5,
+        "majorGridColor": "#666666",
+        "minorGridColor": "#E6E6E6",
+        "gridBackground": "#FFFFFF",
+        "lineStyleColor": "#666666",
+        "lineStyleFormat": "solid",
+        "enableCategoryLabelColor": false,
+        "categoryLabelColor": "#DDDDDD",
+        "showVAHighlight": true,
+        "isLevelIndent": false,
+        "showExpandCollapse": false
+    },
+    "gridLineCount": 1,
+    "enablePersistFilter": false,
+    "showCategorySign": true,
+    "showCategorySignPositive": true,
+    "hideResultSign": true,
+    "columnTitleConfigs": [],
+    "layoutSizes": {
+        "tableWidth": 75,
+        "chartWidth": 150,
+        "labelWidth": 120,
+        "bulletWidth": 300,
+        "isMaximumChartWidthAllowed": true
+    },
+    "sparklineConfig": {},
+    "displayAllCols": false,
+    "bulletConfig": {},
+    "stackedConfig": {},
+    "cfProps": {
+        "enabled": true,
+        "rules": [
+            {
+                "enabled": true,
+                "highlightedMeasure": "delPY_PER",
+                "name": "delPY_PER-1358614097",
+                "ruleType": "rule",
+                "displayName": "ΔPY% <= -10",
+                "basedOn": "PY",
+                "excludeRowTotal": false,
+                "excludeColumnTotal": false,
+                "ruleFor": "both",
+                "columnRuleType": "default",
+                "classificationPosition": "left",
+                "colorScaleApplyTo": "seq",
+                "isIconGroupAltered": false,
+                "autoFontColor": true,
+                "colorOnly": false,
+                "invertColor": false,
+                "colorScaleColorFor": "font",
+                "colorScheme": {
+                    "selectedColorScheme": "Blues",
+                    "numberOfRanges": 5,
+                    "colors": [
+                        "#d0e1f2",
+                        "#94c4df",
+                        "#4a98c9",
+                        "#1764ab",
+                        "#08306b"
+                    ],
+                    "minColor": "red",
+                    "middleColor": "blue",
+                    "maxColor": "green"
+                },
+                "classificationType": "icon",
+                "enableCustom": false,
+                "isTextGroupAltered": false,
+                "targetValues": [],
+                "targetValueType": "percent",
+                "iconGroupValues": [],
+                "textGroupValues": [],
+                "rankingBuckets": [],
+                "rankingBucketsValueType": "percent",
+                "iconGroupValueType": "percent",
+                "textGroupValueType": "percent",
+                "textColorFor": "font",
+                "ratingIcons": [
+                    "cross",
+                    "alert",
+                    "tick"
+                ],
+                "conditionalOperator": "or",
+                "conditions": [
+                    {
+                        "name": "Condition 0",
+                        "basedOn": "delPY_PER",
+                        "conditionType": "singleMeasure",
+                        "valueType": "static",
+                        "comparisonMeasure": "delPY_PER",
+                        "operator": "<=",
+                        "comparisonValue": -10,
+                        "from": 0,
+                        "to": 100,
+                        "aggregationType": "includes",
+                        "calculationType1": "value",
+                        "calculationValue1": 0,
+                        "calculationMeasure1": "PY",
+                        "calculationOperator": "+",
+                        "calculationType2": "measure",
+                        "calculationValue2": 100,
+                        "calculationMeasure2": "PY",
+                        "dimension": "",
+                        "dimensionMembers": [],
+                        "comparisonText": "",
+                        "count": 10,
+                        "fromMeasure": "PY",
+                        "toMeasure": "PY"
+                    }
+                ],
+                "bold": false,
+                "italic": false,
+                "underline": false,
+                "underlineColor": "#000000",
+                "applyTextColor": true,
+                "color": "#FB0209",
+                "applyBackgroundColor": false,
+                "background": "#F5F5F5",
+                "isIconPresent": false,
+                "iconPosition": "left",
+                "iconColor": "#e66c37",
+                "icon": "chevron-up",
+                "iconType": "icon",
+                "isCustomIcon": false,
+                "customIconBase64Value": "",
+                "customIconName": "",
+                "text": "",
+                "textDetailPosition": "none",
+                "shapeCount": 5,
+                "shapeColor": "#e66c37",
+                "ratingDetailPosition": "none",
+                "lineColor": "#666666",
+                "lineStyle": 1,
+                "iconGroupName": "accept",
+                "textGroupName": "segmentation"
+            },
+            {
+                "enabled": true,
+                "highlightedMeasure": "delPL_PER",
+                "name": "delPL_PER302489235",
+                "ruleType": "rule",
+                "displayName": "ΔPL% <= -10",
+                "basedOn": "PY",
+                "excludeRowTotal": false,
+                "excludeColumnTotal": false,
+                "ruleFor": "both",
+                "columnRuleType": "default",
+                "classificationPosition": "left",
+                "colorScaleApplyTo": "seq",
+                "isIconGroupAltered": false,
+                "autoFontColor": true,
+                "colorOnly": false,
+                "invertColor": false,
+                "colorScaleColorFor": "font",
+                "colorScheme": {
+                    "selectedColorScheme": "Blues",
+                    "numberOfRanges": 5,
+                    "colors": [
+                        "#d0e1f2",
+                        "#94c4df",
+                        "#4a98c9",
+                        "#1764ab",
+                        "#08306b"
+                    ],
+                    "minColor": "red",
+                    "middleColor": "blue",
+                    "maxColor": "green"
+                },
+                "classificationType": "icon",
+                "enableCustom": false,
+                "isTextGroupAltered": false,
+                "targetValues": [],
+                "targetValueType": "percent",
+                "iconGroupValues": [],
+                "textGroupValues": [],
+                "rankingBuckets": [],
+                "rankingBucketsValueType": "percent",
+                "iconGroupValueType": "percent",
+                "textGroupValueType": "percent",
+                "textColorFor": "font",
+                "ratingIcons": [
+                    "cross",
+                    "alert",
+                    "tick"
+                ],
+                "conditionalOperator": "or",
+                "conditions": [
+                    {
+                        "name": "Condition 0",
+                        "basedOn": "delPL_PER",
+                        "conditionType": "singleMeasure",
+                        "valueType": "static",
+                        "comparisonMeasure": "delPL_PER",
+                        "operator": "<=",
+                        "comparisonValue": -10,
+                        "from": 0,
+                        "to": 100,
+                        "aggregationType": "includes",
+                        "calculationType1": "value",
+                        "calculationValue1": 0,
+                        "calculationMeasure1": "PY",
+                        "calculationOperator": "+",
+                        "calculationType2": "measure",
+                        "calculationValue2": 100,
+                        "calculationMeasure2": "PY",
+                        "dimension": "",
+                        "dimensionMembers": [],
+                        "comparisonText": "",
+                        "count": 10,
+                        "fromMeasure": "PY",
+                        "toMeasure": "PY"
+                    }
+                ],
+                "bold": false,
+                "italic": false,
+                "underline": false,
+                "underlineColor": "#000000",
+                "applyTextColor": true,
+                "color": "#FF4400",
+                "applyBackgroundColor": false,
+                "background": "#F5F5F5",
+                "isIconPresent": false,
+                "iconPosition": "left",
+                "iconColor": "#e66c37",
+                "icon": "chevron-up",
+                "iconType": "icon",
+                "isCustomIcon": false,
+                "customIconBase64Value": "",
+                "customIconName": "",
+                "text": "",
+                "textDetailPosition": "none",
+                "shapeCount": 5,
+                "shapeColor": "#e66c37",
+                "ratingDetailPosition": "none",
+                "lineColor": "#666666",
+                "lineStyle": 1,
+                "iconGroupName": "accept",
+                "textGroupName": "segmentation"
+            },
+            {
+                "enabled": true,
+                "highlightedMeasure": "delFC_PER",
+                "name": "delFC_PER1075604900",
+                "ruleType": "rule",
+                "displayName": "ΔFC% <= -10",
+                "basedOn": "PY",
+                "excludeRowTotal": false,
+                "excludeColumnTotal": false,
+                "ruleFor": "both",
+                "columnRuleType": "default",
+                "classificationPosition": "left",
+                "colorScaleApplyTo": "seq",
+                "isIconGroupAltered": false,
+                "autoFontColor": true,
+                "colorOnly": false,
+                "invertColor": false,
+                "colorScaleColorFor": "font",
+                "colorScheme": {
+                    "selectedColorScheme": "Blues",
+                    "numberOfRanges": 5,
+                    "colors": [
+                        "#d0e1f2",
+                        "#94c4df",
+                        "#4a98c9",
+                        "#1764ab",
+                        "#08306b"
+                    ],
+                    "minColor": "red",
+                    "middleColor": "blue",
+                    "maxColor": "green"
+                },
+                "classificationType": "icon",
+                "enableCustom": false,
+                "isTextGroupAltered": false,
+                "targetValues": [],
+                "targetValueType": "percent",
+                "iconGroupValues": [],
+                "textGroupValues": [],
+                "rankingBuckets": [],
+                "rankingBucketsValueType": "percent",
+                "iconGroupValueType": "percent",
+                "textGroupValueType": "percent",
+                "textColorFor": "font",
+                "ratingIcons": [
+                    "cross",
+                    "alert",
+                    "tick"
+                ],
+                "conditionalOperator": "or",
+                "conditions": [
+                    {
+                        "name": "Condition 0",
+                        "basedOn": "delFC_PER",
+                        "conditionType": "singleMeasure",
+                        "valueType": "static",
+                        "comparisonMeasure": "delFC_PER",
+                        "operator": "<=",
+                        "comparisonValue": -10,
+                        "from": 0,
+                        "to": 100,
+                        "aggregationType": "includes",
+                        "calculationType1": "value",
+                        "calculationValue1": 0,
+                        "calculationMeasure1": "PY",
+                        "calculationOperator": "+",
+                        "calculationType2": "measure",
+                        "calculationValue2": 100,
+                        "calculationMeasure2": "PY",
+                        "dimension": "",
+                        "dimensionMembers": [],
+                        "comparisonText": "",
+                        "count": 10,
+                        "fromMeasure": "PY",
+                        "toMeasure": "PY"
+                    }
+                ],
+                "bold": false,
+                "italic": false,
+                "underline": false,
+                "underlineColor": "#000000",
+                "applyTextColor": true,
+                "color": "#FF4400",
+                "applyBackgroundColor": false,
+                "background": "#F5F5F5",
+                "isIconPresent": false,
+                "iconPosition": "left",
+                "iconColor": "#e66c37",
+                "icon": "chevron-up",
+                "iconType": "icon",
+                "isCustomIcon": false,
+                "customIconBase64Value": "",
+                "customIconName": "",
+                "text": "",
+                "textDetailPosition": "none",
+                "shapeCount": 5,
+                "shapeColor": "#e66c37",
+                "ratingDetailPosition": "none",
+                "lineColor": "#666666",
+                "lineStyle": 1,
+                "iconGroupName": "accept",
+                "textGroupName": "segmentation"
+            },
+            {
+                "enabled": true,
+                "highlightedMeasure": "delPYPL_PER",
+                "name": "delPYPL_PER-340318089",
+                "ruleType": "rule",
+                "displayName": "PL - PY % <= -10",
+                "basedOn": "PY",
+                "excludeRowTotal": false,
+                "excludeColumnTotal": false,
+                "ruleFor": "both",
+                "columnRuleType": "default",
+                "classificationPosition": "left",
+                "colorScaleApplyTo": "seq",
+                "isIconGroupAltered": false,
+                "autoFontColor": true,
+                "colorOnly": false,
+                "invertColor": false,
+                "colorScaleColorFor": "font",
+                "colorScheme": {
+                    "selectedColorScheme": "Blues",
+                    "numberOfRanges": 5,
+                    "colors": [
+                        "#d0e1f2",
+                        "#94c4df",
+                        "#4a98c9",
+                        "#1764ab",
+                        "#08306b"
+                    ],
+                    "minColor": "red",
+                    "middleColor": "blue",
+                    "maxColor": "green"
+                },
+                "classificationType": "icon",
+                "enableCustom": false,
+                "isTextGroupAltered": false,
+                "targetValues": [],
+                "targetValueType": "percent",
+                "iconGroupValues": [],
+                "textGroupValues": [],
+                "rankingBuckets": [],
+                "rankingBucketsValueType": "percent",
+                "iconGroupValueType": "percent",
+                "textGroupValueType": "percent",
+                "textColorFor": "font",
+                "ratingIcons": [
+                    "cross",
+                    "alert",
+                    "tick"
+                ],
+                "conditionalOperator": "or",
+                "conditions": [
+                    {
+                        "name": "Condition 0",
+                        "basedOn": "delPYPL_PER",
+                        "conditionType": "singleMeasure",
+                        "valueType": "static",
+                        "comparisonMeasure": "delPYPL_PER",
+                        "operator": "<=",
+                        "comparisonValue": -10,
+                        "from": 0,
+                        "to": 100,
+                        "aggregationType": "includes",
+                        "calculationType1": "value",
+                        "calculationValue1": 0,
+                        "calculationMeasure1": "PY",
+                        "calculationOperator": "+",
+                        "calculationType2": "measure",
+                        "calculationValue2": 100,
+                        "calculationMeasure2": "PY",
+                        "dimension": "",
+                        "dimensionMembers": [],
+                        "comparisonText": "",
+                        "count": 10,
+                        "fromMeasure": "PY",
+                        "toMeasure": "PY"
+                    }
+                ],
+                "bold": false,
+                "italic": false,
+                "underline": false,
+                "underlineColor": "#000000",
+                "applyTextColor": true,
+                "color": "#FF4400",
+                "applyBackgroundColor": false,
+                "background": "#F5F5F5",
+                "isIconPresent": false,
+                "iconPosition": "left",
+                "iconColor": "#e66c37",
+                "icon": "chevron-up",
+                "iconType": "icon",
+                "isCustomIcon": false,
+                "customIconBase64Value": "",
+                "customIconName": "",
+                "text": "",
+                "textDetailPosition": "none",
+                "shapeCount": 5,
+                "shapeColor": "#e66c37",
+                "ratingDetailPosition": "none",
+                "lineColor": "#666666",
+                "lineStyle": 1,
+                "iconGroupName": "accept",
+                "textGroupName": "segmentation"
+            },
+            {
+                "enabled": true,
+                "highlightedMeasure": "delFCPY_PER",
+                "name": "delFCPY_PER1138093097",
+                "ruleType": "rule",
+                "displayName": "FC - PY % <= -10",
+                "basedOn": "PY",
+                "excludeRowTotal": false,
+                "excludeColumnTotal": false,
+                "ruleFor": "both",
+                "columnRuleType": "default",
+                "classificationPosition": "left",
+                "colorScaleApplyTo": "seq",
+                "isIconGroupAltered": false,
+                "autoFontColor": true,
+                "colorOnly": false,
+                "invertColor": false,
+                "colorScaleColorFor": "font",
+                "colorScheme": {
+                    "selectedColorScheme": "Blues",
+                    "numberOfRanges": 5,
+                    "colors": [
+                        "#d0e1f2",
+                        "#94c4df",
+                        "#4a98c9",
+                        "#1764ab",
+                        "#08306b"
+                    ],
+                    "minColor": "red",
+                    "middleColor": "blue",
+                    "maxColor": "green"
+                },
+                "classificationType": "icon",
+                "enableCustom": false,
+                "isTextGroupAltered": false,
+                "targetValues": [],
+                "targetValueType": "percent",
+                "iconGroupValues": [],
+                "textGroupValues": [],
+                "rankingBuckets": [],
+                "rankingBucketsValueType": "percent",
+                "iconGroupValueType": "percent",
+                "textGroupValueType": "percent",
+                "textColorFor": "font",
+                "ratingIcons": [
+                    "cross",
+                    "alert",
+                    "tick"
+                ],
+                "conditionalOperator": "or",
+                "conditions": [
+                    {
+                        "name": "Condition 0",
+                        "basedOn": "delFCPY_PER",
+                        "conditionType": "singleMeasure",
+                        "valueType": "static",
+                        "comparisonMeasure": "delFCPY_PER",
+                        "operator": "<=",
+                        "comparisonValue": -10,
+                        "from": 0,
+                        "to": 100,
+                        "aggregationType": "includes",
+                        "calculationType1": "value",
+                        "calculationValue1": 0,
+                        "calculationMeasure1": "PY",
+                        "calculationOperator": "+",
+                        "calculationType2": "measure",
+                        "calculationValue2": 100,
+                        "calculationMeasure2": "PY",
+                        "dimension": "",
+                        "dimensionMembers": [],
+                        "comparisonText": "",
+                        "count": 10,
+                        "fromMeasure": "PY",
+                        "toMeasure": "PY"
+                    }
+                ],
+                "bold": false,
+                "italic": false,
+                "underline": false,
+                "underlineColor": "#000000",
+                "applyTextColor": true,
+                "color": "#FF4400",
+                "applyBackgroundColor": false,
+                "background": "#F5F5F5",
+                "isIconPresent": false,
+                "iconPosition": "left",
+                "iconColor": "#e66c37",
+                "icon": "chevron-up",
+                "iconType": "icon",
+                "isCustomIcon": false,
+                "customIconBase64Value": "",
+                "customIconName": "",
+                "text": "",
+                "textDetailPosition": "none",
+                "shapeCount": 5,
+                "shapeColor": "#e66c37",
+                "ratingDetailPosition": "none",
+                "lineColor": "#666666",
+                "lineStyle": 1,
+                "iconGroupName": "accept",
+                "textGroupName": "segmentation"
+            },
+            {
+                "enabled": true,
+                "highlightedMeasure": "delFCPL_PER",
+                "name": "delFCPL_PER-1413848124",
+                "ruleType": "rule",
+                "displayName": "FC - PL % <= -10",
+                "basedOn": "PY",
+                "excludeRowTotal": false,
+                "excludeColumnTotal": false,
+                "ruleFor": "both",
+                "columnRuleType": "default",
+                "classificationPosition": "left",
+                "colorScaleApplyTo": "seq",
+                "isIconGroupAltered": false,
+                "autoFontColor": true,
+                "colorOnly": false,
+                "invertColor": false,
+                "colorScaleColorFor": "font",
+                "colorScheme": {
+                    "selectedColorScheme": "Blues",
+                    "numberOfRanges": 5,
+                    "colors": [
+                        "#d0e1f2",
+                        "#94c4df",
+                        "#4a98c9",
+                        "#1764ab",
+                        "#08306b"
+                    ],
+                    "minColor": "red",
+                    "middleColor": "blue",
+                    "maxColor": "green"
+                },
+                "classificationType": "icon",
+                "enableCustom": false,
+                "isTextGroupAltered": false,
+                "targetValues": [],
+                "targetValueType": "percent",
+                "iconGroupValues": [],
+                "textGroupValues": [],
+                "rankingBuckets": [],
+                "rankingBucketsValueType": "percent",
+                "iconGroupValueType": "percent",
+                "textGroupValueType": "percent",
+                "textColorFor": "font",
+                "ratingIcons": [
+                    "cross",
+                    "alert",
+                    "tick"
+                ],
+                "conditionalOperator": "or",
+                "conditions": [
+                    {
+                        "name": "Condition 0",
+                        "basedOn": "delFCPL_PER",
+                        "conditionType": "singleMeasure",
+                        "valueType": "static",
+                        "comparisonMeasure": "delFCPL_PER",
+                        "operator": "<=",
+                        "comparisonValue": -10,
+                        "from": 0,
+                        "to": 100,
+                        "aggregationType": "includes",
+                        "calculationType1": "value",
+                        "calculationValue1": 0,
+                        "calculationMeasure1": "PY",
+                        "calculationOperator": "+",
+                        "calculationType2": "measure",
+                        "calculationValue2": 100,
+                        "calculationMeasure2": "PY",
+                        "dimension": "",
+                        "dimensionMembers": [],
+                        "comparisonText": "",
+                        "count": 10,
+                        "fromMeasure": "PY",
+                        "toMeasure": "PY"
+                    }
+                ],
+                "bold": false,
+                "italic": false,
+                "underline": false,
+                "underlineColor": "#000000",
+                "applyTextColor": true,
+                "color": "#FF4400",
+                "applyBackgroundColor": false,
+                "background": "#F5F5F5",
+                "isIconPresent": false,
+                "iconPosition": "left",
+                "iconColor": "#e66c37",
+                "icon": "chevron-up",
+                "iconType": "icon",
+                "isCustomIcon": false,
+                "customIconBase64Value": "",
+                "customIconName": "",
+                "text": "",
+                "textDetailPosition": "none",
+                "shapeCount": 5,
+                "shapeColor": "#e66c37",
+                "ratingDetailPosition": "none",
+                "lineColor": "#666666",
+                "lineStyle": 1,
+                "iconGroupName": "accept",
+                "textGroupName": "segmentation"
+            }
+        ]
+    },
+    "kpiExplorerCf": {
+        "rules": []
+    },
+    "dynamicRowConfig": [
+        {
+            "label": "Revenue",
+            "id": 1,
+            "formula": "R_Software__revenue+R_Support__revenue+R_Consulting__revenue",
+            "type": 1,
+            "previousRowId": "Consulting__revenue",
+            "parentId": "Grand__Total",
+            "pcbToRow": null,
+            "isTemplateFormatting": false,
+            "disabled": false,
+            "includeToTotal": false,
+            "isUpdated": true
+        },
+        {
+            "label": "Gross Profit",
+            "id": 2,
+            "formula": "",
+            "type": 3,
+            "previousRowId": "Cost__of__sales",
+            "parentId": "Grand__Total",
+            "pcbToRow": null,
+            "isTemplateFormatting": false,
+            "disabled": false,
+            "includeToTotal": true,
+            "isUpdated": true,
+            "staticData": {
+                "Grand__Total__PY": 351,
+                "Grand__Total__AC": 368
+            }
+        },
+        {
+            "label": "Income from continuing operations before tax",
+            "id": 3,
+            "formula": "",
+            "type": 3,
+            "previousRowId": "Other__financial__income__net",
+            "parentId": "Grand__Total",
+            "pcbToRow": null,
+            "isTemplateFormatting": false,
+            "disabled": false,
+            "includeToTotal": true,
+            "isUpdated": true,
+            "staticData": {
+                "Grand__Total__PY": 232,
+                "Grand__Total__AC": 222
+            }
+        },
+        {
+            "label": "Income from continuing operations",
+            "id": 4,
+            "formula": "",
+            "type": 3,
+            "previousRowId": "Income__tax__expenses",
+            "parentId": "Grand__Total",
+            "pcbToRow": null,
+            "isTemplateFormatting": false,
+            "disabled": false,
+            "includeToTotal": true,
+            "isUpdated": true,
+            "staticData": {
+                "Grand__Total__PY": 209,
+                "Grand__Total__AC": 195
+            }
+        },
+        {
+            "label": "Net Income",
+            "id": 5,
+            "formula": "",
+            "type": 3,
+            "previousRowId": "Income__from__discontinued__operations",
+            "parentId": "Grand__Total",
+            "pcbToRow": null,
+            "isTemplateFormatting": false,
+            "disabled": false,
+            "includeToTotal": true,
+            "isUpdated": true,
+            "staticData": {
+                "Grand__Total__PY": 215,
+                "Grand__Total__AC": 220
+            }
+        }
+    ],
+    "columnSelection": false,
+    "measureBasedHeader": true,
+    "shouldAggregate": true,
+    "layoutType": "matrix",
+    "summarySettings": {
+        "rowLayout": "multi",
+        "forceMultiLine": false,
+        "columnCount": 2,
+        "autoFit": false,
+        "detailGridHeight": 300,
+        "detailXPadding": 10,
+        "detailYPadding": 10,
+        "detailBreakBy": {
+            "row": {
+                "row": "",
+                "column": ""
+            },
+            "column": ""
+        },
+        "showAggregation": false,
+        "detailLayout": "table",
+        "showGroupBorder": true,
+        "groupBorderGap": 10,
+        "summaryHeader": {
+            "elements": []
+        },
+        "summaryFooter": {
+            "elements": []
+        },
+        "showSummaryHeader": true,
+        "showSummaryFooter": false,
+        "summaryHeaderHeight": 30,
+        "summaryFooterHeight": 30,
+        "masterRowExpandCollapseConfig": {},
+        "categoryBreak": "none",
+        "multiColumn": {
+            "enabled": false,
+            "cols": []
+        },
+        "summaryPage": {
+            "enabled": true,
+            "position": "bottom"
+        }
+    },
+    "manageMeasures": [
+        {
+            "label": "PY",
+            "id": "PY",
+            "name": "Sum(T04.PY)",
+            "order": 0,
+            "visible": true,
+            "measureType": "data"
+        },
+        {
+            "label": "AC",
+            "id": "AC",
+            "name": "Sum(T04.AC)",
+            "order": 1,
+            "visible": true,
+            "measureType": "data"
+        },
+        {
+            "label": "ΔPY",
+            "id": "delPY",
+            "name": "delPY",
+            "order": 2,
+            "visible": true,
+            "measureType": "data"
+        },
+        {
+            "label": "ΔPY%",
+            "id": "delPY_PER",
+            "name": "delPY_PER",
+            "order": 3,
+            "visible": true,
+            "measureType": "data"
+        }
+    ],
+    "invertRows": {
+        "valueRow": {
+            "Research__and__development__expenses": true,
+            "Selling__and__general__administrative__expenses": true,
+            "Other__operating__expenses": true,
+            "Income__tax__expenses": true,
+            "Cost__of__sales": true
+        }
+    },
+    "resultRows": {
+        "CAL_ROW2": true,
+        "CAL_ROW4": true,
+        "CAL_ROW3": true,
+        "CAL_ROW1": true,
+        "CAL_ROW5": true
+    },
+    "invertSettings": "value",
+    "columnMeta": {
+        "row_label": {
+            "width": 322
+        },
+        "Grand__Total__PY": {
+            "width": 56
+        },
+        "Grand__Total__AC": {
+            "width": 56
+        },
+        "Grand__Total__delPY": {},
+        "Grand__Total__delPY_PER": {}
+    },
+    "columnExpandCollapse": {},
+    "chartTypes": {},
+    "headerLabelFormat": {},
+    "differenceHeader": false,
+    "commentsColumn": false,
+    "expandRowLevel": null,
+    "rowCellFormatting": {},
+    "outliers": {
+        "enableOutlier": false,
+        "min": 0,
+        "max": 0
+    },
+    "rowExpandCollapseOptions": {
+        "rows": {},
+        "expandTillDescendant": {},
+        "gridState": null,
+        "levelStates": [],
+        "maxLevelExpanded": null
+    },
+    "dynamicRowIcon": true,
+    "calcCellIcon": true,
+    "showChildCount": false,
+    "filter": {
+        "rules": [],
+        "combinator": "and",
+        "not": false
+    },
+    "alertFilter": [],
+    "search": {
+        "category": null,
+        "searchString": "",
+        "tokens": []
+    },
+    "calculatedCells": [],
+    "measureAggMap": {},
+    "virtualRoleColumnMap": {},
+    "absoluteSort": false,
+    "absoluteSearch": true,
+    "replaceActualWithForecast": false,
+    "pagination": {
+        "enable": false,
+        "pageRowCount": 10,
+        "autoRowCount": "layout",
+        "view": "browser",
+        "pageNo": 0,
+        "paginationHeight": 20,
+        "currentPageNumber": 0
+    },
+    "miscellaneous": {
+        "enableFooter": false,
+        "showInfoRiverLogo": false,
+        "footerUrl": "https://inforiver.com/",
+        "footerText": "inforiver.com",
+        "showTooltip": true
+    },
+    "notes": {
+        "show": true,
+        "displayAnnotations": "view",
+        "autoFit": true,
+        "annotations": [
+            {
+                "id": "JPYYAJKECGKXKEYcCABKKbbggHdBQGbT",
+                "relativeCoord": [
+                    0,
+                    -1.5
+                ],
+                "comment": "Software: mUSD +13 Lorem ipsum dolor sit amet, consectetuer adipi scing elit. Aenean commodo ligula eget dolor. Aenean massa.",
+                "unFormattedText": "Software: mUSD +13 Lorem ipsum dolor sit amet, consectetuer adipi scing elit. Aenean commodo ligula eget dolor. Aenean massa.",
+                "size": [
+                    100,
+                    200
+                ],
+                "iconColor": "rgba(0, 120, 212, 0.7)",
+                "iconPosition": [
+                    "left",
+                    "center"
+                ],
+                "iconFontColor": "#fff",
+                "ratio": 1,
+                "index": 0,
+                "createdAt": 1633610781061,
+                "dateTime": 1633610781061,
+                "updatedAt": 1633610781061,
+                "isAudit": false,
+                "rowId": "Software__revenue",
+                "colId": "Grand__Total__delPY",
+                "comments": [],
+                "auditId": null,
+                "isColumnComments": false
+            },
+            {
+                "id": "UBGSXgIKFCFFBPdYFNRfXHVTDfaFSGWa",
+                "relativeCoord": [
+                    0,
+                    -1.5
+                ],
+                "comment": "Cost of sales: mUSD +6: Satoque penatibus dolor sit amet, consectetuer adipi scing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum soc iis natoque penatibus et magnis dis parturi.",
+                "unFormattedText": "Cost of sales: mUSD +6: Satoque penatibus dolor sit amet, consectetuer adipi scing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum soc iis natoque penatibus et magnis dis parturi.",
+                "size": [
+                    100,
+                    200
+                ],
+                "iconColor": "rgba(0, 120, 212, 0.7)",
+                "iconPosition": [
+                    "left",
+                    "center"
+                ],
+                "iconFontColor": "#fff",
+                "ratio": 1,
+                "index": 1,
+                "createdAt": 1633610808160,
+                "dateTime": 1633610808160,
+                "updatedAt": 1633610808160,
+                "isAudit": false,
+                "rowId": "Cost__of__sales",
+                "colId": "Grand__Total__delPY",
+                "comments": [],
+                "auditId": null,
+                "isColumnComments": false
+            },
+            {
+                "id": "SAFaSTSAfMUNbPQaZETgdDgcOHHgdbJa",
+                "relativeCoord": [
+                    0,
+                    -1.5
+                ],
+                "comment": "R&D expenses: mUSD +13 Sit amet, consectetuer adipiscing elit. Eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis peatibus dolor sit amet, consectetuuer adipiscing elt. Aenean com.",
+                "unFormattedText": "R&D expenses: mUSD +13 Sit amet, consectetuer adipiscing elit. Eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis peatibus dolor sit amet, consectetuuer adipiscing elt. Aenean com.",
+                "size": [
+                    100,
+                    200
+                ],
+                "iconColor": "rgba(0, 120, 212, 0.7)",
+                "iconPosition": [
+                    "left",
+                    "center"
+                ],
+                "iconFontColor": "#fff",
+                "ratio": 1,
+                "index": 2,
+                "createdAt": 1633611104753,
+                "dateTime": 1633611104753,
+                "updatedAt": 1633611104753,
+                "isAudit": false,
+                "rowId": "Research__and__development__expenses",
+                "colId": "Grand__Total__delPY",
+                "comments": [],
+                "auditId": null,
+                "isColumnComments": false
+            },
+            {
+                "id": "HfMgcaEQaSBTMKWOeBPAZfCZgJPPKBZB",
+                "relativeCoord": [
+                    0,
+                    -1.5
+                ],
+                "comment": "SG&A: mUSD +5 penatibus dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.",
+                "unFormattedText": "SG&A: mUSD +5 penatibus dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.",
+                "size": [
+                    100,
+                    200
+                ],
+                "iconColor": "rgba(0, 120, 212, 0.7)",
+                "iconPosition": [
+                    "left",
+                    "center"
+                ],
+                "iconFontColor": "#fff",
+                "ratio": 1,
+                "index": 3,
+                "createdAt": 1633611150208,
+                "dateTime": 1633611150208,
+                "updatedAt": 1633611150208,
+                "isAudit": false,
+                "rowId": "Selling__and__general__administrative__expenses",
+                "colId": "Grand__Total__delPY",
+                "comments": [],
+                "auditId": null,
+                "isColumnComments": false
+            },
+            {
+                "id": "dbWXaRCSZbaVZPNJDOKBMELWdIcZggWZ",
+                "relativeCoord": [
+                    0,
+                    3.5
+                ],
+                "comment": "Net Income: mUSD +5 penatibus dolor sit amet, consectetuer adipiscing elit. Aenean commondo ligula eget dolor.",
+                "unFormattedText": "Net Income: mUSD +5 penatibus dolor sit amet, consectetuer adipiscing elit. Aenean commondo ligula eget dolor.",
+                "size": [
+                    100,
+                    200
+                ],
+                "iconColor": "rgba(0, 120, 212, 0.7)",
+                "iconPosition": [
+                    "left",
+                    "center"
+                ],
+                "iconFontColor": "#fff",
+                "ratio": 1,
+                "index": 4,
+                "createdAt": 1633611185749,
+                "dateTime": 1633611185749,
+                "updatedAt": 1633611185749,
+                "isAudit": false,
+                "rowId": "CAL_ROW5",
+                "colId": "Grand__Total__delPY",
+                "comments": [],
+                "auditId": null,
+                "isColumnComments": false
+            }
+        ],
+        "columnAnnotations": [],
+        "indicatorType": "numbered",
+        "indicatorPosition": "default",
+        "persistProperty": {
+            "iconColor": "rgba(0, 120, 212, 0.7)"
+        },
+        "showFootnote": true,
+        "rowLevelComments": false,
+        "enableReply": false,
+        "annotationNote": "grid",
+        "annotationHeight": 15,
+        "annotationColumnCount": 2,
+        "indicatorSize": 12,
+        "footNoteHeight": "30",
+        "footNoteColumn": 3,
+        "showTimestamp": true,
+        "showUsername": true,
+        "defaultReference": false
+    },
+    "globalStyles": {
+        "fontFamily": "Antikor Mono",
+        "fontSize": "12",
+        "fontWeight": "normal",
+        "fontStyle": "normal",
+        "varianceBarFont": 12,
+        "headerFormat": false,
+        "headerHeight": 30,
+        "headerFontSize": "14px",
+        "headerFontColor": "#000000",
+        "rotateLabels": {
+            "enabled": false,
+            "angle": 0
+        },
+        "headerLabelOrient": "initial",
+        "isHeightUpdatedManually": false,
+        "isFontFamilyChanged": false,
+        "textColor": "#212121",
+        "rowHeight": 19,
+        "hierarchyfontWeight": "bold",
+        "hierarchyFontStyle": "normal",
+        "subTotalFontWeight": "semiBold"
+    },
+    "breakConfig": {
+        "sectionBreak": {
+            "enabled": false,
+            "breakBy": ""
+        },
+        "pageBreak": {
+            "rowBreakBy": "",
+            "columnBreakBy": ""
+        }
+    },
+    "interactivity": {},
+    "columnGroupConfig": {},
+    "rowHeightsConfig": {
+        "row": {},
+        "level": {}
+    },
+    "readViewToolbar": {
+        "show": true,
+        "readViewToolbarMode": "full",
+        "selection": false,
+        "showTooltip": true
+    },
+    "readViewConfig": {
+        "home": {
+            "alignment": true,
+            "style": true,
+            "number": true,
+            "chart": true,
+            "analyze": true,
+            "notes": true,
+            "setup": true
+        },
+        "advanced": {
+            "reporting": true,
+            "rows": true,
+            "cells": true,
+            "measure": true,
+            "monitor": true
+        },
+        "export": {
+            "pdf": true,
+            "excel": true,
+            "visual": true
+        },
+        "advancedTabMenu": {
+            "rowColumnConfig": true
+        },
+        "enterprise": {
+            "writeBack": true,
+            "schedule": true
+        }
+    },
+    "totalCustomTitle": {
+        "grandTotalTitle": "All",
+        "columnGrandTotalTitle": "Grand Total",
+        "totalColumnSuffix": "Total",
+        "steppedSubTotalTitle": "none",
+        "steppedSubTotalText": "Total",
+        "splitTotalRowSuffix": "Total"
+    },
+    "subTotalHeight": 10,
+    "grandTotalHeight": 10,
+    "visualId": "DEFJJKNPNLBIGGP",
+    "license": {
+        "key": "standard",
+        "bannerMessage": "A subscription is required to use Inforiver on Power BI Service",
+        "buttonText": "Purchase Subscription",
+        "freeLicenceBanner": false,
+        "features": {
+            "audit": 1,
+            "writeBackAPI": 1,
+            "exportPDF": 1,
+            "exportXLS": 1,
+            "kpiExplorer": 1,
+            "scheduler": 1,
+            "forecast": 1,
+            "blend": 1,
+            "comments": 1,
+            "versioning": 1,
+            "premium": 1,
+            "professional": 1,
+            "standard": 1,
+            "allowExternalEmails": 1
+        }
+    },
+    "prefixNullWithUnit": true,
+    "showVisualSumType": true,
+    "indianNumberSystem": false,
+    "enableColumnAsMeasure": false,
+    "autoFitOptions": {
+        "autoFit": false,
+        "lockColumnWidth": false,
+        "uniformColumnWidth": {
+            "enabled": false,
+            "width": null
+        }
+    },
+    "chartStyles": {
+        "variancePin": "square",
+        "showDataLabel": true,
+        "isBarOverlap": false
+    },
+    "commonRunTimeProps": {
+        "showBrokenImage": false
+    },
+    "layout": "HIERARCHICAL",
+    "formatConfig": {
+        "row": {},
+        "column": {},
+        "rowLevel": {},
+        "cell": {},
+        "measure": {
+            "delPY": [
+                {
+                    "order": 0,
+                    "format": {
+                        "23": 2
+                    }
+                },
+                {
+                    "order": 1,
+                    "format": {
+                        "23": 3
+                    }
+                },
+                {
+                    "order": 2,
+                    "format": {
+                        "23": 4
+                    }
+                },
+                {
+                    "order": 3,
+                    "format": {
+                        "25": 2
+                    }
+                },
+                {
+                    "order": 4,
+                    "format": {
+                        "23": 2
+                    }
+                }
+            ]
+        },
+        "formatSize": 5
+    },
+    "auditLog": [
+        {
+            "action": "ADD",
+            "meta": {
+                "name": "Row Added",
+                "value": "",
+                "type": "1"
+            },
+            "group": "CALC_ROWS",
+            "selection": [
+                {
+                    "rowId": "CAL_ROW1",
+                    "name": "New Row",
+                    "type": 2,
+                    "columnHierarchy": [],
+                    "rowHierarchy": [
+                        "New Row"
+                    ]
+                }
+            ],
+            "timestamp": 1633608150181
+        },
+        {
+            "action": "EDIT",
+            "meta": {
+                "name": "Row Updated",
+                "value": "= Software revenue+Support revenue+Consulting revenue",
+                "type": "1"
+            },
+            "group": "CALC_ROWS",
+            "selection": [
+                {
+                    "rowId": "CAL_ROW1",
+                    "name": "Revenue",
+                    "type": 2,
+                    "columnHierarchy": [],
+                    "rowHierarchy": [
+                        "Revenue"
+                    ]
+                }
+            ],
+            "timestamp": 1633608173476
+        },
+        {
+            "action": "ADD",
+            "meta": {
+                "name": "No of applied decimal places ",
+                "value": "0"
+            },
+            "group": "DECIMAL_PLACE",
+            "selection": [],
+            "timestamp": 1633608204283
+        },
+        {
+            "action": "ADD",
+            "meta": {
+                "name": "Invert applied: ",
+                "value": "SIGN"
+            },
+            "group": "INVERT",
+            "selection": [
+                {
+                    "rowId": "Cost__of__sales",
+                    "colId": null,
+                    "mesColId": null,
+                    "type": 2,
+                    "columnHierarchy": [],
+                    "rowHierarchy": [
+                        "Cost of sales"
+                    ]
+                }
+            ],
+            "timestamp": 1633608282482
+        },
+        {
+            "action": "ADD",
+            "meta": {
+                "name": "Row Added",
+                "value": "",
+                "type": "3"
+            },
+            "group": "CALC_ROWS",
+            "selection": [
+                {
+                    "rowId": "CAL_ROW2",
+                    "name": "New Row",
+                    "type": 2,
+                    "columnHierarchy": [],
+                    "rowHierarchy": [
+                        "New Row"
+                    ]
+                }
+            ],
+            "timestamp": 1633608602257
+        },
+        {
+            "action": "EDIT",
+            "meta": {
+                "name": "Row Updated",
+                "value": "",
+                "type": "3"
+            },
+            "group": "CALC_ROWS",
+            "selection": [
+                {
+                    "rowId": "CAL_ROW2",
+                    "name": "Gross Profit",
+                    "type": 2,
+                    "columnHierarchy": [],
+                    "rowHierarchy": [
+                        "Gross Profit"
+                    ]
+                }
+            ],
+            "timestamp": 1633608612428
+        },
+        {
+            "action": "EDIT",
+            "meta": {
+                "name": "Cell value updated to",
+                "value": 351
+            },
+            "group": "CALC_CELL",
+            "selection": [
+                {
+                    "rowId": "CAL_ROW2",
+                    "colId": "Grand__Total__PY",
+                    "name": "calculated",
+                    "type": 1,
+                    "columnHierarchy": [
+                        "PY"
+                    ],
+                    "rowHierarchy": [
+                        "Gross Profit"
+                    ]
+                }
+            ],
+            "timestamp": 1633608624992
+        },
+        {
+            "action": "EDIT",
+            "meta": {
+                "name": "Cell value updated to",
+                "value": 368
+            },
+            "group": "CALC_CELL",
+            "selection": [
+                {
+                    "rowId": "CAL_ROW2",
+                    "colId": "Grand__Total__AC",
+                    "name": "calculated",
+                    "type": 1,
+                    "columnHierarchy": [
+                        "AC"
+                    ],
+                    "rowHierarchy": [
+                        "Gross Profit"
+                    ]
+                }
+            ],
+            "timestamp": 1633608632459
+        },
+        {
+            "action": "ADD",
+            "meta": {
+                "name": "Result ",
+                "value": "applied"
+            },
+            "group": "RESULT",
+            "selection": [
+                {
+                    "rowId": "CAL_ROW1",
+                    "colId": null,
+                    "mesColId": null,
+                    "type": 2,
+                    "columnHierarchy": [],
+                    "rowHierarchy": [
+                        "Revenue"
+                    ]
+                }
+            ],
+            "timestamp": 1633608648987
+        },
+        {
+            "action": "ADD",
+            "meta": {
+                "name": "Result ",
+                "value": "applied"
+            },
+            "group": "RESULT",
+            "selection": [
+                {
+                    "rowId": "CAL_ROW2",
+                    "colId": null,
+                    "mesColId": null,
+                    "type": 2,
+                    "columnHierarchy": [],
+                    "rowHierarchy": [
+                        "Gross Profit"
+                    ]
+                }
+            ],
+            "timestamp": 1633608664185
+        },
+        {
+            "action": "ADD",
+            "meta": {
+                "name": "Invert applied: ",
+                "value": "SIGN"
+            },
+            "group": "INVERT",
+            "selection": [
+                {
+                    "rowId": "Research__and__development__expenses",
+                    "colId": null,
+                    "mesColId": null,
+                    "type": 2,
+                    "columnHierarchy": [],
+                    "rowHierarchy": [
+                        "Research and development expenses"
+                    ]
+                }
+            ],
+            "timestamp": 1633608670561
+        },
+        {
+            "action": "ADD",
+            "meta": {
+                "name": "Invert applied: ",
+                "value": "SIGN"
+            },
+            "group": "INVERT",
+            "selection": [
+                {
+                    "rowId": "Selling__and__general__administrative__expenses",
+                    "colId": null,
+                    "mesColId": null,
+                    "type": 2,
+                    "columnHierarchy": [],
+                    "rowHierarchy": [
+                        "Selling and general administrative expenses"
+                    ]
+                }
+            ],
+            "timestamp": 1633608674165
+        },
+        {
+            "action": "ADD",
+            "meta": {
+                "name": "Invert applied: ",
+                "value": "SIGN"
+            },
+            "group": "INVERT",
+            "selection": [
+                {
+                    "rowId": "Other__operating__expenses",
+                    "colId": null,
+                    "mesColId": null,
+                    "type": 2,
+                    "columnHierarchy": [],
+                    "rowHierarchy": [
+                        "Other operating expenses"
+                    ]
+                }
+            ],
+            "timestamp": 1633608683910
+        },
+        {
+            "action": "ADD",
+            "meta": {
+                "name": "Row Added",
+                "value": "",
+                "type": "3"
+            },
+            "group": "CALC_ROWS",
+            "selection": [
+                {
+                    "rowId": "CAL_ROW3",
+                    "name": "New Row",
+                    "type": 2,
+                    "columnHierarchy": [],
+                    "rowHierarchy": [
+                        "New Row"
+                    ]
+                }
+            ],
+            "timestamp": 1633608694537
+        },
+        {
+            "action": "EDIT",
+            "meta": {
+                "name": "Row Updated",
+                "value": "",
+                "type": "3"
+            },
+            "group": "CALC_ROWS",
+            "selection": [
+                {
+                    "rowId": "CAL_ROW3",
+                    "name": "Income from continuing operations before tax",
+                    "type": 2,
+                    "columnHierarchy": [],
+                    "rowHierarchy": [
+                        "Income from continuing operations before tax"
+                    ]
+                }
+            ],
+            "timestamp": 1633608717218
+        },
+        {
+            "action": "EDIT",
+            "meta": {
+                "name": "Cell value updated to",
+                "value": 232
+            },
+            "group": "CALC_CELL",
+            "selection": [
+                {
+                    "rowId": "CAL_ROW3",
+                    "colId": "Grand__Total__PY",
+                    "name": "calculated",
+                    "type": 1,
+                    "columnHierarchy": [
+                        "PY"
+                    ],
+                    "rowHierarchy": [
+                        "Income from continuing operations before tax"
+                    ]
+                }
+            ],
+            "timestamp": 1633608725512
+        },
+        {
+            "action": "EDIT",
+            "meta": {
+                "name": "Cell value updated to",
+                "value": 222
+            },
+            "group": "CALC_CELL",
+            "selection": [
+                {
+                    "rowId": "CAL_ROW3",
+                    "colId": "Grand__Total__AC",
+                    "name": "calculated",
+                    "type": 1,
+                    "columnHierarchy": [
+                        "AC"
+                    ],
+                    "rowHierarchy": [
+                        "Income from continuing operations before tax"
+                    ]
+                }
+            ],
+            "timestamp": 1633608729879
+        },
+        {
+            "action": "ADD",
+            "meta": {
+                "name": "Invert applied: ",
+                "value": "SIGN"
+            },
+            "group": "INVERT",
+            "selection": [
+                {
+                    "rowId": "Income__tax__expenses",
+                    "colId": null,
+                    "mesColId": null,
+                    "type": 2,
+                    "columnHierarchy": [],
+                    "rowHierarchy": [
+                        "Income tax expenses"
+                    ]
+                }
+            ],
+            "timestamp": 1633608739224
+        },
+        {
+            "action": "ADD",
+            "meta": {
+                "name": "Row Added",
+                "value": "",
+                "type": "3"
+            },
+            "group": "CALC_ROWS",
+            "selection": [
+                {
+                    "rowId": "CAL_ROW4",
+                    "name": "New Row",
+                    "type": 2,
+                    "columnHierarchy": [],
+                    "rowHierarchy": [
+                        "New Row"
+                    ]
+                }
+            ],
+            "timestamp": 1633608789540
+        },
+        {
+            "action": "EDIT",
+            "meta": {
+                "name": "Row Updated",
+                "value": "",
+                "type": "3"
+            },
+            "group": "CALC_ROWS",
+            "selection": [
+                {
+                    "rowId": "CAL_ROW4",
+                    "name": "Income from continuing operations",
+                    "type": 2,
+                    "columnHierarchy": [],
+                    "rowHierarchy": [
+                        "Income from continuing operations"
+                    ]
+                }
+            ],
+            "timestamp": 1633608804569
+        },
+        {
+            "action": "EDIT",
+            "meta": {
+                "name": "Cell value updated to",
+                "value": 209
+            },
+            "group": "CALC_CELL",
+            "selection": [
+                {
+                    "rowId": "CAL_ROW4",
+                    "colId": "Grand__Total__PY",
+                    "name": "calculated",
+                    "type": 1,
+                    "columnHierarchy": [
+                        "PY"
+                    ],
+                    "rowHierarchy": [
+                        "Income from continuing operations"
+                    ]
+                }
+            ],
+            "timestamp": 1633608810794
+        },
+        {
+            "action": "EDIT",
+            "meta": {
+                "name": "Cell value updated to",
+                "value": 195
+            },
+            "group": "CALC_CELL",
+            "selection": [
+                {
+                    "rowId": "CAL_ROW4",
+                    "colId": "Grand__Total__AC",
+                    "name": "calculated",
+                    "type": 1,
+                    "columnHierarchy": [
+                        "AC"
+                    ],
+                    "rowHierarchy": [
+                        "Income from continuing operations"
+                    ]
+                }
+            ],
+            "timestamp": 1633608817051
+        },
+        {
+            "action": "ADD",
+            "meta": {
+                "name": "Result ",
+                "value": "applied"
+            },
+            "group": "RESULT",
+            "selection": [
+                {
+                    "rowId": "CAL_ROW4",
+                    "colId": null,
+                    "mesColId": null,
+                    "type": 2,
+                    "columnHierarchy": [],
+                    "rowHierarchy": [
+                        "Income from continuing operations"
+                    ]
+                }
+            ],
+            "timestamp": 1633608831320
+        },
+        {
+            "action": "ADD",
+            "meta": {
+                "name": "Result ",
+                "value": "applied"
+            },
+            "group": "RESULT",
+            "selection": [
+                {
+                    "rowId": "CAL_ROW3",
+                    "colId": null,
+                    "mesColId": null,
+                    "type": 2,
+                    "columnHierarchy": [],
+                    "rowHierarchy": [
+                        "Income from continuing operations before tax"
+                    ]
+                }
+            ],
+            "timestamp": 1633608835388
+        },
+        {
+            "action": "ADD",
+            "meta": {
+                "name": "Row Added",
+                "value": "",
+                "type": "3"
+            },
+            "group": "CALC_ROWS",
+            "selection": [
+                {
+                    "rowId": "CAL_ROW5",
+                    "name": "New Row",
+                    "type": 2,
+                    "columnHierarchy": [],
+                    "rowHierarchy": [
+                        "New Row"
+                    ]
+                }
+            ],
+            "timestamp": 1633608937694
+        },
+        {
+            "action": "EDIT",
+            "meta": {
+                "name": "Row Updated",
+                "value": "",
+                "type": "3"
+            },
+            "group": "CALC_ROWS",
+            "selection": [
+                {
+                    "rowId": "CAL_ROW5",
+                    "name": "Net Income",
+                    "type": 2,
+                    "columnHierarchy": [],
+                    "rowHierarchy": [
+                        "Net Income"
+                    ]
+                }
+            ],
+            "timestamp": 1633608945710
+        },
+        {
+            "action": "EDIT",
+            "meta": {
+                "name": "Cell value updated to",
+                "value": 209
+            },
+            "group": "CALC_CELL",
+            "selection": [
+                {
+                    "rowId": "CAL_ROW5",
+                    "colId": "Grand__Total__PY",
+                    "name": "calculated",
+                    "type": 1,
+                    "columnHierarchy": [
+                        "PY"
+                    ],
+                    "rowHierarchy": [
+                        "Net Income"
+                    ]
+                }
+            ],
+            "timestamp": 1633608960723
+        },
+        {
+            "action": "EDIT",
+            "meta": {
+                "name": "Cell value updated to",
+                "value": 195
+            },
+            "group": "CALC_CELL",
+            "selection": [
+                {
+                    "rowId": "CAL_ROW5",
+                    "colId": "Grand__Total__AC",
+                    "name": "calculated",
+                    "type": 1,
+                    "columnHierarchy": [
+                        "AC"
+                    ],
+                    "rowHierarchy": [
+                        "Net Income"
+                    ]
+                }
+            ],
+            "timestamp": 1633608965175
+        },
+        {
+            "action": "ADD",
+            "meta": {
+                "name": "Result ",
+                "value": "applied"
+            },
+            "group": "RESULT",
+            "selection": [
+                {
+                    "rowId": "CAL_ROW5",
+                    "colId": null,
+                    "mesColId": null,
+                    "type": 2,
+                    "columnHierarchy": [],
+                    "rowHierarchy": [
+                        "Net Income"
+                    ]
+                }
+            ],
+            "timestamp": 1633608968411
+        },
+        {
+            "action": "REMOVE",
+            "meta": {
+                "name": "Result applied ",
+                "value": "removed"
+            },
+            "group": "RESULT",
+            "selection": [
+                {
+                    "rowId": "CAL_ROW1",
+                    "colId": null,
+                    "mesColId": null,
+                    "type": 2,
+                    "columnHierarchy": [],
+                    "rowHierarchy": [
+                        "Revenue"
+                    ]
+                }
+            ],
+            "timestamp": 1633609002479
+        },
+        {
+            "action": "ADD",
+            "meta": {
+                "name": "Result ",
+                "value": "applied"
+            },
+            "group": "RESULT",
+            "selection": [
+                {
+                    "rowId": "CAL_ROW1",
+                    "colId": null,
+                    "mesColId": null,
+                    "type": 2,
+                    "columnHierarchy": [],
+                    "rowHierarchy": [
+                        "Revenue"
+                    ]
+                }
+            ],
+            "timestamp": 1633609004906
+        },
+        {
+            "action": "EDIT",
+            "meta": {
+                "name": "Row Updated",
+                "value": "= Software revenue+Support revenue+Consulting revenue",
+                "type": "1"
+            },
+            "group": "CALC_ROWS",
+            "selection": [
+                {
+                    "rowId": "CAL_ROW1",
+                    "name": "Revenue",
+                    "type": 2,
+                    "columnHierarchy": [],
+                    "rowHierarchy": [
+                        "Revenue"
+                    ]
+                }
+            ],
+            "timestamp": 1633609011509
+        },
+        {
+            "action": "EDIT",
+            "meta": {
+                "name": "Row Updated",
+                "value": "= Software revenue+Support revenue+Consulting revenue",
+                "type": "1"
+            },
+            "group": "CALC_ROWS",
+            "selection": [
+                {
+                    "rowId": "CAL_ROW1",
+                    "name": "Revenue",
+                    "type": 2,
+                    "columnHierarchy": [],
+                    "rowHierarchy": [
+                        "Revenue"
+                    ]
+                }
+            ],
+            "timestamp": 1633609095229
+        },
+        {
+            "action": "ADD",
+            "meta": {
+                "name": "No of applied decimal places ",
+                "value": "0"
+            },
+            "group": "DECIMAL_PLACE",
+            "selection": [],
+            "timestamp": 1633609109277
+        },
+        {
+            "action": "REMOVE",
+            "meta": {
+                "name": "Invert ",
+                "value": "removed"
+            },
+            "group": "INVERT",
+            "selection": [
+                {
+                    "rowId": "Cost__of__sales",
+                    "colId": null,
+                    "mesColId": null,
+                    "type": 2,
+                    "columnHierarchy": [],
+                    "rowHierarchy": [
+                        "Cost of sales"
+                    ]
+                }
+            ],
+            "timestamp": 1633609141739
+        },
+        {
+            "action": "ADD",
+            "meta": {
+                "name": "Invert applied: ",
+                "value": "SIGN"
+            },
+            "group": "INVERT",
+            "selection": [
+                {
+                    "rowId": "Cost__of__sales",
+                    "colId": null,
+                    "mesColId": null,
+                    "type": 2,
+                    "columnHierarchy": [],
+                    "rowHierarchy": [
+                        "Cost of sales"
+                    ]
+                }
+            ],
+            "timestamp": 1633609145789
+        },
+        {
+            "action": "ADD",
+            "meta": {
+                "name": "Sign influence total",
+                "value": "applied"
+            },
+            "group": "INVERT",
+            "selection": [],
+            "timestamp": 1633609157211
+        },
+        {
+            "action": "REMOVE",
+            "meta": {
+                "name": "Result applied ",
+                "value": "removed"
+            },
+            "group": "RESULT",
+            "selection": [
+                {
+                    "rowId": "CAL_ROW5",
+                    "colId": null,
+                    "mesColId": null,
+                    "type": 2,
+                    "columnHierarchy": [],
+                    "rowHierarchy": [
+                        "Net Income"
+                    ]
+                }
+            ],
+            "timestamp": 1633609235435
+        },
+        {
+            "action": "ADD",
+            "meta": {
+                "name": "Result ",
+                "value": "applied"
+            },
+            "group": "RESULT",
+            "selection": [
+                {
+                    "rowId": "CAL_ROW5",
+                    "colId": null,
+                    "mesColId": null,
+                    "type": 2,
+                    "columnHierarchy": [],
+                    "rowHierarchy": [
+                        "Net Income"
+                    ]
+                }
+            ],
+            "timestamp": 1633609238628
+        },
+        {
+            "action": "EDIT",
+            "meta": {
+                "name": "Cell value updated to",
+                "value": 209
+            },
+            "group": "CALC_CELL",
+            "selection": [
+                {
+                    "rowId": "CAL_ROW5",
+                    "colId": "Grand__Total__PY",
+                    "name": "calculated",
+                    "type": 1,
+                    "columnHierarchy": [
+                        "PY"
+                    ],
+                    "rowHierarchy": [
+                        "Net Income"
+                    ]
+                }
+            ],
+            "timestamp": 1633609777287
+        },
+        {
+            "action": "EDIT",
+            "meta": {
+                "name": "Cell value updated to",
+                "value": 215
+            },
+            "group": "CALC_CELL",
+            "selection": [
+                {
+                    "rowId": "CAL_ROW5",
+                    "colId": "Grand__Total__PY",
+                    "name": "calculated",
+                    "type": 1,
+                    "columnHierarchy": [
+                        "PY"
+                    ],
+                    "rowHierarchy": [
+                        "Net Income"
+                    ]
+                }
+            ],
+            "timestamp": 1633609782998
+        },
+        {
+            "action": "EDIT",
+            "meta": {
+                "name": "Cell value updated to",
+                "value": 220
+            },
+            "group": "CALC_CELL",
+            "selection": [
+                {
+                    "rowId": "CAL_ROW5",
+                    "colId": "Grand__Total__AC",
+                    "name": "calculated",
+                    "type": 1,
+                    "columnHierarchy": [
+                        "AC"
+                    ],
+                    "rowHierarchy": [
+                        "Net Income"
+                    ]
+                }
+            ],
+            "timestamp": 1633609787150
+        }
+    ],
+    "columnHierarchyReorder": {
+        "colOrderConfig": {},
+        "colOrderConfigMeta": {}
+    },
+    "columnHierarchySort": {},
+    "pinnedRowIds": [],
+    "rowGroupConfig": {},
+    "compareHeader": {
+        "left": {
+            "label": "",
+            "values": []
+        },
+        "right": {
+            "label": "",
+            "values": []
+        }
+    },
+    "rowLabelMeta": {},
+    "searchEnable": false,
+    "toolBarReadViewCollapsed": false,
+    "toolbar": {
+        "currentTab": "",
+        "isPinned": true,
+        "showTabContent": true,
+        "showMinimalView": false,
+        "toolbarTheme": "light",
+        "showOnHover": false,
+        "enableHoverToolbar": true,
+        "readViewPin": true
+    },
+    "launchData": {
+        "showRowGrandTotal": true,
+        "columnSubTotalPosition": "right",
+        "rowSubTotalPosition": "above",
+        "showColumnGrandTotal": false,
+        "rowGrandTotalPosition": "above",
+        "columnGrandTotalPosition": "right",
+        "showCategorySign": false,
+        "showPagination": true,
+        "selectedTheme": "trafficlights",
+        "showCustomTitle": true
+    },
+    "urlMetaConfig": {
+        "hasURL": false,
+        "hasImg": false,
+        "urlColId": "",
+        "urlColIndex": null
+    },
+    "showGripper": false,
+    "showComments": true,
+    "showHeaderFooter": true,
+    "totalsDisplay": {
+        "showSubTotalsAsTable": true,
+        "showVarSubTotalsAsTable": false,
+        "showTotalAsTable": true,
+        "showVarTotalAsTable": false,
+        "showColumnGTAsTable": true,
+        "advancedSteppedLayout": false,
+        "removeSingleChildren": true
+    },
+    "labelColIndex": null,
+    "rowAutoGroupConfig": {
+        "ruleName": "none"
+    },
+    "recentColors": [
+        "#8DB901",
+        "#FB0209"
+    ],
+    "frequentColors": [],
+    "tooltipOthersDimension": [],
+    "varianceInvertColumn": {},
+    "scaleDelta": {
+        "height": 0,
+        "width": 0,
+        "scale": 1
+    },
+    "hideRowChildren": [],
+    "hideExpandLevel": {},
+    "commentSettings": {
+        "rowLevelComments": false,
+        "expandRowLevelComments": false
+    },
+    "rulerMeta": {
+        "width": 20,
+        "showNumbers": false
+    },
+    "hideHeader": {
+        "hierarchyHeader": false
+    },
+    "measureAttributes": {},
+    "userSession": {
+        "isLoggedIn": false,
+        "accessToken": "",
+        "refreshToken": "",
+        "userAccessToken": "",
+        "visualAccessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aXN1YWxJZCI6IjAiLCJjd3MiOiIzIiwic2NvcGUiOnsiY29tbWVudHMiOnRydWUsIndyaXRlQmFja0FQSSI6dHJ1ZX0sInVzZXJJZCI6IjAiLCJpYXQiOjE2NDU1NTYyNzIsImV4cCI6MTY0NTY0MjY3Mn0.buTzv-Mjj139MKW43tTTummsywHRs61Sq7TDiM-f9Bc",
+        "userId": "",
+        "userName": "",
+        "email": "",
+        "profileImg": "",
+        "x_request_cws": null,
+        "visualId": "DEFJJKNPNLBIGGP",
+        "syncState": false,
+        "visualDomain": "LUMEL.COM",
+        "authTypes": [],
+        "processingLogin": false,
+        "loginType": "",
+        "domainMatch": false
+    },
+    "commentOnline": {
+        "isOnline": false,
+        "commentList": [],
+        "persistProperty": {
+            "iconColor": "rgba(0, 120, 212, 0.7)"
+        },
+        "indicatorSize": 6,
+        "displayComment": "create"
+    }
+}

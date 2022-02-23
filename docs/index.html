@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      html,
+      body,
+      #container {
+        height: 100%;
+      }
+      .navItem {
+        background-color: #ddd;
+        float: left;
+        display: block;
+        color: rgb(0, 0, 0);
+        text-align: center;
+        padding: 1px 10px;
+        text-decoration: none;
+        border-bottom: #ddd;
+        border-bottom: 5px;
+        border: thin dotted #666;
+        font-size: 15px;
+        z-index: 5;
+      }
+      .navItem:hover {
+        background: #f2c811;
+        color: black;
+        cursor: pointer;
+      }
+      .selected {
+        background: #f2c811;
+        color: black;
+      }
+      .footer_container{
+        display: contents;
+        position: absolute !important;
+      }
+      
+    </style>
+    <link rel="stylesheet" href="./dist/style.css" />
+    <script>
+      window.baseDomain = `https://js-jeevasaravanan.github.io/InforiverWebReports/ReportDataBase/`
+    </script>
+      
+  </head>
+
+  <body>
+
+    <div style="height: 100%; width: 100%; display: block" >
+      <div id="container" style="height: 96%; width: 100%; display: block"></div>    
+      <div id="navBar" style="width: 90%; height: 10px;" ></div>
+    </div>
+
+    <script src="./dist/index.js"></script>
+  </body>
+</html>
