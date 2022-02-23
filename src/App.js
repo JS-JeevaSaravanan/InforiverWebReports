@@ -77,7 +77,7 @@ async function fetchAndRun() {
     const reportPages = reportData.pages;
 
     const getPageProps = await reportPages.map( async page => {
-        const  confProps = JSON.parse(await fetchFromServer(`ReportDataBase/${reportPagesLocation}${page.fileName}`));
+        const  confProps = JSON.parse(await fetchFromServer(`$ReportDataBase/${reportPagesLocation}${page.fileName}`));
         confProps.isPlayGroundReadView = true;
         confProps.isPlayGround = true;
         return confProps;
