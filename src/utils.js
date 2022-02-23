@@ -1,4 +1,4 @@
-export const getJsonString = async (url) => {
+export const fetchFromServer = async (url) => {
     try {
         return new Promise((success, fail) => {
 

@@ -2,7 +2,7 @@ import { Loader } from "@visualbi/ibcs-variancechart/dist";
 import { SAMPLE_DATA } from './sample-data'
 import '@visualbi/ibcs-variancechart/dist/css/index.css';
 import { DEFAULT_PROPS } from "./default-props";
-import { EVENTS, getJsonString } from './utils';
+import { EVENTS, fetchFromServer } from './utils';
 
 
 
@@ -63,7 +63,7 @@ async function fetchAndRun() {
 
 
 
-    const metaData = JSON.parse(await getJsonString(`${window.baseDomain}meta.json`));
+    const metaData = JSON.parse(await fetchFromServer(`${window.baseDomain}meta.json`));
     // console.log(metaData)
 
     const reportName = "amd";
@@ -72,9 +72,9 @@ async function fetchAndRun() {
 
     const reportPagesLocation = reportData.location;
     const reportPages = reportData.pages;
-    
+
     const getPageProps = await reportPages.map( async page => {
-        const  confProps = JSON.parse(await getJsonString(`${window.baseDomain}${reportPagesLocation}${page.fileName}`));
+        const  confProps = JSON.parse(await fetchFromServer(`${window.baseDomain}${reportPagesLocation}${page.fileName}`));
         confProps.isPlayGroundReadView = true;
         confProps.isPlayGround = true;
         return confProps;
