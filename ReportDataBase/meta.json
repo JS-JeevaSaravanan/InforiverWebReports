@@ -206,9 +206,19 @@
                 "fileName":"salesbyregion3.json"
             }                        
         ]
-    }
+    },
 
     
+    "sales_performance_report":{
+        "name": "Sales Performance Report",
+        "location": "sales_performance_report/",
+        "pages":[
+            {
+                "label":"Sales Performance",
+                "fileName":"sales_performance.json"
+            }                        
+        ]
+    }
 
     
 }
