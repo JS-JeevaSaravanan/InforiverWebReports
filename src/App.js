@@ -20,43 +20,43 @@ async function fetchData() {
 
     console.log('reportData',reportData)
 
-    const location = reportData.location;
-    const pages = reportData.pages;
+    const jsonLocation = reportData.location;
+    const reportPages = reportData.pages;
     
-    const promises = await pages.map( async page => {
-        const  json = JSON.parse(await getJsonString(`${window.baseDomain}${location}${page.fileName}`));
-        json.isPlayGroundReadView = true;
-        json.isPlayGround = true;
-        return json;
+    const getPageProps = await reportPages.map( async page => {
+        const  confProps = JSON.parse(await getJsonString(`${window.baseDomain}${jsonLocation}${page.fileName}`));
+        confProps.isPlayGroundReadView = true;
+        confProps.isPlayGround = true;
+        return confProps;
     })
 
-    pageJsons = await Promise.all(promises);
-    init(1,pageJsons,pages);
+    pageJsons = await Promise.all(getPageProps);
+    init(1,pageJsons,reportPages);
 }
 
 async function init(selectedPage,pageJsons,pages) {
     const container = document.querySelector("#container");
     const matrix = new Loader(container, EVENTS);
     
-    const boardElement = document.getElementById('board');
-    boardElement.innerHTML  ="";
+    const navBar = document.getElementById('navBar');
+    navBar.innerHTML  ="";
     
-    const changeLink = function (e)  {
+    const changePage = function (e)  {
         init(e.target.pageId,pageJsons,pages);
     }
     
     for(let i=0;i<pages.length;i++) {
         const page = pages[i];
-        const singlePage = document.createElement('div');
+        const navItem = document.createElement('div');
         if (i+1 == selectedPage){
-            singlePage.className = `blah selected`;
+            navItem.className = `navItem selected`;
         }else{
-            singlePage.className = "blah";
+            navItem.className = "navItem";
         }
-        singlePage.textContent = page.label;
-        singlePage.pageId =i+1; 
-        singlePage.addEventListener("click", changeLink);        
-        boardElement.appendChild(singlePage);
+        navItem.textContent = page.label;
+        navItem.pageId =i+1; 
+        navItem.addEventListener("click", changePage);        
+        navBar.appendChild(navItem);
     }
 
     matrix.update(pageJsons[selectedPage-1])
