@@ -1,0 +1,2675 @@
+{
+    "noData": false,
+    "rawData": {
+      "rows": [
+        {
+          "id": "SalesbyRegion.Region",
+          "role": {
+            "rows": true
+          },
+          "label": "Region",
+          "memberKey": "West",
+          "member": "West",
+          "level": 0,
+          "ref": {
+            "deepestNodeLevelInPath": -1,
+            "measures": [],
+            "dataMap": {
+              "SalesbyRegion.Region": [
+                {
+                  "identityIndex": 0
+                }
+              ]
+            },
+            "nodeIsCollapsed": null,
+            "key": "{\"SalesbyRegion.Region\":[{\"identityIndex\":0}]}[]"
+          },
+          "values": [
+            89014,
+            88947
+          ],
+          "isSubtotal": false
+        },
+        {
+          "id": "SalesbyRegion.Region",
+          "role": {
+            "rows": true
+          },
+          "label": "Region",
+          "memberKey": "East",
+          "member": "East",
+          "level": 0,
+          "ref": {
+            "deepestNodeLevelInPath": -1,
+            "measures": [],
+            "dataMap": {
+              "SalesbyRegion.Region": [
+                {
+                  "identityIndex": 1
+                }
+              ]
+            },
+            "nodeIsCollapsed": null,
+            "key": "{\"SalesbyRegion.Region\":[{\"identityIndex\":1}]}[]"
+          },
+          "values": [
+            68379,
+            68087
+          ],
+          "isSubtotal": false
+        },
+        {
+          "id": "SalesbyRegion.Region",
+          "role": {
+            "rows": true
+          },
+          "label": "Region",
+          "memberKey": "Central",
+          "member": "Central",
+          "level": 0,
+          "ref": {
+            "deepestNodeLevelInPath": -1,
+            "measures": [],
+            "dataMap": {
+              "SalesbyRegion.Region": [
+                {
+                  "identityIndex": 2
+                }
+              ]
+            },
+            "nodeIsCollapsed": null,
+            "key": "{\"SalesbyRegion.Region\":[{\"identityIndex\":2}]}[]"
+          },
+          "values": [
+            54739,
+            54586
+          ],
+          "isSubtotal": false
+        },
+        {
+          "id": "SalesbyRegion.Region",
+          "role": {
+            "rows": true
+          },
+          "label": "Region",
+          "memberKey": "South",
+          "member": "South",
+          "level": 0,
+          "ref": {
+            "deepestNodeLevelInPath": -1,
+            "measures": [],
+            "dataMap": {
+              "SalesbyRegion.Region": [
+                {
+                  "identityIndex": 3
+                }
+              ]
+            },
+            "nodeIsCollapsed": null,
+            "key": "{\"SalesbyRegion.Region\":[{\"identityIndex\":3}]}[]"
+          },
+          "values": [
+            31077,
+            30750
+          ],
+          "isSubtotal": false
+        }
+      ],
+      "columns": [
+        {
+          "id": "Sum(SalesbyRegion.Actuals)",
+          "role": {
+            "ameasure": true
+          },
+          "label": "Actuals",
+          "memberKey": "Actuals",
+          "member": "Actuals",
+          "level": 0,
+          "ref": {
+            "deepestNodeLevelInPath": -1,
+            "measures": [],
+            "dataMap": null,
+            "nodeIsCollapsed": null,
+            "key": "null[]"
+          },
+          "isMeasure": true,
+          "isSubtotal": false
+        },
+        {
+          "id": "Sum(SalesbyRegion.Target)",
+          "role": {
+            "ameasure": true
+          },
+          "label": "Target",
+          "memberKey": "Target",
+          "member": "Target",
+          "level": 0,
+          "ref": {
+            "deepestNodeLevelInPath": -1,
+            "measures": [],
+            "dataMap": null,
+            "nodeIsCollapsed": null,
+            "key": "null[]"
+          },
+          "isMeasure": true,
+          "isSubtotal": false
+        }
+      ],
+      "metadata": {
+        "dimensions": {
+          "measures": [
+            {
+              "name": "Sum(SalesbyRegion.Actuals)",
+              "label": "Actuals",
+              "format": "0",
+              "roles": {
+                "AC": true
+              },
+              "dataType": "NUMERIC"
+            },
+            {
+              "name": "Sum(SalesbyRegion.Target)",
+              "label": "Target",
+              "format": "0",
+              "roles": {
+                "AC": true
+              },
+              "dataType": "NUMERIC"
+            }
+          ],
+          "columns": [],
+          "rows": [
+            {
+              "id": "SalesbyRegion.Region",
+              "label": "Region",
+              "type": "TEXT"
+            }
+          ]
+        },
+        "fetchStatus": {
+          "segmentCount": 1,
+          "segmentIndex": 0,
+          "isFetchingData": false
+        }
+      },
+      "subTotals": {
+        "rows": {
+          "values": [
+            243209,
+            242370
+          ]
+        },
+        "columns": {}
+      }
+    },
+    "dataUpdated": false,
+    "segmentLimit": 200,
+    "isEditMode": true,
+    "landingPage": false,
+    "isInFocus": false,
+    "isPBIDesktop": false,
+    "pbiThemeColor": {
+      "rowLevelTheme": {
+        "0": "#8BC7F7",
+        "1": "#46B3F3"
+      },
+      "measureLevelTheme": {
+        "0": "#8BC7F7",
+        "1": "#46B3F3",
+        "2": "#009FEF"
+      }
+    },
+    "valueFormatter": {
+      "DefaultIntegerFormat": "g",
+      "DefaultNumericFormat": "#,0.00",
+      "DefaultDateFormat": "d"
+    },
+    "locale": "en-US",
+    "exportSettings": {
+      "exportType": "matrix",
+      "scaling": "1",
+      "scaleRatio": 0,
+      "pageSize": "a4",
+      "columnWidth": "normal",
+      "orientation": "l",
+      "margin": "md",
+      "logo": {
+        "filename": "",
+        "base64": "",
+        "width": 60,
+        "height": 30
+      },
+      "title": "",
+      "subTitle": "",
+      "displaydate": true,
+      "pageNumber": true,
+      "pageLabel": "1",
+      "footerNote": "normal",
+      "displayHeaderFooter": "everyPage",
+      "fileName": "",
+      "printApproach": "rowFirst"
+    },
+    "exportExcelSettings": {
+      "exportType": "matrix",
+      "logo": {
+        "filename": "",
+        "base64": "",
+        "width": 60,
+        "height": 30
+      },
+      "title": "",
+      "subTitle": "",
+      "footerNote": "",
+      "hierarchyView": "visualView",
+      "includeComments": true,
+      "fileName": ""
+    },
+    "themeColors": {
+      "showTable": false,
+      "valueColor": "",
+      "invertVarianceColor": false,
+      "enableVarianceColor": false,
+      "positiveColor": "#8EB900",
+      "negativeColor": "#ff000a",
+      "chartTheme": "trafficlights",
+      "chartThemeTable": false,
+      "themeType": "trafficlights",
+      "previousThemeType": "trafficlights",
+      "tableThemeType": false,
+      "highContrast": null,
+      "enableRowHover": "off",
+      "rowHoverColor": "#f5f5f5",
+      "rowHoverTextColor": "#212121",
+      "rowOddColor": "#f5f5f5",
+      "rowEvenColor": "#ffffff",
+      "variancePositiveColor": "#8EB900",
+      "varianceNegativeColor": "#ff000a"
+    },
+    "totalUtility": {
+      "rowGrandTotal": false,
+      "rowGrandTotalPosition": "clear",
+      "rowSubTotalPosition": "above",
+      "columnGrandTotal": false,
+      "columnGrandTotalPosition": "clear",
+      "columnSubTotalPosition": "right"
+    },
+    "hierarchy": {
+      "raggedHierarchy": true,
+      "hideBlanks": "vc",
+      "hideZeros": false,
+      "unbalancedHierarchy": "off"
+    },
+    "headerOption": {
+      "headerFormatting": true,
+      "headerHeight": 35,
+      "headerVarianceStyle": "normal",
+      "measureBasedHeader": true,
+      "deltaOrDiffHeader": false,
+      "headerValue": "AC",
+      "headerReference": "PY",
+      "headerAbsoluteVariance": "ΔPY",
+      "headerRelativeVariance": "ΔPY%",
+      "headerSortOrder": "[]",
+      "showHeaderIndicator": true
+    },
+    "overRideScaleFactor": true,
+    "tableState": {
+      "rowHierarchyLevel": {},
+      "compareMeasure": null,
+      "expandCollapseIcon": "plusMinusSquare",
+      "columnExpandCollapseIcon": "arrows",
+      "columnHierarchyLevel": {},
+      "headerHeight": 25
+    },
+    "aggregationType": "sum",
+    "calculatedColumns": [],
+    "calculatedColumnMeta": {
+      "newColumnIndex": 0
+    },
+    "sorting": [],
+    "numberFormatting": {
+      "enabled": true,
+      "prefix": "",
+      "suffix": "",
+      "semanticFormatting": false,
+      "enablePrefixAsUnit": true,
+      "negativeValueColor": "#FB0209",
+      "negativeValueFormat": "-x",
+      "positiveValueColor": "#8DB901",
+      "positiveValueFormat": "x",
+      "showScalingUnit": false,
+      "showDataLabel": true,
+      "formatType": "custom",
+      "ibcsformat": false,
+      "enableDataLabelFormatting": true,
+      "decimalSeperator": ".",
+      "thousandSeperator": ",",
+      "noOfDecimal": 2,
+      "dlIBCSNoOfDecimal": 0,
+      "scalingFactor": "none",
+      "dlFlexibleScalingFactor": "auto",
+      "dlCustomScalingFactor": "none",
+      "customizeScalingLabel": false,
+      "thousands": "k",
+      "millions": "m",
+      "billions": "b",
+      "trillion": "t",
+      "thousandsFullText": "in Thousands",
+      "billionsFullText": "in Billions",
+      "millionsFullText": "in Millions",
+      "trillionFullText": "in Trillions",
+      "showNullAs": "blank",
+      "customNullText": "",
+      "showZeroAs": "zero",
+      "customZeroText": "",
+      "crores": "c",
+      "lakhs": "l",
+      "showTooltipAsUnit": false,
+      "showTooltipDecimal": false,
+      "tooltipDecimal": 1
+    },
+    "chartTitleOption": {
+      "show": false,
+      "primaryTitleText": "",
+      "customTitleHeight": 0,
+      "measurescale": "",
+      "currencyValue": "",
+      "titlContainer": {
+        "display": "none",
+        "flexDirection": "column",
+        "height": "0px"
+      },
+      "primaryTitle": {
+        "color": "#ffffff",
+        "fontSize": "14px",
+        "fontWeight": "normal",
+        "fontStyle": "normal",
+        "paddingRight": "5px",
+        "lineHeight": "22px"
+      },
+      "secondaryTitle": {
+        "color": "#ffffff",
+        "fontSize": "14px",
+        "fontWeight": "normal",
+        "fontStyle": "normal",
+        "paddingRight": "5px",
+        "lineHeight": "22px",
+        "order": 2
+      },
+      "secondaryTitleFont": {
+        "fontWeight": "normal"
+      },
+      "titleMeasure": {
+        "color": "#ffffff",
+        "fontSize": "14px",
+        "fontWeight": "normal",
+        "fontStyle": "normal",
+        "lineHeight": "22px",
+        "order": 1
+      },
+      "unitScale": {
+        "fontWeight": "bold"
+      },
+      "measureHeading": []
+    },
+    "groupInColumn": true,
+    "ranking": {
+      "rules": [],
+      "othersLabel": "Others",
+      "enableOthersSuffix": false,
+      "enableOthersCount": true
+    },
+    "kpiExplorer": {
+      "showExplorer": false,
+      "mode": "detailed",
+      "selectedMeasure": "",
+      "filterValues": {},
+      "rows": [],
+      "columns": [],
+      "sort": {}
+    },
+    "chartCustomTitle": {
+      "secondaryTitle": "",
+      "measureTitle": "",
+      "primaryTitle": "",
+      "customTitle": {
+        "elements": [
+          {
+            "type": "DEFAULT_TITLE",
+            "id": "8045f27b-051c-427a-91ed-d9db2db40090",
+            "position": {
+              "top": 3,
+              "left": 3
+            },
+            "dimension": {
+              "width": "1452",
+              "height": "36"
+            },
+            "layout": {
+              "x": 0,
+              "y": 0,
+              "w": 64,
+              "h": 3,
+              "i": "8045f27b-051c-427a-91ed-d9db2db40090",
+              "minW": 1,
+              "minH": 3,
+              "maxH": 12,
+              "resizeHandles": [
+                "se"
+              ],
+              "static": false
+            },
+            "content": "<p><span style=\"font-family: Arial\"><u><b>Actual vs Target per Region</b></u></span></p>",
+            "align": "left",
+            "background": null,
+            "border": "",
+            "borderColor": "",
+            "borderRadius": "0px",
+            "shadow": "",
+            "shadowColor": "",
+            "shadowPosition": "bottom-right"
+          }
+        ],
+        "containerMeta": {
+          "height": 42,
+          "width": 1458
+        }
+      },
+      "customTitleHeight": 42
+    },
+    "rowReorder": {
+      "enabled": true,
+      "rowOrderConfig": {},
+      "rowOrderConfigMeta": {}
+    },
+    "enableWordWrap": "labelHeader",
+    "enableDrillThrough": false,
+    "templateConfig": {
+      "template": "Matrix",
+      "type": "default"
+    },
+    "compareMesLabelAlign": false,
+    "gridStyles": {
+      "majorGridLines": "off",
+      "minorGridLines": "off",
+      "rowGrandTotalLine": "on",
+      "compactSplitLine": true,
+      "compactSplitLineColor": "#A6A6A6",
+      "chartSpacing": true,
+      "topSpace": 5,
+      "bottomSpace": 5,
+      "leftSpace": 0,
+      "rightSpace": 0,
+      "titleAndChartSpace": 10,
+      "indentSpacing": 15,
+      "columnSpacing": "off",
+      "columnSpacingValue": 5,
+      "majorGridColor": "#666666",
+      "minorGridColor": "#E6E6E6",
+      "gridBackground": "#FFFFFF",
+      "lineStyleColor": "#666666",
+      "lineStyleFormat": "solid",
+      "enableCategoryLabelColor": false,
+      "categoryLabelColor": "#dddddd",
+      "showVAHighlight": true,
+      "isLevelIndent": false,
+      "showExpandCollapse": true
+    },
+    "gridLineCount": 1,
+    "enablePersistFilter": false,
+    "showCategorySign": false,
+    "showCategorySignPositive": true,
+    "hideResultSign": true,
+    "columnTitleConfigs": [],
+    "layoutSizes": {
+      "tableWidth": 110,
+      "chartWidth": 150,
+      "labelWidth": 150,
+      "isResponsive": false,
+      "bulletWidth": 400,
+      "isResizeAllowed": true
+    },
+    "sparklineConfig": {},
+    "displayAllCols": false,
+    "bulletConfig": {
+      "-145538329": {
+        "enabled": true,
+        "isValid": true,
+        "additionalSetToNone": true,
+        "showBulletAxis": false,
+        "showTargetMarker": false,
+        "showDisplayColumnHeader": false,
+        "showTotal": false,
+        "showAsBar": false,
+        "showSubTotal": true,
+        "bulletScaling": "childrenScale",
+        "targetType": "line",
+        "scaling": [
+          0,
+          89014
+        ],
+        "measureScaling": {
+          "AC": [
+            31077,
+            89014
+          ],
+          "AC1": [
+            30750,
+            88947
+          ]
+        },
+        "excludedColumns": [],
+        "bulletType": "custom",
+        "type": "customlinediverging",
+        "bandConfig": {
+          "divergingColors": false,
+          "bandType": "ranges",
+          "ranges": [
+            0.3,
+            0.3,
+            0.4
+          ],
+          "bandMeasure": "",
+          "noOfBands": 3,
+          "rangeConfig": [
+            {
+              "name": "Band 1",
+              "color": "",
+              "fromValue": 0,
+              "value": 30,
+              "labels": "Bad",
+              "valueToPlot": 26704.2,
+              "valueFromPlot": 0
+            },
+            {
+              "name": "Band 2",
+              "color": "",
+              "fromValue": 30,
+              "value": 60,
+              "labels": "Good",
+              "valueToPlot": 53408.4,
+              "valueFromPlot": 26704.2
+            },
+            {
+              "name": "Band 3",
+              "color": "",
+              "fromValue": 60,
+              "value": 100,
+              "labels": "Best",
+              "valueToPlot": 89014,
+              "valueFromPlot": 53408.4
+            }
+          ]
+        },
+        "theme": {
+          "bullet": "",
+          "target": "",
+          "bands": [],
+          "additionalTarget": "",
+          "positiveColor": "#8EB900",
+          "negativeColor": "#ff000a",
+          "color": "#FFFFFF",
+          "invertColor": "#000000",
+          "bulletBaseColor": "#CCCCCC",
+          "additionalBaseColor": "#d8d2d2",
+          "actualFillColor": "#000000",
+          "targetFillColor": "#FFFFFF",
+          "labelColor": "",
+          "actualColor": "",
+          "targetLabelColor": "",
+          "varianceLabelColor": "",
+          "variance": "",
+          "rangeActual": "",
+          "rangeTarget": "",
+          "dotPlotActual": "",
+          "dotPlotTarget": "",
+          "dotPlotAdditional": ""
+        },
+        "bands": [],
+        "bullet": "AC1",
+        "target": "AC",
+        "additionalTarget": "None",
+        "showDeviationBar": false,
+        "showTargetLine": true,
+        "markerLabel": "target",
+        "additionalTargetType": "marker",
+        "dataLabel": {
+          "target": false,
+          "variance": false,
+          "variancePct": false
+        },
+        "fillPattern": {
+          "actual": "solid",
+          "target": "solid",
+          "additionalTarget": "solid"
+        },
+        "plotType": "default",
+        "rangeGradient": false,
+        "divergingColors": false,
+        "subtotalScaling": [
+          0,
+          89014
+        ]
+      }
+    },
+    "stackedConfig": {},
+    "cfProps": {
+      "enabled": true,
+      "rules": [
+        {
+          "enabled": true,
+          "highlightedMeasure": "delPY_PER",
+          "name": "delPY_PER-1358614097",
+          "ruleType": "rule",
+          "displayName": "ΔPY% <= -10",
+          "basedOn": "PY",
+          "excludeRowTotal": false,
+          "excludeColumnTotal": false,
+          "ruleFor": "both",
+          "columnRuleType": "default",
+          "classificationPosition": "left",
+          "colorScaleApplyTo": "seq",
+          "isIconGroupAltered": false,
+          "autoFontColor": true,
+          "colorOnly": false,
+          "invertColor": false,
+          "colorScaleColorFor": "font",
+          "colorScheme": {
+            "selectedColorScheme": "Blues",
+            "numberOfRanges": 5,
+            "colors": [
+              "#d0e1f2",
+              "#94c4df",
+              "#4a98c9",
+              "#1764ab",
+              "#08306b"
+            ],
+            "minColor": "red",
+            "middleColor": "blue",
+            "maxColor": "green"
+          },
+          "classificationType": "icon",
+          "enableCustom": false,
+          "isTextGroupAltered": false,
+          "targetValues": [],
+          "targetValueType": "percent",
+          "iconGroupValues": [],
+          "textGroupValues": [],
+          "rankingBuckets": [],
+          "rankingBucketsValueType": "percent",
+          "iconGroupValueType": "percent",
+          "textGroupValueType": "percent",
+          "textColorFor": "font",
+          "ratingIcons": [
+            "cross",
+            "alert",
+            "tick"
+          ],
+          "conditionalOperator": "or",
+          "conditions": [
+            {
+              "name": "Condition 0",
+              "basedOn": "delPY_PER",
+              "conditionType": "singleMeasure",
+              "valueType": "static",
+              "comparisonMeasure": "delPY_PER",
+              "operator": "<=",
+              "comparisonValue": -10,
+              "from": 0,
+              "to": 100,
+              "aggregationType": "includes",
+              "calculationType1": "value",
+              "calculationValue1": 0,
+              "calculationMeasure1": "PY",
+              "calculationOperator": "+",
+              "calculationType2": "measure",
+              "calculationValue2": 100,
+              "calculationMeasure2": "PY",
+              "dimension": "",
+              "dimensionMembers": [],
+              "comparisonText": "",
+              "count": 10,
+              "fromMeasure": "PY",
+              "toMeasure": "PY"
+            }
+          ],
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "underlineColor": "#000000",
+          "applyTextColor": true,
+          "color": "#FF4400",
+          "applyBackgroundColor": false,
+          "background": null,
+          "isIconPresent": false,
+          "iconPosition": "left",
+          "iconColor": "#e66c37",
+          "icon": "chevron-up",
+          "iconType": "icon",
+          "isCustomIcon": false,
+          "customIconBase64Value": "",
+          "customIconName": "",
+          "text": "",
+          "textDetailPosition": "none",
+          "shapeCount": 5,
+          "shapeColor": "#e66c37",
+          "ratingDetailPosition": "none",
+          "lineColor": "#666666",
+          "lineStyle": 1,
+          "iconGroupName": "accept",
+          "textGroupName": "segmentation"
+        },
+        {
+          "enabled": true,
+          "highlightedMeasure": "delPL_PER",
+          "name": "delPL_PER302489235",
+          "ruleType": "rule",
+          "displayName": "ΔPL% <= -10",
+          "basedOn": "PY",
+          "excludeRowTotal": false,
+          "excludeColumnTotal": false,
+          "ruleFor": "both",
+          "columnRuleType": "default",
+          "classificationPosition": "left",
+          "colorScaleApplyTo": "seq",
+          "isIconGroupAltered": false,
+          "autoFontColor": true,
+          "colorOnly": false,
+          "invertColor": false,
+          "colorScaleColorFor": "font",
+          "colorScheme": {
+            "selectedColorScheme": "Blues",
+            "numberOfRanges": 5,
+            "colors": [
+              "#d0e1f2",
+              "#94c4df",
+              "#4a98c9",
+              "#1764ab",
+              "#08306b"
+            ],
+            "minColor": "red",
+            "middleColor": "blue",
+            "maxColor": "green"
+          },
+          "classificationType": "icon",
+          "enableCustom": false,
+          "isTextGroupAltered": false,
+          "targetValues": [],
+          "targetValueType": "percent",
+          "iconGroupValues": [],
+          "textGroupValues": [],
+          "rankingBuckets": [],
+          "rankingBucketsValueType": "percent",
+          "iconGroupValueType": "percent",
+          "textGroupValueType": "percent",
+          "textColorFor": "font",
+          "ratingIcons": [
+            "cross",
+            "alert",
+            "tick"
+          ],
+          "conditionalOperator": "or",
+          "conditions": [
+            {
+              "name": "Condition 0",
+              "basedOn": "delPL_PER",
+              "conditionType": "singleMeasure",
+              "valueType": "static",
+              "comparisonMeasure": "delPL_PER",
+              "operator": "<=",
+              "comparisonValue": -10,
+              "from": 0,
+              "to": 100,
+              "aggregationType": "includes",
+              "calculationType1": "value",
+              "calculationValue1": 0,
+              "calculationMeasure1": "PY",
+              "calculationOperator": "+",
+              "calculationType2": "measure",
+              "calculationValue2": 100,
+              "calculationMeasure2": "PY",
+              "dimension": "",
+              "dimensionMembers": [],
+              "comparisonText": "",
+              "count": 10,
+              "fromMeasure": "PY",
+              "toMeasure": "PY"
+            }
+          ],
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "underlineColor": "#000000",
+          "applyTextColor": true,
+          "color": "#FF4400",
+          "applyBackgroundColor": false,
+          "background": null,
+          "isIconPresent": false,
+          "iconPosition": "left",
+          "iconColor": "#e66c37",
+          "icon": "chevron-up",
+          "iconType": "icon",
+          "isCustomIcon": false,
+          "customIconBase64Value": "",
+          "customIconName": "",
+          "text": "",
+          "textDetailPosition": "none",
+          "shapeCount": 5,
+          "shapeColor": "#e66c37",
+          "ratingDetailPosition": "none",
+          "lineColor": "#666666",
+          "lineStyle": 1,
+          "iconGroupName": "accept",
+          "textGroupName": "segmentation"
+        },
+        {
+          "enabled": true,
+          "highlightedMeasure": "delFC_PER",
+          "name": "delFC_PER1075604900",
+          "ruleType": "rule",
+          "displayName": "ΔFC% <= -10",
+          "basedOn": "PY",
+          "excludeRowTotal": false,
+          "excludeColumnTotal": false,
+          "ruleFor": "both",
+          "columnRuleType": "default",
+          "classificationPosition": "left",
+          "colorScaleApplyTo": "seq",
+          "isIconGroupAltered": false,
+          "autoFontColor": true,
+          "colorOnly": false,
+          "invertColor": false,
+          "colorScaleColorFor": "font",
+          "colorScheme": {
+            "selectedColorScheme": "Blues",
+            "numberOfRanges": 5,
+            "colors": [
+              "#d0e1f2",
+              "#94c4df",
+              "#4a98c9",
+              "#1764ab",
+              "#08306b"
+            ],
+            "minColor": "red",
+            "middleColor": "blue",
+            "maxColor": "green"
+          },
+          "classificationType": "icon",
+          "enableCustom": false,
+          "isTextGroupAltered": false,
+          "targetValues": [],
+          "targetValueType": "percent",
+          "iconGroupValues": [],
+          "textGroupValues": [],
+          "rankingBuckets": [],
+          "rankingBucketsValueType": "percent",
+          "iconGroupValueType": "percent",
+          "textGroupValueType": "percent",
+          "textColorFor": "font",
+          "ratingIcons": [
+            "cross",
+            "alert",
+            "tick"
+          ],
+          "conditionalOperator": "or",
+          "conditions": [
+            {
+              "name": "Condition 0",
+              "basedOn": "delFC_PER",
+              "conditionType": "singleMeasure",
+              "valueType": "static",
+              "comparisonMeasure": "delFC_PER",
+              "operator": "<=",
+              "comparisonValue": -10,
+              "from": 0,
+              "to": 100,
+              "aggregationType": "includes",
+              "calculationType1": "value",
+              "calculationValue1": 0,
+              "calculationMeasure1": "PY",
+              "calculationOperator": "+",
+              "calculationType2": "measure",
+              "calculationValue2": 100,
+              "calculationMeasure2": "PY",
+              "dimension": "",
+              "dimensionMembers": [],
+              "comparisonText": "",
+              "count": 10,
+              "fromMeasure": "PY",
+              "toMeasure": "PY"
+            }
+          ],
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "underlineColor": "#000000",
+          "applyTextColor": true,
+          "color": "#FF4400",
+          "applyBackgroundColor": false,
+          "background": null,
+          "isIconPresent": false,
+          "iconPosition": "left",
+          "iconColor": "#e66c37",
+          "icon": "chevron-up",
+          "iconType": "icon",
+          "isCustomIcon": false,
+          "customIconBase64Value": "",
+          "customIconName": "",
+          "text": "",
+          "textDetailPosition": "none",
+          "shapeCount": 5,
+          "shapeColor": "#e66c37",
+          "ratingDetailPosition": "none",
+          "lineColor": "#666666",
+          "lineStyle": 1,
+          "iconGroupName": "accept",
+          "textGroupName": "segmentation"
+        },
+        {
+          "enabled": true,
+          "highlightedMeasure": "delPYPL_PER",
+          "name": "delPYPL_PER-340318089",
+          "ruleType": "rule",
+          "displayName": "PL - PY % <= -10",
+          "basedOn": "PY",
+          "excludeRowTotal": false,
+          "excludeColumnTotal": false,
+          "ruleFor": "both",
+          "columnRuleType": "default",
+          "classificationPosition": "left",
+          "colorScaleApplyTo": "seq",
+          "isIconGroupAltered": false,
+          "autoFontColor": true,
+          "colorOnly": false,
+          "invertColor": false,
+          "colorScaleColorFor": "font",
+          "colorScheme": {
+            "selectedColorScheme": "Blues",
+            "numberOfRanges": 5,
+            "colors": [
+              "#d0e1f2",
+              "#94c4df",
+              "#4a98c9",
+              "#1764ab",
+              "#08306b"
+            ],
+            "minColor": "red",
+            "middleColor": "blue",
+            "maxColor": "green"
+          },
+          "classificationType": "icon",
+          "enableCustom": false,
+          "isTextGroupAltered": false,
+          "targetValues": [],
+          "targetValueType": "percent",
+          "iconGroupValues": [],
+          "textGroupValues": [],
+          "rankingBuckets": [],
+          "rankingBucketsValueType": "percent",
+          "iconGroupValueType": "percent",
+          "textGroupValueType": "percent",
+          "textColorFor": "font",
+          "ratingIcons": [
+            "cross",
+            "alert",
+            "tick"
+          ],
+          "conditionalOperator": "or",
+          "conditions": [
+            {
+              "name": "Condition 0",
+              "basedOn": "delPYPL_PER",
+              "conditionType": "singleMeasure",
+              "valueType": "static",
+              "comparisonMeasure": "delPYPL_PER",
+              "operator": "<=",
+              "comparisonValue": -10,
+              "from": 0,
+              "to": 100,
+              "aggregationType": "includes",
+              "calculationType1": "value",
+              "calculationValue1": 0,
+              "calculationMeasure1": "PY",
+              "calculationOperator": "+",
+              "calculationType2": "measure",
+              "calculationValue2": 100,
+              "calculationMeasure2": "PY",
+              "dimension": "",
+              "dimensionMembers": [],
+              "comparisonText": "",
+              "count": 10,
+              "fromMeasure": "PY",
+              "toMeasure": "PY"
+            }
+          ],
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "underlineColor": "#000000",
+          "applyTextColor": true,
+          "color": "#FF4400",
+          "applyBackgroundColor": false,
+          "background": null,
+          "isIconPresent": false,
+          "iconPosition": "left",
+          "iconColor": "#e66c37",
+          "icon": "chevron-up",
+          "iconType": "icon",
+          "isCustomIcon": false,
+          "customIconBase64Value": "",
+          "customIconName": "",
+          "text": "",
+          "textDetailPosition": "none",
+          "shapeCount": 5,
+          "shapeColor": "#e66c37",
+          "ratingDetailPosition": "none",
+          "lineColor": "#666666",
+          "lineStyle": 1,
+          "iconGroupName": "accept",
+          "textGroupName": "segmentation"
+        },
+        {
+          "enabled": true,
+          "highlightedMeasure": "delFCPY_PER",
+          "name": "delFCPY_PER1138093097",
+          "ruleType": "rule",
+          "displayName": "FC - PY % <= -10",
+          "basedOn": "PY",
+          "excludeRowTotal": false,
+          "excludeColumnTotal": false,
+          "ruleFor": "both",
+          "columnRuleType": "default",
+          "classificationPosition": "left",
+          "colorScaleApplyTo": "seq",
+          "isIconGroupAltered": false,
+          "autoFontColor": true,
+          "colorOnly": false,
+          "invertColor": false,
+          "colorScaleColorFor": "font",
+          "colorScheme": {
+            "selectedColorScheme": "Blues",
+            "numberOfRanges": 5,
+            "colors": [
+              "#d0e1f2",
+              "#94c4df",
+              "#4a98c9",
+              "#1764ab",
+              "#08306b"
+            ],
+            "minColor": "red",
+            "middleColor": "blue",
+            "maxColor": "green"
+          },
+          "classificationType": "icon",
+          "enableCustom": false,
+          "isTextGroupAltered": false,
+          "targetValues": [],
+          "targetValueType": "percent",
+          "iconGroupValues": [],
+          "textGroupValues": [],
+          "rankingBuckets": [],
+          "rankingBucketsValueType": "percent",
+          "iconGroupValueType": "percent",
+          "textGroupValueType": "percent",
+          "textColorFor": "font",
+          "ratingIcons": [
+            "cross",
+            "alert",
+            "tick"
+          ],
+          "conditionalOperator": "or",
+          "conditions": [
+            {
+              "name": "Condition 0",
+              "basedOn": "delFCPY_PER",
+              "conditionType": "singleMeasure",
+              "valueType": "static",
+              "comparisonMeasure": "delFCPY_PER",
+              "operator": "<=",
+              "comparisonValue": -10,
+              "from": 0,
+              "to": 100,
+              "aggregationType": "includes",
+              "calculationType1": "value",
+              "calculationValue1": 0,
+              "calculationMeasure1": "PY",
+              "calculationOperator": "+",
+              "calculationType2": "measure",
+              "calculationValue2": 100,
+              "calculationMeasure2": "PY",
+              "dimension": "",
+              "dimensionMembers": [],
+              "comparisonText": "",
+              "count": 10,
+              "fromMeasure": "PY",
+              "toMeasure": "PY"
+            }
+          ],
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "underlineColor": "#000000",
+          "applyTextColor": true,
+          "color": "#FF4400",
+          "applyBackgroundColor": false,
+          "background": null,
+          "isIconPresent": false,
+          "iconPosition": "left",
+          "iconColor": "#e66c37",
+          "icon": "chevron-up",
+          "iconType": "icon",
+          "isCustomIcon": false,
+          "customIconBase64Value": "",
+          "customIconName": "",
+          "text": "",
+          "textDetailPosition": "none",
+          "shapeCount": 5,
+          "shapeColor": "#e66c37",
+          "ratingDetailPosition": "none",
+          "lineColor": "#666666",
+          "lineStyle": 1,
+          "iconGroupName": "accept",
+          "textGroupName": "segmentation"
+        },
+        {
+          "enabled": true,
+          "highlightedMeasure": "delFCPL_PER",
+          "name": "delFCPL_PER-1413848124",
+          "ruleType": "rule",
+          "displayName": "FC - PL % <= -10",
+          "basedOn": "PY",
+          "excludeRowTotal": false,
+          "excludeColumnTotal": false,
+          "ruleFor": "both",
+          "columnRuleType": "default",
+          "classificationPosition": "left",
+          "colorScaleApplyTo": "seq",
+          "isIconGroupAltered": false,
+          "autoFontColor": true,
+          "colorOnly": false,
+          "invertColor": false,
+          "colorScaleColorFor": "font",
+          "colorScheme": {
+            "selectedColorScheme": "Blues",
+            "numberOfRanges": 5,
+            "colors": [
+              "#d0e1f2",
+              "#94c4df",
+              "#4a98c9",
+              "#1764ab",
+              "#08306b"
+            ],
+            "minColor": "red",
+            "middleColor": "blue",
+            "maxColor": "green"
+          },
+          "classificationType": "icon",
+          "enableCustom": false,
+          "isTextGroupAltered": false,
+          "targetValues": [],
+          "targetValueType": "percent",
+          "iconGroupValues": [],
+          "textGroupValues": [],
+          "rankingBuckets": [],
+          "rankingBucketsValueType": "percent",
+          "iconGroupValueType": "percent",
+          "textGroupValueType": "percent",
+          "textColorFor": "font",
+          "ratingIcons": [
+            "cross",
+            "alert",
+            "tick"
+          ],
+          "conditionalOperator": "or",
+          "conditions": [
+            {
+              "name": "Condition 0",
+              "basedOn": "delFCPL_PER",
+              "conditionType": "singleMeasure",
+              "valueType": "static",
+              "comparisonMeasure": "delFCPL_PER",
+              "operator": "<=",
+              "comparisonValue": -10,
+              "from": 0,
+              "to": 100,
+              "aggregationType": "includes",
+              "calculationType1": "value",
+              "calculationValue1": 0,
+              "calculationMeasure1": "PY",
+              "calculationOperator": "+",
+              "calculationType2": "measure",
+              "calculationValue2": 100,
+              "calculationMeasure2": "PY",
+              "dimension": "",
+              "dimensionMembers": [],
+              "comparisonText": "",
+              "count": 10,
+              "fromMeasure": "PY",
+              "toMeasure": "PY"
+            }
+          ],
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "underlineColor": "#000000",
+          "applyTextColor": true,
+          "color": "#FF4400",
+          "applyBackgroundColor": false,
+          "background": null,
+          "isIconPresent": false,
+          "iconPosition": "left",
+          "iconColor": "#e66c37",
+          "icon": "chevron-up",
+          "iconType": "icon",
+          "isCustomIcon": false,
+          "customIconBase64Value": "",
+          "customIconName": "",
+          "text": "",
+          "textDetailPosition": "none",
+          "shapeCount": 5,
+          "shapeColor": "#e66c37",
+          "ratingDetailPosition": "none",
+          "lineColor": "#666666",
+          "lineStyle": 1,
+          "iconGroupName": "accept",
+          "textGroupName": "segmentation"
+        },
+        {
+          "enabled": true,
+          "highlightedMeasure": "AC",
+          "measureName": "Sum(SalesbyRegion.Actuals)",
+          "name": "-1764377165",
+          "ruleType": "rule",
+          "displayName": "Rule 1",
+          "basedOn": "AC",
+          "excludeRowTotal": false,
+          "excludeColumnTotal": false,
+          "ruleFor": "child",
+          "columnRuleType": "default",
+          "classificationPosition": "left",
+          "colorScaleApplyTo": "seq",
+          "isIconGroupAltered": false,
+          "isTextGroupAltered": false,
+          "autoFontColor": true,
+          "colorOnly": false,
+          "invertColor": false,
+          "colorScaleColorFor": "background",
+          "colorScheme": {
+            "selectedColorScheme": "Blues",
+            "numberOfRanges": 5,
+            "colors": [
+              "#d0e1f2",
+              "#94c4df",
+              "#4a98c9",
+              "#1764ab",
+              "#08306b"
+            ],
+            "minColor": "red",
+            "middleColor": "blue",
+            "maxColor": "green"
+          },
+          "classificationType": "icon",
+          "enableCustom": false,
+          "textGroupName": "segmentation",
+          "targetValues": [
+            {
+              "id": "-1574016402",
+              "from": "MIN",
+              "to": 12682.67,
+              "fromPercentage": 0,
+              "toPercentage": 10,
+              "color": "rgba(230,108,55,0.8)"
+            },
+            {
+              "id": "1496892864",
+              "from": 12682.67,
+              "to": 24997.33,
+              "fromPercentage": 10,
+              "toPercentage": 30,
+              "color": "rgba(217,179,0,0.8)"
+            },
+            {
+              "id": "1191136293",
+              "from": 24997.33,
+              "to": "MAX",
+              "fromPercentage": 30,
+              "toPercentage": 100,
+              "color": "rgba(0,128,0,0.8)"
+            }
+          ],
+          "targetValueType": "percent",
+          "iconGroupValues": [
+            {
+              "id": "1021342205",
+              "from": "MIN",
+              "to": 12682.67,
+              "fromPercentage": 0,
+              "toPercentage": 10,
+              "color": "rgba(230,108,55,0.8)",
+              "iconConfig": {
+                "icon": "cross",
+                "isCustomIcon": false,
+                "customIconBase64Value": ""
+              }
+            },
+            {
+              "id": "-1388177383",
+              "from": 12682.67,
+              "to": 24997.33,
+              "fromPercentage": 10,
+              "toPercentage": 30,
+              "color": "rgba(217,179,0,0.8)",
+              "iconConfig": {
+                "icon": "alert",
+                "isCustomIcon": false,
+                "customIconBase64Value": ""
+              }
+            },
+            {
+              "id": "351838903",
+              "from": 24997.33,
+              "to": "MAX",
+              "fromPercentage": 30,
+              "toPercentage": 100,
+              "color": "rgba(0,128,0,0.8)",
+              "iconConfig": {
+                "icon": "tick",
+                "isCustomIcon": false,
+                "customIconBase64Value": ""
+              }
+            }
+          ],
+          "iconGroupName": "accept",
+          "textGroupValues": [
+            {
+              "id": "1452071149",
+              "from": "MIN",
+              "to": 7756.8,
+              "fromPercentage": 0,
+              "toPercentage": 20,
+              "color": "#D64550",
+              "text": "VERY LOW",
+              "iconConfig": {
+                "icon": "cross",
+                "isCustomIcon": false,
+                "customIconBase64Value": ""
+              }
+            },
+            {
+              "id": "1168193158",
+              "from": 7756.8,
+              "to": 15145.6,
+              "fromPercentage": 20,
+              "toPercentage": 40,
+              "color": "#F5C4AF",
+              "text": "LOW",
+              "iconConfig": {
+                "icon": "alert",
+                "isCustomIcon": false,
+                "customIconBase64Value": ""
+              }
+            },
+            {
+              "id": "-858668748",
+              "from": 15145.6,
+              "to": 22534.4,
+              "fromPercentage": 40,
+              "toPercentage": 60,
+              "color": "#f8ca50",
+              "text": "MEDIUM",
+              "iconConfig": {
+                "icon": "tick",
+                "isCustomIcon": false,
+                "customIconBase64Value": ""
+              }
+            },
+            {
+              "id": "-1489144124",
+              "from": 22534.4,
+              "to": 29923.2,
+              "fromPercentage": 60,
+              "toPercentage": 80,
+              "color": "#00B300",
+              "text": "HIGH",
+              "iconConfig": {
+                "isCustomIcon": false,
+                "customIconBase64Value": ""
+              }
+            },
+            {
+              "id": "-341267407",
+              "from": 29923.2,
+              "to": "MAX",
+              "fromPercentage": 80,
+              "toPercentage": 100,
+              "color": "#008000",
+              "text": "VERY HIGH",
+              "iconConfig": {
+                "isCustomIcon": false,
+                "customIconBase64Value": ""
+              }
+            }
+          ],
+          "rankingBuckets": [],
+          "rankingBucketsValueType": "percent",
+          "iconGroupValueType": "percent",
+          "textGroupValueType": "percent",
+          "textColorFor": "font",
+          "ratingIcons": [
+            "cross",
+            "alert",
+            "tick"
+          ],
+          "conditionalOperator": "or",
+          "conditions": [
+            {
+              "name": "Condition 0",
+              "basedOn": "AC",
+              "conditionType": "measureCalculation",
+              "valueType": "value",
+              "comparisonMeasure": "AC",
+              "operator": "<",
+              "comparisonValue": 0,
+              "from": 0,
+              "to": 100,
+              "aggregationType": "includes",
+              "calculationType1": "measure",
+              "calculationValue1": 0,
+              "calculationMeasure1": "AC1",
+              "calculationOperator": ".",
+              "calculationType2": "measure",
+              "calculationValue2": 100,
+              "calculationMeasure2": "AC",
+              "dimension": "",
+              "dimensionMembers": [],
+              "comparisonText": "",
+              "count": 10,
+              "fromMeasure": "AC",
+              "toMeasure": "AC"
+            }
+          ],
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "underlineColor": "#000000",
+          "applyTextColor": true,
+          "color": "#de6a73",
+          "applyBackgroundColor": false,
+          "background": null,
+          "lineColor": "#666666",
+          "lineStyle": 1,
+          "isIconPresent": false,
+          "iconPosition": "left",
+          "iconColor": "#e66c37",
+          "icon": "iso-down",
+          "iconType": "icon",
+          "isCustomIcon": false,
+          "customIconBase64Value": "",
+          "customIconName": "",
+          "text": "",
+          "textDetailPosition": "none",
+          "shapeCount": 5,
+          "shapeColor": "#e66c37",
+          "ratingDetailPosition": "none",
+          "ratingTextColor": "#e66c37"
+        },
+        {
+          "enabled": true,
+          "highlightedMeasure": "AC",
+          "measureName": "Sum(SalesbyRegion.Actuals)",
+          "name": "-1764377165--1038194403",
+          "ruleType": "rule",
+          "displayName": "Rule 1-copy",
+          "basedOn": "AC",
+          "excludeRowTotal": false,
+          "excludeColumnTotal": false,
+          "ruleFor": "child",
+          "columnRuleType": "default",
+          "classificationPosition": "left",
+          "colorScaleApplyTo": "seq",
+          "isIconGroupAltered": false,
+          "isTextGroupAltered": false,
+          "autoFontColor": true,
+          "colorOnly": false,
+          "invertColor": false,
+          "colorScaleColorFor": "background",
+          "colorScheme": {
+            "selectedColorScheme": "Blues",
+            "numberOfRanges": 5,
+            "colors": [
+              "#d0e1f2",
+              "#94c4df",
+              "#4a98c9",
+              "#1764ab",
+              "#08306b"
+            ],
+            "minColor": "red",
+            "middleColor": "blue",
+            "maxColor": "green"
+          },
+          "classificationType": "icon",
+          "enableCustom": false,
+          "textGroupName": "segmentation",
+          "targetValues": [
+            {
+              "id": "-1574016402",
+              "from": "MIN",
+              "to": 12682.67,
+              "fromPercentage": 0,
+              "toPercentage": 10,
+              "color": "rgba(230,108,55,0.8)"
+            },
+            {
+              "id": "1496892864",
+              "from": 12682.67,
+              "to": 24997.33,
+              "fromPercentage": 10,
+              "toPercentage": 30,
+              "color": "rgba(217,179,0,0.8)"
+            },
+            {
+              "id": "1191136293",
+              "from": 24997.33,
+              "to": "MAX",
+              "fromPercentage": 30,
+              "toPercentage": 100,
+              "color": "rgba(0,128,0,0.8)"
+            }
+          ],
+          "targetValueType": "percent",
+          "iconGroupValues": [
+            {
+              "id": "1021342205",
+              "from": "MIN",
+              "to": 12682.67,
+              "fromPercentage": 0,
+              "toPercentage": 10,
+              "color": "rgba(230,108,55,0.8)",
+              "iconConfig": {
+                "icon": "cross",
+                "isCustomIcon": false,
+                "customIconBase64Value": ""
+              }
+            },
+            {
+              "id": "-1388177383",
+              "from": 12682.67,
+              "to": 24997.33,
+              "fromPercentage": 10,
+              "toPercentage": 30,
+              "color": "rgba(217,179,0,0.8)",
+              "iconConfig": {
+                "icon": "alert",
+                "isCustomIcon": false,
+                "customIconBase64Value": ""
+              }
+            },
+            {
+              "id": "351838903",
+              "from": 24997.33,
+              "to": "MAX",
+              "fromPercentage": 30,
+              "toPercentage": 100,
+              "color": "rgba(0,128,0,0.8)",
+              "iconConfig": {
+                "icon": "tick",
+                "isCustomIcon": false,
+                "customIconBase64Value": ""
+              }
+            }
+          ],
+          "iconGroupName": "accept",
+          "textGroupValues": [
+            {
+              "id": "1452071149",
+              "from": "MIN",
+              "to": 7756.8,
+              "fromPercentage": 0,
+              "toPercentage": 20,
+              "color": "#D64550",
+              "text": "VERY LOW",
+              "iconConfig": {
+                "icon": "cross",
+                "isCustomIcon": false,
+                "customIconBase64Value": ""
+              }
+            },
+            {
+              "id": "1168193158",
+              "from": 7756.8,
+              "to": 15145.6,
+              "fromPercentage": 20,
+              "toPercentage": 40,
+              "color": "#F5C4AF",
+              "text": "LOW",
+              "iconConfig": {
+                "icon": "alert",
+                "isCustomIcon": false,
+                "customIconBase64Value": ""
+              }
+            },
+            {
+              "id": "-858668748",
+              "from": 15145.6,
+              "to": 22534.4,
+              "fromPercentage": 40,
+              "toPercentage": 60,
+              "color": "#f8ca50",
+              "text": "MEDIUM",
+              "iconConfig": {
+                "icon": "tick",
+                "isCustomIcon": false,
+                "customIconBase64Value": ""
+              }
+            },
+            {
+              "id": "-1489144124",
+              "from": 22534.4,
+              "to": 29923.2,
+              "fromPercentage": 60,
+              "toPercentage": 80,
+              "color": "#00B300",
+              "text": "HIGH",
+              "iconConfig": {
+                "isCustomIcon": false,
+                "customIconBase64Value": ""
+              }
+            },
+            {
+              "id": "-341267407",
+              "from": 29923.2,
+              "to": "MAX",
+              "fromPercentage": 80,
+              "toPercentage": 100,
+              "color": "#008000",
+              "text": "VERY HIGH",
+              "iconConfig": {
+                "isCustomIcon": false,
+                "customIconBase64Value": ""
+              }
+            }
+          ],
+          "rankingBuckets": [],
+          "rankingBucketsValueType": "percent",
+          "iconGroupValueType": "percent",
+          "textGroupValueType": "percent",
+          "textColorFor": "font",
+          "ratingIcons": [
+            "cross",
+            "alert",
+            "tick"
+          ],
+          "conditionalOperator": "or",
+          "conditions": [
+            {
+              "name": "Condition 0",
+              "basedOn": "AC",
+              "conditionType": "measureCalculation",
+              "valueType": "value",
+              "comparisonMeasure": "AC",
+              "operator": ">",
+              "comparisonValue": 0,
+              "from": 0,
+              "to": 100,
+              "aggregationType": "includes",
+              "calculationType1": "measure",
+              "calculationValue1": 0,
+              "calculationMeasure1": "AC1",
+              "calculationOperator": ".",
+              "calculationType2": "measure",
+              "calculationValue2": 100,
+              "calculationMeasure2": "AC",
+              "dimension": "",
+              "dimensionMembers": [],
+              "comparisonText": "",
+              "count": 10,
+              "fromMeasure": "AC",
+              "toMeasure": "AC"
+            }
+          ],
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "underlineColor": "#000000",
+          "applyTextColor": true,
+          "color": "rgba(124,239,124,0.87)",
+          "applyBackgroundColor": false,
+          "background": null,
+          "lineColor": "#666666",
+          "lineStyle": 1,
+          "isIconPresent": false,
+          "iconPosition": "left",
+          "iconColor": "#e66c37",
+          "icon": "iso-down",
+          "iconType": "icon",
+          "isCustomIcon": false,
+          "customIconBase64Value": "",
+          "customIconName": "",
+          "text": "",
+          "textDetailPosition": "none",
+          "shapeCount": 5,
+          "shapeColor": "#e66c37",
+          "ratingDetailPosition": "none",
+          "ratingTextColor": "#e66c37"
+        },
+        {
+          "enabled": true,
+          "highlightedMeasure": "AC",
+          "measureName": "Sum(SalesbyRegion.Actuals)",
+          "name": "-1764377165--1038194403--47596934",
+          "ruleType": "rule",
+          "displayName": "Rule 1-copy-copy",
+          "basedOn": "AC",
+          "excludeRowTotal": false,
+          "excludeColumnTotal": false,
+          "ruleFor": "child",
+          "columnRuleType": "default",
+          "classificationPosition": "left",
+          "colorScaleApplyTo": "seq",
+          "isIconGroupAltered": false,
+          "isTextGroupAltered": false,
+          "autoFontColor": true,
+          "colorOnly": false,
+          "invertColor": false,
+          "colorScaleColorFor": "background",
+          "colorScheme": {
+            "selectedColorScheme": "Blues",
+            "numberOfRanges": 5,
+            "colors": [
+              "#d0e1f2",
+              "#94c4df",
+              "#4a98c9",
+              "#1764ab",
+              "#08306b"
+            ],
+            "minColor": "red",
+            "middleColor": "blue",
+            "maxColor": "green"
+          },
+          "classificationType": "icon",
+          "enableCustom": false,
+          "textGroupName": "segmentation",
+          "targetValues": [
+            {
+              "id": "-1574016402",
+              "from": "MIN",
+              "to": 12682.67,
+              "fromPercentage": 0,
+              "toPercentage": 10,
+              "color": "rgba(230,108,55,0.8)"
+            },
+            {
+              "id": "1496892864",
+              "from": 12682.67,
+              "to": 24997.33,
+              "fromPercentage": 10,
+              "toPercentage": 30,
+              "color": "rgba(217,179,0,0.8)"
+            },
+            {
+              "id": "1191136293",
+              "from": 24997.33,
+              "to": "MAX",
+              "fromPercentage": 30,
+              "toPercentage": 100,
+              "color": "rgba(0,128,0,0.8)"
+            }
+          ],
+          "targetValueType": "percent",
+          "iconGroupValues": [
+            {
+              "id": "1021342205",
+              "from": "MIN",
+              "to": 12682.67,
+              "fromPercentage": 0,
+              "toPercentage": 10,
+              "color": "rgba(230,108,55,0.8)",
+              "iconConfig": {
+                "icon": "cross",
+                "isCustomIcon": false,
+                "customIconBase64Value": ""
+              }
+            },
+            {
+              "id": "-1388177383",
+              "from": 12682.67,
+              "to": 24997.33,
+              "fromPercentage": 10,
+              "toPercentage": 30,
+              "color": "rgba(217,179,0,0.8)",
+              "iconConfig": {
+                "icon": "alert",
+                "isCustomIcon": false,
+                "customIconBase64Value": ""
+              }
+            },
+            {
+              "id": "351838903",
+              "from": 24997.33,
+              "to": "MAX",
+              "fromPercentage": 30,
+              "toPercentage": 100,
+              "color": "rgba(0,128,0,0.8)",
+              "iconConfig": {
+                "icon": "tick",
+                "isCustomIcon": false,
+                "customIconBase64Value": ""
+              }
+            }
+          ],
+          "iconGroupName": "accept",
+          "textGroupValues": [
+            {
+              "id": "1452071149",
+              "from": "MIN",
+              "to": 7756.8,
+              "fromPercentage": 0,
+              "toPercentage": 20,
+              "color": "#D64550",
+              "text": "VERY LOW",
+              "iconConfig": {
+                "icon": "cross",
+                "isCustomIcon": false,
+                "customIconBase64Value": ""
+              }
+            },
+            {
+              "id": "1168193158",
+              "from": 7756.8,
+              "to": 15145.6,
+              "fromPercentage": 20,
+              "toPercentage": 40,
+              "color": "#F5C4AF",
+              "text": "LOW",
+              "iconConfig": {
+                "icon": "alert",
+                "isCustomIcon": false,
+                "customIconBase64Value": ""
+              }
+            },
+            {
+              "id": "-858668748",
+              "from": 15145.6,
+              "to": 22534.4,
+              "fromPercentage": 40,
+              "toPercentage": 60,
+              "color": "#f8ca50",
+              "text": "MEDIUM",
+              "iconConfig": {
+                "icon": "tick",
+                "isCustomIcon": false,
+                "customIconBase64Value": ""
+              }
+            },
+            {
+              "id": "-1489144124",
+              "from": 22534.4,
+              "to": 29923.2,
+              "fromPercentage": 60,
+              "toPercentage": 80,
+              "color": "#00B300",
+              "text": "HIGH",
+              "iconConfig": {
+                "isCustomIcon": false,
+                "customIconBase64Value": ""
+              }
+            },
+            {
+              "id": "-341267407",
+              "from": 29923.2,
+              "to": "MAX",
+              "fromPercentage": 80,
+              "toPercentage": 100,
+              "color": "#008000",
+              "text": "VERY HIGH",
+              "iconConfig": {
+                "isCustomIcon": false,
+                "customIconBase64Value": ""
+              }
+            }
+          ],
+          "rankingBuckets": [],
+          "rankingBucketsValueType": "percent",
+          "iconGroupValueType": "percent",
+          "textGroupValueType": "percent",
+          "textColorFor": "font",
+          "ratingIcons": [
+            "cross",
+            "alert",
+            "tick"
+          ],
+          "conditionalOperator": "or",
+          "conditions": [
+            {
+              "name": "Condition 0",
+              "basedOn": "AC",
+              "conditionType": "measureCalculation",
+              "valueType": "value",
+              "comparisonMeasure": "AC",
+              "operator": "==",
+              "comparisonValue": 0,
+              "from": 0,
+              "to": 100,
+              "aggregationType": "includes",
+              "calculationType1": "measure",
+              "calculationValue1": 0,
+              "calculationMeasure1": "AC1",
+              "calculationOperator": ".",
+              "calculationType2": "measure",
+              "calculationValue2": 100,
+              "calculationMeasure2": "AC",
+              "dimension": "",
+              "dimensionMembers": [],
+              "comparisonText": "",
+              "count": 10,
+              "fromMeasure": "AC",
+              "toMeasure": "AC"
+            }
+          ],
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "underlineColor": "#000000",
+          "applyTextColor": true,
+          "color": "#f0e199",
+          "applyBackgroundColor": false,
+          "background": null,
+          "lineColor": "#666666",
+          "lineStyle": 1,
+          "isIconPresent": false,
+          "iconPosition": "left",
+          "iconColor": "#e66c37",
+          "icon": "iso-down",
+          "iconType": "icon",
+          "isCustomIcon": false,
+          "customIconBase64Value": "",
+          "customIconName": "",
+          "text": "",
+          "textDetailPosition": "none",
+          "shapeCount": 5,
+          "shapeColor": "#e66c37",
+          "ratingDetailPosition": "none",
+          "ratingTextColor": "#e66c37"
+        }
+      ]
+    },
+    "kpiExplorerCf": {
+      "rules": []
+    },
+    "dynamicRowConfig": [],
+    "columnSelection": false,
+    "measureBasedHeader": true,
+    "shouldAggregate": false,
+    "layoutType": "matrix",
+    "summarySettings": {
+      "forceMultiLine": "false",
+      "rowLayout": "multi",
+      "columnCount": 2,
+      "autoFit": true,
+      "detailGridHeight": 300,
+      "detailXPadding": 10,
+      "detailYPadding": 10,
+      "detailBreakBy": "",
+      "showAggregation": false,
+      "detailLayout": "table",
+      "pageFilter": [],
+      "showGroupBorder": true,
+      "groupBorderGap": 10,
+      "showSummaryHeader": true,
+      "showSummaryFooter": false
+    },
+    "manageMeasures": [
+      {
+        "label": "Actuals",
+        "id": "AC",
+        "name": "Sum(SalesbyRegion.Actuals)",
+        "order": 0,
+        "visible": false,
+        "measureType": "data",
+        "isOriginalMeasure": true,
+        "isNumericMeasure": true,
+        "width": 0,
+        "associatedColIds": [
+          "Grand__Total__AC"
+        ],
+        "isWidthEnabled": true,
+        "chartType": "table",
+        "disabled": false,
+        "operation": "IND",
+        "formulaType": "CURR"
+      },
+      {
+        "id": "AC1",
+        "label": "Target",
+        "name": "Sum(SalesbyRegion.Target)",
+        "order": 1,
+        "visible": false,
+        "measureType": "data",
+        "isOriginalMeasure": true,
+        "isNumericMeasure": true,
+        "width": 65,
+        "associatedColIds": [
+          "Grand__Total__AC1"
+        ],
+        "isWidthEnabled": true,
+        "chartType": "table",
+        "disabled": false,
+        "operation": "IND",
+        "formulaType": "EXTRA"
+      },
+      {
+        "id": "bullet_-145538329",
+        "order": 2,
+        "label": "Target Vs Actuals ",
+        "name": "bullet_-145538329",
+        "visible": true,
+        "measureType": "bullet",
+        "dependentMeasure": "-145538329",
+        "isOriginalMeasure": false,
+        "width": 400,
+        "associatedColIds": [
+          "Grand__Total_bullet_-145538329"
+        ],
+        "isWidthEnabled": true,
+        "chartType": "bullet"
+      }
+    ],
+    "invertRows": {
+      "valueRow": {}
+    },
+    "resultRows": {},
+    "invertSettings": "additionMethod",
+    "columnMeta": {
+      "Grand__Total_bullet": {
+        "width": 347,
+        "isResize": true
+      },
+      "Grand__Total__AC": {
+        "width": 67,
+        "isResize": true
+      },
+      "Grand__Total__AC1": {
+        "width": 65,
+        "isResize": true
+      }
+    },
+    "columnExpandCollapse": {},
+    "chartTypes": {
+      "showAllTable": false,
+      "Actuals - Target": "table",
+      "chartType": "bullet"
+    },
+    "headerLabelFormat": {
+      "measureHeader": {
+        "1": true,
+        "6": 3,
+        "16": 14
+      }
+    },
+    "differenceHeader": false,
+    "commentsColumn": false,
+    "expandRowLevel": null,
+    "rowCellFormatting": {},
+    "outliers": {
+      "enableOutlier": false,
+      "min": 0,
+      "max": 0
+    },
+    "rowExpandCollapseOptions": {
+      "rows": {},
+      "expandTillDescendant": {},
+      "gridState": 0,
+      "levelStates": [],
+      "maxLevelExpanded": null
+    },
+    "dynamicRowIcon": true,
+    "calcCellIcon": true,
+    "showChildCount": false,
+    "filter": {
+      "rules": [],
+      "combinator": "and",
+      "not": false
+    },
+    "alertFilter": [],
+    "search": {
+      "category": null,
+      "searchString": "",
+      "tokens": []
+    },
+    "calculatedCells": [],
+    "measureAggMap": {},
+    "virtualRoleColumnMap": {},
+    "absoluteSort": false,
+    "absoluteSearch": true,
+    "replaceActualWithForecast": false,
+    "pagination": {
+      "enable": false,
+      "pageRowCount": 10,
+      "autoRowCount": "hide",
+      "view": "browser",
+      "pageNo": 0,
+      "paginationHeight": 20,
+      "currentPageNumber": 0
+    },
+    "miscellaneous": {
+      "enableFooter": false,
+      "showInfoRiverLogo": true,
+      "footerUrl": "https://inforiver.com/",
+      "footerText": "inforiver.com",
+      "showTooltip": true
+    },
+    "notes": {
+      "show": true,
+      "displayAnnotations": "view",
+      "autoFit": true,
+      "annotations": [],
+      "columnAnnotations": [],
+      "indicatorType": "numbered",
+      "indicatorPosition": "default",
+      "persistProperty": {
+        "bgColor": "rgba(255,255,255,0.9)",
+        "lineColor": "rgba(3,169,244,0.7)",
+        "borderColor": "rgba(3,169,244,0.7)",
+        "iconColor": "rgba(0, 120, 212, 0.7)",
+        "displayOptions": 4,
+        "iconSize": 14
+      },
+      "showFootnote": false,
+      "rowLevelComments": false,
+      "enableReply": true,
+      "annotationNote": "grid",
+      "annotationHeight": 15,
+      "annotationColumnCount": 2,
+      "indicatorSize": 12,
+      "footNoteHeight": 15,
+      "footNoteColumn": 3,
+      "showTimestamp": true,
+      "showUsername": true,
+      "defaultReference": false
+    },
+    "globalStyles": {
+      "3": "#cccccc",
+      "fontFamily": "Arial",
+      "fontSize": "10",
+      "fontWeight": "normal",
+      "fontStyle": "normal",
+      "varianceBarFont": 12,
+      "headerFormat": false,
+      "headerHeight": 30,
+      "headerFontSize": "14px",
+      "headerFontColor": "#000000",
+      "rotateLabels": {
+        "enabled": false,
+        "angle": 0
+      },
+      "headerLabelOrient": "initial",
+      "isHeightUpdatedManually": false,
+      "isFontFamilyChanged": false,
+      "textColor": "#212121",
+      "rowHeight": 45,
+      "hierarchyfontWeight": "bold",
+      "hierarchyFontStyle": "normal",
+      "subTotalFontWeight": "semiBold"
+    },
+    "breakConfig": {
+      "sectionBreak": {
+        "enabled": false,
+        "breakBy": ""
+      },
+      "pageBreak": {
+        "rowBreakBy": "",
+        "columnBreakBy": ""
+      }
+    },
+    "interactivity": {},
+    "columnGroupConfig": {},
+    "rowHeightsConfig": {
+      "row": {},
+      "level": {}
+    },
+    "readViewToolbar": {
+      "show": true,
+      "readViewToolbarMode": "minimal",
+      "selection": false,
+      "showTooltip": true
+    },
+    "readViewConfig": {
+      "home": {
+        "alignment": true,
+        "style": true,
+        "number": true,
+        "chart": true,
+        "analyze": true,
+        "notes": true,
+        "setup": true
+      },
+      "advanced": {
+        "reporting": true,
+        "cells": true,
+        "measure": true,
+        "monitor": true
+      },
+      "export": {
+        "pdf": true,
+        "excel": true,
+        "visual": true,
+        "writeBack": true,
+        "schedule": true
+      },
+      "advancedTabMenu": {
+        "rowColumnConfig": true
+      }
+    },
+    "totalCustomTitle": {
+      "grandTotalTitle": "All",
+      "columnGrandTotalTitle": "Grand Total",
+      "totalColumnSuffix": "Total",
+      "steppedSubTotalTitle": "none",
+      "steppedSubTotalText": "Total",
+      "splitTotalRowSuffix": "Total"
+    },
+    "subTotalHeight": 10,
+    "grandTotalHeight": 10,
+    "visualId": "NFPBAJHFFOCMNHA",
+    "license": {
+      "key": "premium",
+      "bannerMessage": "Your trial has expired. Upgrade your subscription to continue using Inforiver.",
+      "buttonText": "Upgrade",
+      "freeLicenceBanner": true,
+      "features": {}
+    },
+    "prefixNullWithUnit": true,
+    "showVisualSumType": true,
+    "indianNumberSystem": false,
+    "enableColumnAsMeasure": false,
+    "autoFitOptions": {
+      "autoFit": false,
+      "lockColumnWidth": false,
+      "uniformColumnWidth": {
+        "enabled": false,
+        "width": null
+      }
+    },
+    "chartStyles": {
+      "variancePin": "square",
+      "showDataLabel": true,
+      "isBarOverlap": false
+    },
+    "commonRunTimeProps": {
+      "showBrokenImage": false
+    },
+    "layout": "HIERARCHICAL",
+    "formatConfig": {
+      "row": {},
+      "column": {},
+      "cell": {
+        "Accessories#$@row_label": [
+          {
+            "order": 0,
+            "format": {
+              "16": 12
+            }
+          }
+        ],
+        "Appliances#$@row_label": [
+          {
+            "order": 1,
+            "format": {
+              "16": 12
+            }
+          }
+        ],
+        "Art#$@row_label": [
+          {
+            "order": 2,
+            "format": {
+              "16": 12
+            }
+          }
+        ],
+        "Binders#$@row_label": [
+          {
+            "order": 3,
+            "format": {
+              "16": 12
+            }
+          }
+        ],
+        "Bookcases#$@row_label": [
+          {
+            "order": 4,
+            "format": {
+              "16": 12
+            }
+          }
+        ],
+        "Chairs#$@row_label": [
+          {
+            "order": 5,
+            "format": {
+              "16": 12
+            }
+          }
+        ],
+        "Copiers#$@row_label": [
+          {
+            "order": 6,
+            "format": {
+              "16": 12
+            }
+          }
+        ],
+        "Envelopes#$@row_label": [
+          {
+            "order": 7,
+            "format": {
+              "16": 12
+            }
+          }
+        ],
+        "Fasteners#$@row_label": [
+          {
+            "order": 8,
+            "format": {
+              "16": 12
+            }
+          }
+        ],
+        "Furnishings#$@row_label": [
+          {
+            "order": 9,
+            "format": {
+              "16": 12
+            }
+          }
+        ],
+        "Labels#$@row_label": [
+          {
+            "order": 10,
+            "format": {
+              "16": 12
+            }
+          }
+        ],
+        "Machines#$@row_label": [
+          {
+            "order": 11,
+            "format": {
+              "16": 12
+            }
+          }
+        ],
+        "Paper#$@row_label": [
+          {
+            "order": 12,
+            "format": {
+              "16": 12
+            }
+          }
+        ],
+        "Phones#$@row_label": [
+          {
+            "order": 13,
+            "format": {
+              "16": 12
+            }
+          }
+        ],
+        "Storage#$@row_label": [
+          {
+            "order": 14,
+            "format": {
+              "16": 12
+            }
+          }
+        ],
+        "Supplies#$@row_label": [
+          {
+            "order": 15,
+            "format": {
+              "16": 12
+            }
+          }
+        ],
+        "Tables#$@row_label": [
+          {
+            "order": 16,
+            "format": {
+              "16": 12
+            }
+          }
+        ]
+      },
+      "measure": {
+        "-145538329": [
+          {
+            "order": 17,
+            "format": {
+              "11": 1
+            }
+          }
+        ]
+      },
+      "formatSize": 18,
+      "rowLevel": {},
+      "columnLevel": {}
+    },
+    "auditLog": [
+      {
+        "action": "REMOVE",
+        "meta": {
+          "name": "Invert additionMethod ",
+          "value": "removed"
+        },
+        "group": "INVERT",
+        "selection": [],
+        "timestamp": 1631186952349
+      },
+      {
+        "action": "REMOVE",
+        "meta": {
+          "name": "Invert additionMethod ",
+          "value": "removed"
+        },
+        "group": "INVERT",
+        "selection": [],
+        "timestamp": 1631186970815
+      },
+      {
+        "action": "REMOVE",
+        "meta": {
+          "name": "Invert additionMethod ",
+          "value": "removed"
+        },
+        "group": "INVERT",
+        "selection": [
+          {
+            "colId": "Grand__Total_bullet",
+            "mesColId": null,
+            "type": 3,
+            "columnHierarchy": [
+              "Grand Total",
+              "Actuals - Target"
+            ],
+            "rowHierarchy": []
+          }
+        ],
+        "timestamp": 1631632168519
+      },
+      {
+        "action": "ADD",
+        "meta": {
+          "name": "Changed visibility to ",
+          "value": "Show"
+        },
+        "group": "VISIBILITY",
+        "selection": [
+          {
+            "colId": null,
+            "type": 4,
+            "mesColId": "AC",
+            "columnHierarchy": [
+              "Actuals"
+            ],
+            "rowHierarchy": []
+          }
+        ],
+        "timestamp": 1642406609486
+      },
+      {
+        "action": "ADD",
+        "meta": {
+          "name": "Changed visibility to ",
+          "value": "Show"
+        },
+        "group": "VISIBILITY",
+        "selection": [
+          {
+            "colId": null,
+            "type": 4,
+            "mesColId": "AC1",
+            "columnHierarchy": [
+              "Target"
+            ],
+            "rowHierarchy": []
+          }
+        ],
+        "timestamp": 1642406611298
+      },
+      {
+        "action": "ADD",
+        "meta": {
+          "name": "Changed visibility to ",
+          "value": "Hidden"
+        },
+        "group": "VISIBILITY",
+        "selection": [
+          {
+            "colId": null,
+            "type": 4,
+            "mesColId": "AC",
+            "columnHierarchy": [
+              "Actuals"
+            ],
+            "rowHierarchy": []
+          }
+        ],
+        "timestamp": 1642406892293
+      },
+      {
+        "action": "ADD",
+        "meta": {
+          "name": "Changed visibility to ",
+          "value": "Hidden"
+        },
+        "group": "VISIBILITY",
+        "selection": [
+          {
+            "colId": null,
+            "type": 4,
+            "mesColId": "AC1",
+            "columnHierarchy": [
+              "Target"
+            ],
+            "rowHierarchy": []
+          }
+        ],
+        "timestamp": 1642406894783
+      }
+    ],
+    "columnHierarchyReorder": {
+      "colOrderConfig": {},
+      "colOrderConfigMeta": {}
+    },
+    "columnHierarchySort": {},
+    "pinnedRowIds": [],
+    "rowGroupConfig": {},
+    "compareHeader": {
+      "left": {
+        "label": "",
+        "values": []
+      },
+      "right": {
+        "label": "",
+        "values": []
+      }
+    },
+    "rowLabelMeta": {},
+    "searchEnable": false,
+    "toolBarReadViewCollapsed": false,
+    "toolbar": {
+      "currentTab": "",
+      "isPinned": false,
+      "showTabContent": false,
+      "showMinimalView": true,
+      "toolbarTheme": "light",
+      "showOnHover": true,
+      "enableHoverToolbar": true
+    },
+    "launchData": {
+      "showRowGrandTotal": true,
+      "columnSubTotalPosition": "right",
+      "rowSubTotalPosition": "above",
+      "showColumnGrandTotal": false,
+      "rowGrandTotalPosition": "above",
+      "columnGrandTotalPosition": "right",
+      "showCategorySign": false,
+      "showPagination": true,
+      "selectedTheme": "trafficlights",
+      "showCustomTitle": true
+    },
+    "urlMetaConfig": {
+      "hasURL": false,
+      "hasImg": false,
+      "urlColId": "",
+      "urlColIndex": null
+    },
+    "showGripper": true,
+    "showHeaderFooter": false,
+    "totalsDisplay": {
+      "showSubTotalsAsTable": true,
+      "showVarSubTotalsAsTable": false,
+      "showTotalAsTable": true,
+      "showVarTotalAsTable": false,
+      "showColumnGTAsTable": true,
+      "advancedSteppedLayout": false,
+      "removeSingleChildren": true
+    },
+    "labelColIndex": null,
+    "rowAutoGroupConfig": {
+      "ruleName": "none"
+    },
+    "recentColors": [
+      "#1aff1a",
+      "#00e600",
+      "#f0e199",
+      "#00b300",
+      "#FF000A",
+      "#ffffff",
+      "#73361c",
+      "#d64550",
+      "#ff0000",
+      "#cccccc"
+    ],
+    "frequentColors": [],
+    "tooltipOthersDimension": [],
+    "varianceInvertColumn": {},
+    "scaleDelta": {
+      "height": 0,
+      "width": 0,
+      "scale": 1
+    },
+    "hideRowChildren": [],
+    "hideExpandLevel": {},
+    "commentSettings": {
+      "rowLevelComments": false,
+      "expandRowLevelComments": false
+    },
+    "rulerMeta": {
+      "width": 20,
+      "showNumbers": false
+    },
+    "hideHeader": {
+      "hierarchyHeader": false
+    }
+  }

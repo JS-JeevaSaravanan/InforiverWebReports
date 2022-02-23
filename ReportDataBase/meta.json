@@ -187,7 +187,27 @@
                 "fileName":"cases_daily_report.json"
             }        
         ]
+    },
+
+    "sales_report":{
+        "name": "Sales Report",
+        "location": "sales_report/",
+        "pages":[
+            {
+                "label":"SalesByRegion1",
+                "fileName":"salesbyregion1.json"
+            },
+            {
+                "label":"SalesByRegion2",
+                "fileName":"salesbyregion2.json"
+            },
+            {
+                "label":"SalesByRegion3",
+                "fileName":"salesbyregion3.json"
+            }                        
+        ]
     }
+
     
 
     
