@@ -2,9 +2,7 @@ import { Loader } from "@visualbi/ibcs-variancechart/dist";
 import { SAMPLE_DATA } from './sample-data'
 import '@visualbi/ibcs-variancechart/dist/css/index.css';
 import { DEFAULT_PROPS } from "./default-props";
-import { EVENTS, fetchFromServer } from './utils';
-
-
+import { EVENTS, fetchFromServer, getAllUrlParams } from './utils';
 
 
 
@@ -53,10 +51,6 @@ function createNavBar(reportPages,selectedPage,pageJsons) {
 
 
 async function fetchAndRun() {
-    // baseDomain/reportName
-
-    // console.log(window.location.href)
-    // console.log(document.referrer)
 
     let pageJsons = [];
     let selectedPage = 1;
@@ -64,11 +58,8 @@ async function fetchAndRun() {
 
 
     const metaData = JSON.parse(await fetchFromServer(`${window.baseDomain}meta.json`));
-    // console.log(metaData)
-
-    const reportName = "amd";
-    const reportData = metaData[reportName]
-    // console.log('reportData',reportData)
+    const gotName = getAllUrlParams(window.location.href).name || '';
+    const reportData = metaData[gotName] || metaData["amd"];// TODO: Fall back
 
     const reportPagesLocation = reportData.location;
     const reportPages = reportData.pages;

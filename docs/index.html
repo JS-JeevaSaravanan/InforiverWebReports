@@ -5,8 +5,11 @@
     <style>
       html,
       body,
+
       #container {
         height: 100%;
+        font-family: 'Segoe UI',wf_segoe-ui_normal,helvetica,arial,sans-serif;
+      
       }
       .navItem {
         background-color: #ddd;
@@ -21,6 +24,8 @@
         border: thin dotted #666;
         font-size: 15px;
         z-index: 5;
+        font-family: 'Segoe UI',wf_segoe-ui_normal,helvetica,arial,sans-serif;
+      
       }
       .navItem:hover {
         background: #f2c811;
@@ -39,14 +44,14 @@
     </style>
     <link rel="stylesheet" href="./dist/style.css" />
     <script>
-      window.baseDomain = `ReportDataBase/`
+      window.baseDomain = `https://js-jeevasaravanan.github.io/InforiverWebReports/ReportDataBase/`
     </script>
       
   </head>
 
   <body>
 
-    <div style="height: 100%; width: 100%; display: block" >
+    <div id="outerContainer" style="height: 100%; width: 100%; display: block" >
       <div id="container" style="height: 96%; width: 100%; display: block"></div>    
       <div id="navBar" style="width: 90%; height: 10px;" ></div>
     </div>
