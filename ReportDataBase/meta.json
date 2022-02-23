@@ -168,6 +168,25 @@
                 "fileName":"profitability.json"
             } 
         ]
+    },
+
+    "covid_19_global_trends":{
+        "name": "COVID-19 Global Trends",
+        "location": "covid_19_global_trends/",
+        "pages":[
+            {
+                "label":"Cases Country Wise Trend",
+                "fileName":"cases_country_wise_trend.json"
+            },
+            {
+                "label":"Cases and Vaccination Across Countries",
+                "fileName":"cases_and_vaccination_across_countries.json"
+            },
+            {
+                "label":"Cases Daily Report",
+                "fileName":"cases_daily_report.json"
+            }        
+        ]
     }
     
 
