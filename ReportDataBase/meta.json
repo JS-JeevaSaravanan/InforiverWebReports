@@ -1,41 +1,175 @@
-
 {
-    
-    "demo":{
-        "location": "demo/",
-        "name":  "First Demo Data",
+    "amazon":{
+        "name": "Amazon",
+        "location": "amazon/",
         "pages":[
             {
-                "label": "FG-Demand",
-                "fileName":"fg-demand.json"
+                "label":"Income Statement",
+                "fileName":"income-statement.json"
             },{
-                "label": "April",
-                "fileName":"april.json"
+                "label":"Cash Flow",
+                "fileName":"cash-flow.json"    
             },{
-                "label": "Month",
-                "fileName":"month.json"
+                "label":"Balance Sheet",
+                "fileName":"balance-sheet.json"
             }
         ]
     },
-    "report1":{
-        "location": "report1/",
-        "name":"Report One",
+    "amd":{
+        "name": "AMD",
+        "location": "amd/",
         "pages":[
             {
-                "label": "April",
-                "fileName":"april.json"
+                "label":"P&L_GAAP",
+                "fileName":"pl-gaap.json"
             },{
-                "label": "Var Plan",
-                "fileName":"var-plan.json"
+                "label":"Balance Sheet",
+                "fileName":"balance-sheet.json"
+            },{
+                "label":"SEG1",
+                "fileName":"seg1.json"    
+            },{
+                "label":"Non-GAAP",
+                "fileName":"non-gaap.json"    
+            },{
+                "label":"Non-GAAP_2",
+                "fileName":"non-gaap-2.json"    
             }
         ]
+    },
+    "apple":{
+        "name": "Apple",
+        "location": "apple/",
+        "pages":[
+            {
+                "label":"Income Statement",
+                "fileName":"income-statement.json"
+            },{
+                "label":"Balance Sheet",
+                "fileName":"balance-sheet.json"
+            },{
+                "label":"Cash Flow",
+                "fileName":"cash-flow.json"    
+            }
+        ]
+    },
+    "chevron":{
+        "name": "Chevron",
+        "location": "chevron/",
+        "pages":[
+            {
+                "label":"Balance Sheet",
+                "fileName":"balance-sheet.json"
+            },{
+                "label":"Income Statement",
+                "fileName":"income-statement.json"
+            },{
+                "label":"Cash Flow",
+                "fileName":"cash-flow.json"    
+            }
+        ]
+    },
+    "nike":{
+        "name": "Nike",
+        "location": "nike/",
+        "pages":[
+            {
+                "label":"Income Statement",
+                "fileName":"income-statement.json"
+            },{
+                "label":"Balance Sheet",
+                "fileName":"balance-sheet.json"
+            },{
+                "label":"Cash Flow",
+                "fileName":"cash-flow.json"    
+            },{
+                "label":"Shareholder Equity",
+                "fileName":"shareholder-equity.json"    
+            }
+        ]
+    },
+    "ge":{
+        "name": "GE",
+        "location": "ge/",
+        "pages":[
+            {
+                "label":"P&L by Segment (Non-GAAP)",
+                "fileName":"pl_by_segment_non_gaasp.json"
+            },{
+                "label":"Assumptions",
+                "fileName":"assumptions.json"
+            }
+        ]
+    },
+    
+    "walmart":{
+        "name": "Walmart",
+        "location": "walmart/",
+        "pages":[
+            {
+                "label":"BS",
+                "fileName":"bs.json"
+            },{
+                "label":"IS",
+                "fileName":"is.json"
+            },{
+                "label":"CF",
+                "fileName":"cf.json"
+            },{
+                "label":"Five Year",
+                "fileName":"five-year.json"
+            }
+        ]
+    },
+
+    "profitability-analysis":{
+        "name": "Profitability Analysis",
+        "location": "profitability-analysis/",
+        "pages":[
+            {
+                "label":"Profitability",
+                "fileName":"profitability.json"
+            }        
+        ]
+    },
+
+    "comparitive_pl":{
+        "name": "Comparitive P&L",
+        "location": "comparitive_pl/",
+        "pages":[
+            {
+                "label":"Comparitive P&L",
+                "fileName":"comparitive_pl.json"
+            },
+            {
+                "label":"Variance P&L",
+                "fileName":"variance_pl.json"
+            }        
+        ]
+    },
+
+    "variance_pl":{
+        "name": "Variance P&L",
+        "location": "variance_pl/",
+        "pages":[
+            {
+                "label":"Variance P&L",
+                "fileName":"variance_pl.json"
+            } 
+        ]
+    },
+
+    "regional_profitability":{
+        "name": "Regional Profitability Analysis",
+        "location": "regional_profitability/",
+        "pages":[
+            {
+                "label":"Profitability",
+                "fileName":"profitability.json"
+            } 
+        ]
     }
+    
+
+    
 }
-
-
-
-
-
-
-
-
