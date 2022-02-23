@@ -23,3 +23,11 @@ meta.json format
      }
 }
 ```
+
+
+Things to note :
+
+* "cases_country_wise_trend.json" -> chart are not commming...
+
+* https://inforiver.com/demos/interactive-feature-demo-of-inforiver-professional-edition/ - This report is not downloadable, so jsons are not added for this report...
+
