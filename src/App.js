@@ -33,7 +33,7 @@ function createNavBar(reportPages,selectedPage,pageJsons) {
         navItem.addEventListener("click", function(e){
             selectedPage = Number(e.target.pageIndex);
             const navItems = document.getElementById('navBar').childNodes;
-            for(let j=0;j<navItems.length;j++) {
+            for(let j=0;j<navItems.length-1;j++) {
                 const navItem = navItems[j];
                 if (j+1 == selectedPage){ 
                     navItem.className = `navItem selected`;
@@ -46,6 +46,10 @@ function createNavBar(reportPages,selectedPage,pageJsons) {
 
         navBar.appendChild(navItem);
     }
+    const poster = document.createElement('span');
+    poster.className = 'label';
+    poster.textContent = 'Lumel Technologies';
+    navBar.appendChild(poster);
 
 }
 
