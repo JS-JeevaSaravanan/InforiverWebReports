@@ -25,6 +25,8 @@ async function fetchData() {
     
     const promises = await pages.map( async page => {
         const  json = JSON.parse(await getJsonString(`${window.baseDomain}${location}${page.fileName}`));
+        json.isPlayGroundReadView = true;
+        json.isPlayGround = true;
         return json;
     })
 
