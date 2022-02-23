@@ -67,9 +67,7 @@ async function fetchAndRun() {
     // console.log(metaData)
 
     const gotName = getAllUrlParams(window.location.href).name || '';
-    console.log('gotName: ' + gotName);
     const reportName = gotName || "amd";
-    console.log('usedName',reportName)
     const reportData = metaData[reportName]
     // console.log('reportData',reportData)
 
