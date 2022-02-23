@@ -6,11 +6,11 @@ import { EVENTS, fetchFromServer, getAllUrlParams } from './utils';
 
 
 
-async function runInforiver(selectedPage,pageJsons) {
+async function runInforiver(selectedPageIndex,pageJsons) {
     const container = document.querySelector("#container");
     const matrix = new Loader(container, EVENTS);
     
-    matrix.update(pageJsons[selectedPage-1])
+    matrix.update(pageJsons[selectedPageIndex])
     // matrix.update(SAMPLE_DATA)
     window.addEventListener('resize', () => {
         matrix.reflow();
@@ -18,30 +18,30 @@ async function runInforiver(selectedPage,pageJsons) {
 }
 
 
-function createNavBar(reportPages,selectedPage,pageJsons) {
+function createNavBar(reportPages,selectedPageIndex,pageJsons) {
     const navBar = document.getElementById('navBar');
     for(let i=0;i<reportPages.length;i++) {
         const pageItem = reportPages[i];
         const navItem = document.createElement('div');
-        if (i+1 == selectedPage){ 
+        if (i == selectedPageIndex){ 
             navItem.className = `navItem selected`;
         }else{
             navItem.className = "navItem";
         }
         navItem.textContent = pageItem.label;
-        navItem.pageIndex = i+1; 
+        navItem.pageIndex = i; 
         navItem.addEventListener("click", function(e){
-            selectedPage = Number(e.target.pageIndex);
-            const navItems = document.getElementById('navBar').childNodes;
-            for(let j=0;j<navItems.length-1;j++) {
+            selectedPageIndex = Number(e.target.pageIndex);
+            const navItems = document.getElementById('navBar').querySelectorAll('.navItem');
+            for(let j=0;j<navItems.length;j++) {
                 const navItem = navItems[j];
-                if (j+1 == selectedPage){ 
+                if (j == selectedPageIndex){ 
                     navItem.className = `navItem selected`;
                 }else{
                     navItem.className = "navItem";
                 }       
             }
-            runInforiver(selectedPage,pageJsons);
+            runInforiver(selectedPageIndex,pageJsons);
         }, false);
 
         navBar.appendChild(navItem);
@@ -57,7 +57,7 @@ function createNavBar(reportPages,selectedPage,pageJsons) {
 async function fetchAndRun() {
 
     let pageJsons = [];
-    let selectedPage = 1;
+    let selectedPageIndex = 0;
 
 
 
@@ -76,8 +76,8 @@ async function fetchAndRun() {
     })
     pageJsons = await Promise.all(getPageProps);
     
-    createNavBar(reportPages,selectedPage,pageJsons);
-    runInforiver(selectedPage,pageJsons);
+    createNavBar(reportPages,selectedPageIndex,pageJsons);
+    runInforiver(selectedPageIndex,pageJsons);
 }
 
 
