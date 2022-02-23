@@ -6,11 +6,26 @@
       html,
       body,
 
+      #outerContainer {
+        height: 99.9%; 
+        width: 100%; 
+        display: block;
+      }
+
       #container {
         height: 100%;
         font-family: 'Segoe UI',wf_segoe-ui_normal,helvetica,arial,sans-serif;
-      
+        height: 96%; 
+        width: 100%; 
+        display: block;
       }
+
+      #navBar{
+        width: 90%; 
+        height: 10px;
+        display: block;
+      }
+
       .navItem {
         background-color: #ddd;
         float: left;
@@ -27,15 +42,18 @@
         font-family: 'Segoe UI',wf_segoe-ui_normal,helvetica,arial,sans-serif;
       
       }
+
       .navItem:hover {
         background: #f2c811;
         color: black;
         cursor: pointer;
       }
+
       .selected {
         background: #f2c811;
         color: black;
       }
+
       .footer_container{
         display: contents;
         position: absolute !important;
@@ -51,9 +69,9 @@
 
   <body>
 
-    <div id="outerContainer" style="height: 100%; width: 100%; display: block" >
-      <div id="container" style="height: 96%; width: 100%; display: block"></div>    
-      <div id="navBar" style="width: 90%; height: 10px;" ></div>
+    <div id="outerContainer">
+      <div id="container"></div>    
+      <div id="navBar"></div>
     </div>
 
     <script src="./dist/index.js"></script>
