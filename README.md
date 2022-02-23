@@ -1,9 +1,13 @@
-# ReportDataServer
-Serving report JSON data of powerbi reports
+# InforiverWebReports
 
+Serving report JSON data of powerbi reports to Inforiver Standlone and make Inforiver StandAlone functional...
+
+
+
+
+### ReportDataServer
 
 meta.json format
-
 
 ```
 {
