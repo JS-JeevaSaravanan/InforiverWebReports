@@ -25,7 +25,7 @@ meta.json format
 ```
 
 
-Things to handle :
+#### Things to handle :
 
 * "cases_country_wise_trend.json" -> chart are not commming...
 
@@ -38,8 +38,49 @@ Things to handle :
 * https://inforiver.com/demos/interactive-feature-demo-of-inforiver-professional-edition/ - This report is not downloadable, so jsons are not added for this report...
 
 
-Things to note:
+#### Things to note:
 
 * All json data is acquired from QA Inforiver Build
 
 * https://inforiver.com/demos/sales-report-using-microsoft-power-bi/ - This one page has 3 reports on same page.. so 3 jsons files were created and mapped into 3 pages..
+
+
+
+## Links
+
+| Report   name in meta.json | Report Name                       | Link                                                                                                        |
+|----------------------------|-----------------------------------|-------------------------------------------------------------------------------------------------------------|
+|                            | Getting Started                   | https://inforiver.com/demos/interactive-feature-demo-of-inforiver-professional-edition/                     |
+| amazon                     | Amazon                            | https://inforiver.com/demos/financial-statements-using-microsoft-power-bi-amazon/                           |
+| amd                        | AMD                               | https://inforiver.com/demos/financial-statements-using-microsoft-power-bi-amd/                              |
+| apple                      | Apple                             | https://inforiver.com/demos/financial-statements-using-microsoft-power-bi-apple/                            |
+| chevron                    | Chevron                           | https://inforiver.com/demos/financial-statements-using-microsoft-power-bi-chevron/                          |
+| nike                       | Nike                              | https://inforiver.com/demos/financial-statements-using-microsoft-power-bi-nike/                             |
+| ge                         | GE                                | https://inforiver.com/demos/financial-statements-using-microsoft-power-bi-ge/                               |
+| walmart                    | Walmart                           | https://inforiver.com/demos/financial-statements-using-microsoft-power-bi-walmart/                          |
+|                            |                                   |                                                                                                             |
+| profitability-analysis     | Profitability Analysis            | https://inforiver.com/demos/profitability-analysis-sample-report-in-microsoft-power-bi/                     |
+| comparitive_pl             | Comparitive   P&L                 | https://inforiver.com/demos/a-comparative-pl-report-in-microsoft-power-bi/                                  |
+| variance_pl                | Variance P&L                      | https://inforiver.com/demos/variance-pl-statement-in-microsoft-power-bi/                                    |
+| regional_profitability     | Regional   Profitability Analysis | https://inforiver.com/demos/regional-profitability-analysis-report-in-microsoft-power-bi/                   |
+|                            |                                   |                                                                                                             |
+| covid_19_global_trends     | COVID-19 Global Trends            | https://inforiver.com/demos/covid-19-global-trends-using-microsoft-power-bi/                                |
+| sales_report               | Sales Report                      | https://inforiver.com/demos/sales-report-using-microsoft-power-bi/                                          |
+| sales_performance_report   | Sales   Performance Report        | https://inforiver.com/demos/sales-performance-report-using-microsoft-power-bi/                              |
+|                            | Unemployment   Rate in EU         | https://inforiver.com/demos/unemployment-rate-analysis-using-microsoft-power-bi/                            |
+|                            | History of   Olympics             | https://inforiver.com/demos/history-of-olympics-an-analysis-of-120-years-of-olympics-in-microsoft-power-bi/ |
+|                            |                                   |                                                                                                             |
+|                            | Forbes Billionaires               | https://inforiver.com/demos/forbes-billionaires-sample-report-microsoft-power-bi/                           |
+|                            | Formula One                       | https://inforiver.com/demos/formula-one-an-exhaustive-analysis-with-inforiver-in-power-bi/                  |
+|                            | Legends of   Basketball           | https://inforiver.com/demos/analyzing-the-legends-of-basketball-using-inforiver-for-power-bi/               |
+|                            | Demographic   Analysis            | https://inforiver.com/demos/demographic-analysis-using-microsoft-power-bi/                                  |
+|                            | Correlation   Matrix              | https://inforiver.com/demos/correlation-matrix-using-microsoft-power-bi/                                    |
+|                            |                                   |                                                                                                             |
+|                            | Variance Analysis                 | https://inforiver.com/demos/variance-analysis-using-microsoft-power-bi/                                     |
+|                            | Regional Sales   Report           | https://inforiver.com/demos/regional-sales-report-using-microsoft-power-bi/                                 |
+|                            | Rat Sightings in   New York       | https://inforiver.com/demos/rat-sightings-in-new-york-an-analysis-with-inforiver-in-microsoft-power-bi/     |
+|                            | Spend Analysis                    | https://inforiver.com/demos/spend-analysis-using-microsoft-power-bi/                                        |
+|                            | Sales Dashboard                   | https://inforiver.com/demos/sales-dashboard-using-microsoft-power-bi/                                       |
+|                            |                                   |                                                                                                             |
+|                            | Potato Production and Pricing     | https://inforiver.com/demos/visualization-of-potato-production-and-pricing-in-microsoft-power-bi/           |
+|                            | Trend Analysis                    | https://inforiver.com/demos/trend-analysis-using-microsoft-power-bi/                                        |
