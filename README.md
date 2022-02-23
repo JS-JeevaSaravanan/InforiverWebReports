@@ -4,16 +4,16 @@ Serving report JSON data of powerbi reports
 
 meta.json format
 
-js
+
 ```
 {
-"reportTitle":{
-         "location":"folderName/",
-         "name": "reportName",
+"report-title":{
+         "location":"folder-name/",
+         "name": "Report Name",
          "pages": [
              {
-                 "label":"pageLabel",
-                 "fileName":"fileName.json"
+                 "label":"Page Lable",
+                 "fileName":"file-name.json"
              }
          ]
      }
