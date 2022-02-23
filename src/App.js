@@ -53,25 +53,13 @@ function createNavBar(reportPages,selectedPage,pageJsons) {
 
 
 async function fetchAndRun() {
-    // baseDomain/reportName
-
-    // console.log(window.location.href)
-    // console.log(document.referrer)
 
     let pageJsons = [];
     let selectedPage = 1;
 
-
-
     const metaData = JSON.parse(await fetchFromServer(`ReportDataBase/meta.json`));
-    // console.log(metaData)
-
     const gotName = getAllUrlParams(window.location.href).name || '';
-    console.log('gotName: ' + gotName);
-    const reportName = gotName || "amd";
-    console.log('usedName',reportName)
-    const reportData = metaData[reportName]
-    // console.log('reportData',reportData)
+    const reportData = metaData[gotName] || metaData["amd"];// TODO: Fall back
 
     const reportPagesLocation = reportData.location;
     const reportPages = reportData.pages;
