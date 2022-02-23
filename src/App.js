@@ -2,7 +2,7 @@ import { Loader } from "@visualbi/ibcs-variancechart/dist";
 import { SAMPLE_DATA } from './sample-data'
 import '@visualbi/ibcs-variancechart/dist/css/index.css';
 import { DEFAULT_PROPS } from "./default-props";
-import { EVENTS, fetchFromServer, getAllUrlParams } from './utils';
+import { EVENTS, fetchFromServer } from './utils';
 
 
 
@@ -66,8 +66,7 @@ async function fetchAndRun() {
     const metaData = JSON.parse(await fetchFromServer(`${window.baseDomain}meta.json`));
     // console.log(metaData)
 
-    const gotName = getAllUrlParams(window.location.href).name || '';
-    const reportName = gotName || "amd";
+    const reportName = "amd";
     const reportData = metaData[reportName]
     // console.log('reportData',reportData)
 
