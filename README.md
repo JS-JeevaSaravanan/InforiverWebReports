@@ -1,6 +1,6 @@
 # InforiverWebReports
 
-Serving report JSON data of powerbi reports to Inforiver Standlone and make Inforiver StandAlone functional...
+Serving Inforiver Standlone for inforiver demo reports... https://inforiver.com/demos
 
 
 
