@@ -1,23 +1,25 @@
 import { Loader } from "@visualbi/ibcs-variancechart/dist";
 import '@visualbi/ibcs-variancechart/dist/css/index.css';
 import { EVENTS, fetchFromServer, getAllUrlParams } from './utils';
-// import { SAMPLE_DATA } from './sample-data'
-// import { DEFAULT_PROPS } from "./default-props";
 
 
-async function runInforiver(selectedPageIndex,pageJsons) {
+async function runInforiver(selectedPageIndex,pageJsons, showToolBar) {
     const container = document.querySelector("#container");
     const matrix = new Loader(container, EVENTS);
     
-    matrix.update(pageJsons[selectedPageIndex])
-    // matrix.update(SAMPLE_DATA)
+    const selectedConfig = pageJsons[selectedPageIndex];
+    if(!showToolBar){
+        selectedConfig.toolbar.showOnHover = true;
+        selectedConfig.toolbar.enableHoverToolbar = true;    
+    }
+    matrix.update(selectedConfig)
     window.addEventListener('resize', () => {
         matrix.reflow();
     });    
 }
 
 
-function createNavBar(reportPages,selectedPageIndex,pageJsons) {
+function createNavBar(reportPages,selectedPageIndex,pageJsons,showToolBar) {
     const navBar = document.getElementById('navBar');
     for(let i=0;i<reportPages.length;i++) {
         const pageItem = reportPages[i];
@@ -40,7 +42,7 @@ function createNavBar(reportPages,selectedPageIndex,pageJsons) {
                     navItem.className = "navItem";
                 }       
             }
-            runInforiver(selectedPageIndex,pageJsons);
+            runInforiver(selectedPageIndex,pageJsons,showToolBar);
         }, false);
 
         navBar.appendChild(navItem);
@@ -55,9 +57,10 @@ async function fetchAndRun() {
     let selectedPageIndex = 0;
 
     const metaData = JSON.parse(await fetchFromServer(`${window.baseDomain}meta.json`));
-    const gotName = getAllUrlParams(window.location.href).name || '';
-    const reportData = metaData[gotName] || metaData["amd"];// TODO: Fall back
-
+    let reportName = getAllUrlParams(window.location.href).name || 'amd';// TODO: Fall back
+    let showToolBar = getAllUrlParams(window.location.href).toolbar === "false" ? false : true;
+    
+    const reportData = metaData[reportName];
     const reportPagesLocation = reportData.location;
     const reportPages = reportData.pages;
 
@@ -69,8 +72,8 @@ async function fetchAndRun() {
     })
     pageJsons = await Promise.all(getPageProps);
     
-    createNavBar(reportPages,selectedPageIndex,pageJsons);
-    runInforiver(selectedPageIndex,pageJsons);
+    createNavBar(reportPages,selectedPageIndex,pageJsons,showToolBar);
+    runInforiver(selectedPageIndex,pageJsons,showToolBar);
 }
 
 
