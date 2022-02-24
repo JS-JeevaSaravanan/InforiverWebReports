@@ -54,7 +54,7 @@ async function fetchAndRun() {
     let pageJsons = [];
     let selectedPageIndex = 0;
 
-    const metaData = JSON.parse(await fetchFromServer(`${window.baseDomain}meta.json`));
+    const metaData = JSON.parse(await fetchFromServer(`ReportDataBase/meta.json`));
     const gotName = getAllUrlParams(window.location.href).name || '';
     const reportData = metaData[gotName] || metaData["amd"];// TODO: Fall back
 
@@ -62,7 +62,7 @@ async function fetchAndRun() {
     const reportPages = reportData.pages;
 
     const getPageProps = await reportPages.map( async page => {
-        const  confProps = JSON.parse(await fetchFromServer(`${window.baseDomain}${reportPagesLocation}${page.fileName}`));
+        const  confProps = JSON.parse(await fetchFromServer(`ReportDataBase/${reportPagesLocation}${page.fileName}`));
         confProps.isPlayGroundReadView = true;
         confProps.isPlayGround = true;
         return confProps;
