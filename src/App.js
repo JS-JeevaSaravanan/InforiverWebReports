@@ -1,9 +1,8 @@
 import { Loader } from "@visualbi/ibcs-variancechart/dist";
-import { SAMPLE_DATA } from './sample-data'
 import '@visualbi/ibcs-variancechart/dist/css/index.css';
-import { DEFAULT_PROPS } from "./default-props";
 import { EVENTS, fetchFromServer, getAllUrlParams } from './utils';
-
+// import { SAMPLE_DATA } from './sample-data'
+// import { DEFAULT_PROPS } from "./default-props";
 
 
 async function runInforiver(selectedPageIndex,pageJsons) {
@@ -58,8 +57,6 @@ async function fetchAndRun() {
 
     let pageJsons = [];
     let selectedPageIndex = 0;
-
-
 
     const metaData = JSON.parse(await fetchFromServer(`${window.baseDomain}meta.json`));
     const gotName = getAllUrlParams(window.location.href).name || '';
