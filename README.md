@@ -48,7 +48,8 @@ meta.json format
 
 ## Links
 
-### StandAlone Inforiver running at https://visualbis.github.io/InforiverWebReports/?name=MetaName
+### StandAlone Inforiver running at https://visualbis.github.io/InforiverWebReports/?name=MetaName[&read-mode=true]
+
 
 
 ### Professional
