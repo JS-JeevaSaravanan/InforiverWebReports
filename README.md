@@ -48,6 +48,9 @@ meta.json format
 
 ## Links
 
+### StandAlone Inforiver running at https://js-jeevasaravanan.github.io/InforiverWebReports/?name=MetaName
+
+
 ### Professional
 
 | Report Name     | Web Page Link                                                                                                                                                                                                                                                                | Meta Name |
