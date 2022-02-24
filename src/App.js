@@ -3,14 +3,15 @@ import '@visualbi/ibcs-variancechart/dist/css/index.css';
 import { EVENTS, fetchFromServer, getAllUrlParams } from './utils';
 
 
-async function runInforiver(selectedPageIndex,pageJsons, showToolBar) {
+async function runInforiver(selectedPageIndex,pageConfigs, enableReadMode) {
     const container = document.querySelector("#container");
     const matrix = new Loader(container, EVENTS);
     
-    const selectedConfig = pageJsons[selectedPageIndex];
-    if(!showToolBar){
-        selectedConfig.toolbar.showOnHover = true;
-        selectedConfig.toolbar.enableHoverToolbar = true;    
+    const selectedConfig = pageConfigs[selectedPageIndex];
+    if(enableReadMode){
+        selectedConfig.isEditMode = false;
+    }else{
+        selectedConfig.isEditMode = true;
     }
     matrix.update(selectedConfig)
     window.addEventListener('resize', () => {
@@ -19,7 +20,7 @@ async function runInforiver(selectedPageIndex,pageJsons, showToolBar) {
 }
 
 
-function createNavBar(reportPages,selectedPageIndex,pageJsons,showToolBar) {
+function createNavBar(reportPages,selectedPageIndex,pageConfigs,enableReadMode) {
     const navBar = document.getElementById('navBar');
     for(let i=0;i<reportPages.length;i++) {
         const pageItem = reportPages[i];
@@ -42,7 +43,7 @@ function createNavBar(reportPages,selectedPageIndex,pageJsons,showToolBar) {
                     navItem.className = "navItem";
                 }       
             }
-            runInforiver(selectedPageIndex,pageJsons,showToolBar);
+            runInforiver(selectedPageIndex,pageConfigs,enableReadMode);
         }, false);
 
         navBar.appendChild(navItem);
@@ -53,12 +54,12 @@ function createNavBar(reportPages,selectedPageIndex,pageJsons,showToolBar) {
 
 async function fetchAndRun() {
 
-    let pageJsons = [];
+    let pageConfigs = [];
     let selectedPageIndex = 0;
 
     const metaData = JSON.parse(await fetchFromServer(`${window.baseDomain}meta.json`));
-    let reportName = getAllUrlParams(window.location.href).name || 'amd';// TODO: Fall back
-    let showToolBar = getAllUrlParams(window.location.href).toolbar === "false" ? false : true;
+    let reportName = getAllUrlParams(window.location.href)["name"] || 'amd';// TODO: Fall back
+    let enableReadMode = getAllUrlParams(window.location.href)["read-mode"] === "true" ? true : false;
     
     const reportData = metaData[reportName];
     const reportPagesLocation = reportData.location;
@@ -70,10 +71,10 @@ async function fetchAndRun() {
         confProps.isPlayGround = true;
         return confProps;
     })
-    pageJsons = await Promise.all(getPageProps);
+    pageConfigs = await Promise.all(getPageProps);
     
-    createNavBar(reportPages,selectedPageIndex,pageJsons,showToolBar);
-    runInforiver(selectedPageIndex,pageJsons,showToolBar);
+    createNavBar(reportPages,selectedPageIndex,pageConfigs,enableReadMode);
+    runInforiver(selectedPageIndex,pageConfigs,enableReadMode);
 }
 
 
