@@ -45,10 +45,6 @@ function createNavBar(reportPages,selectedPageIndex,pageJsons) {
 
         navBar.appendChild(navItem);
     }
-    const poster = document.createElement('span');
-    poster.className = 'label';
-    poster.textContent = 'Lumel Technologies';
-    navBar.appendChild(poster);
 
 }
 
