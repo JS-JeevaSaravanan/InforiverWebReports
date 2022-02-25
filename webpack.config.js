@@ -1,7 +1,6 @@
-const MiniCssExtractPlugin = require('mini-css-extract-plugin');
-const TerserPlugin = require('terser-webpack-plugin');
+const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+const TerserPlugin = require("terser-webpack-plugin");
 const path = require("path");
-
 
 module.exports = {
   entry: ["./src/App.js"],
@@ -16,7 +15,7 @@ module.exports = {
   },
   plugins: [
     new MiniCssExtractPlugin({
-      filename: 'style.css',
+      filename: "style.css",
     }),
   ],
   module: {
@@ -25,11 +24,11 @@ module.exports = {
         test: /\.js$/,
         exclude: /node_modules/,
         use: {
-            loader: 'babel-loader',
-            options: {
-              presets: ['@babel/preset-env']
-            }
-          }
+          loader: "babel-loader",
+          options: {
+            presets: ["@babel/preset-env"],
+          },
+        },
       },
       {
         test: /\.css$/,
@@ -38,9 +37,9 @@ module.exports = {
             loader: MiniCssExtractPlugin.loader,
           },
           {
-            loader: "css-loader"
-          }
-        ]
+            loader: "css-loader",
+          },
+        ],
       },
       {
         test: /\.less$/,
@@ -49,30 +48,31 @@ module.exports = {
             loader: MiniCssExtractPlugin.loader,
           },
           {
-            loader: "css-loader"
+            loader: "css-loader",
           },
           {
-            loader: "less-loader"
-          }
-        ]
+            loader: "less-loader",
+          },
+        ],
       },
-      { test: /\.(png|woff|woff2|eot|ttf|svg)$/, 
-        loader: "url-loader", 
-        options:{
-          limit:100000
-        }
-     },
+      {
+        test: /\.(png|woff|woff2|eot|ttf|svg)$/,
+        loader: "url-loader",
+        options: {
+          limit: 100000,
+        },
+      },
       {
         resolve: {
-          extensions: [".js", ".jsx", ".ts", ".tsx"]
-        }
-      }
-    ]
+          extensions: [".js", ".jsx", ".ts", ".tsx"],
+        },
+      },
+    ],
   },
   output: {
     filename: "index.js",
     libraryTarget: "umd",
     library: "IBCSModule",
-    path: path.resolve(__dirname, "docs/dist/")
-  }
+    path: path.resolve(__dirname, "docs/dist/"),
+  },
 };

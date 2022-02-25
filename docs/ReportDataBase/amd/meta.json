@@ -1,0 +1,7 @@
+{
+  "P&L_GAAP": "pl-gaap.json",
+  "Balance Sheet": "balance-sheet.json",
+  "SEG1": "seg1.json",
+  "Non-GAAP": "non-gaap.json",
+  "Non-GAAP_2": "non-gaap-2.json"
+}
