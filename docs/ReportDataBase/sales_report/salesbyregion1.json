@@ -3158,25 +3158,6 @@
     "hierarchyHeader": false
   },
   "measureAttributes": {},
-  "userSession": {
-    "isLoggedIn": false,
-    "accessToken": "",
-    "refreshToken": "",
-    "userAccessToken": "",
-    "visualAccessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aXN1YWxJZCI6IjAiLCJjd3MiOiIzIiwic2NvcGUiOnsiY29tbWVudHMiOnRydWUsIndyaXRlQmFja0FQSSI6dHJ1ZX0sInVzZXJJZCI6IjAiLCJpYXQiOjE2NDU1OTgwNDQsImV4cCI6MTY0NTY4NDQ0NH0.7-XwOs3n-O07fIt9H0B0UXmTyD1zNKd3-yB6F9NUyS4",
-    "userId": "",
-    "userName": "",
-    "email": "",
-    "profileImg": "",
-    "x_request_cws": null,
-    "visualId": "ADGCKKFMFLLJJBL",
-    "syncState": false,
-    "visualDomain": "LUMEL.COM",
-    "authTypes": [],
-    "processingLogin": false,
-    "loginType": "",
-    "domainMatch": false
-  },
   "commentOnline": {
     "isOnline": false,
     "commentList": [],
