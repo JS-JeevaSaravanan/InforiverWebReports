@@ -18,22 +18,17 @@ async function runInforiver(selectedPageIndex, pageConfigs, enableReadMode) {
   });
 }
 
-function createNavBar(
-  reportPages,
-  selectedPageIndex,
-  pageConfigs,
-  enableReadMode
-) {
+function createNavBar(labels, selectedPageIndex, pageConfigs, enableReadMode) {
   const navBar = document.getElementById("navBar");
-  for (let i = 0; i < reportPages.length; i++) {
-    const pageItem = reportPages[i];
+  for (let i = 0; i < labels.length; i++) {
+    const pageLabel = labels[i];
     const navItem = document.createElement("div");
     if (i == selectedPageIndex) {
       navItem.className = `navItem selected`;
     } else {
       navItem.className = "navItem";
     }
-    navItem.textContent = pageItem.label;
+    navItem.textContent = pageLabel;
     navItem.pageIndex = i;
     navItem.addEventListener(
       "click",
@@ -60,35 +55,32 @@ function createNavBar(
 }
 
 async function fetchAndRun() {
-  let pageConfigs = [];
+  const pageConfigs = [];
   let selectedPageIndex = 0;
-
+  const reportName = getAllUrlParams(window.location.href)["name"] || "amd"; // TODO: Fall back
+  const reportLocation = `${reportName}/`;
   const metaData = JSON.parse(
-    await fetchFromServer(`${window.baseDomain}meta.json`)
+    await fetchFromServer(`${window.baseDomain}${reportLocation}meta.json`)
   );
-  let reportName = getAllUrlParams(window.location.href)["name"] || "amd"; // TODO: Fall back
+  const labels = Object.keys(metaData);
+  const files = Object.values(metaData);
+
   let enableReadMode =
     getAllUrlParams(window.location.href)["read-mode"] === "true"
       ? true
       : false;
 
-  const reportData = metaData[reportName];
-  const reportPagesLocation = reportData.location;
-  const reportPages = reportData.pages;
-
-  const getPageProps = await reportPages.map(async (page) => {
+  const getPageProps = await files.map(async (fileName) => {
     const confProps = JSON.parse(
-      await fetchFromServer(
-        `${window.baseDomain}${reportPagesLocation}${page.fileName}`
-      )
+      await fetchFromServer(`${window.baseDomain}${reportLocation}${fileName}`)
     );
     confProps.isPlayGroundReadView = true;
     confProps.isPlayGround = true;
     return confProps;
   });
-  pageConfigs = await Promise.all(getPageProps);
+  pageConfigs.push(...(await Promise.all(getPageProps)));
 
-  createNavBar(reportPages, selectedPageIndex, pageConfigs, enableReadMode);
+  createNavBar(labels, selectedPageIndex, pageConfigs, enableReadMode);
   runInforiver(selectedPageIndex, pageConfigs, enableReadMode);
 }
 
