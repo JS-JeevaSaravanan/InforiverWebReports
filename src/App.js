@@ -1,79 +1,88 @@
 import { Loader } from "@visualbi/ibcs-variancechart/dist";
-import '@visualbi/ibcs-variancechart/dist/css/index.css';
-import { EVENTS, fetchFromServer, getAllUrlParams } from './utils';
-// import { SAMPLE_DATA } from './sample-data'
-// import { DEFAULT_PROPS } from "./default-props";
+import "@visualbi/ibcs-variancechart/dist/css/index.css";
+import { EVENTS, fetchFromServer, getAllUrlParams } from "./utils";
 
+async function runInforiver(selectedPageIndex, pageConfigs, enableReadMode) {
+  const container = document.querySelector("#container");
+  const matrix = new Loader(container, EVENTS);
 
-async function runInforiver(selectedPageIndex,pageJsons) {
-    const container = document.querySelector("#container");
-    const matrix = new Loader(container, EVENTS);
-    
-    matrix.update(pageJsons[selectedPageIndex])
-    // matrix.update(SAMPLE_DATA)
-    window.addEventListener('resize', () => {
-        matrix.reflow();
-    });    
+  const selectedConfig = pageConfigs[selectedPageIndex];
+  if (enableReadMode) {
+    selectedConfig.isEditMode = false;
+  } else {
+    selectedConfig.isEditMode = true;
+  }
+  matrix.update(selectedConfig);
+  window.addEventListener("resize", () => {
+    matrix.reflow();
+  });
 }
 
-
-function createNavBar(reportPages,selectedPageIndex,pageJsons) {
-    const navBar = document.getElementById('navBar');
-    for(let i=0;i<reportPages.length;i++) {
-        const pageItem = reportPages[i];
-        const navItem = document.createElement('div');
-        if (i == selectedPageIndex){ 
-            navItem.className = `navItem selected`;
-        }else{
-            navItem.className = "navItem";
-        }
-        navItem.textContent = pageItem.label;
-        navItem.pageIndex = i; 
-        navItem.addEventListener("click", function(e){
-            selectedPageIndex = Number(e.target.pageIndex);
-            const navItems = document.getElementById('navBar').querySelectorAll('.navItem');
-            for(let j=0;j<navItems.length;j++) {
-                const navItem = navItems[j];
-                if (j == selectedPageIndex){ 
-                    navItem.className = `navItem selected`;
-                }else{
-                    navItem.className = "navItem";
-                }       
-            }
-            runInforiver(selectedPageIndex,pageJsons);
-        }, false);
-
-        navBar.appendChild(navItem);
+function createNavBar(labels, selectedPageIndex, pageConfigs, enableReadMode) {
+  const navBar = document.getElementById("navBar");
+  for (let i = 0; i < labels.length; i++) {
+    const pageLabel = labels[i];
+    const navItem = document.createElement("div");
+    if (i == selectedPageIndex) {
+      navItem.className = `navItem selected`;
+    } else {
+      navItem.className = "navItem";
     }
+    navItem.textContent = pageLabel;
+    navItem.pageIndex = i;
+    navItem.addEventListener(
+      "click",
+      function (e) {
+        selectedPageIndex = Number(e.target.pageIndex);
+        const navItems = document
+          .getElementById("navBar")
+          .querySelectorAll(".navItem");
+        for (let j = 0; j < navItems.length; j++) {
+          const navItem = navItems[j];
+          if (j == selectedPageIndex) {
+            navItem.className = `navItem selected`;
+          } else {
+            navItem.className = "navItem";
+          }
+        }
+        runInforiver(selectedPageIndex, pageConfigs, enableReadMode);
+      },
+      false
+    );
 
+    navBar.appendChild(navItem);
+  }
 }
-
 
 async function fetchAndRun() {
 
-    let pageJsons = [];
-    let selectedPageIndex = 0;
+  const pageConfigs = [];
+  let selectedPageIndex = 0;
+  const reportName = getAllUrlParams(window.location.href)["name"] || "amd"; // TODO: Fall back
+  const reportLocation = `${reportName}/`;
+  const metaData = JSON.parse(
+    await fetchFromServer(`${window.baseDomain}${reportLocation}meta.json`)
+  );
+  const labels = Object.keys(metaData);
+  const files = Object.values(metaData);
 
-    const metaData = JSON.parse(await fetchFromServer(`${window.baseUrl}meta.json`));
-    const gotName = getAllUrlParams(window.location.href).name || '';
-    const reportData = metaData[gotName] || metaData["amd"];// TODO: Fall back
+  let enableReadMode =
+    getAllUrlParams(window.location.href)["read-mode"] === "true"
+      ? true
+      : false;
 
-    const reportPagesLocation = reportData.location;
-    const reportPages = reportData.pages;
+  const getPageProps = await files.map(async (fileName) => {
+    const confProps = JSON.parse(
+      await fetchFromServer(`${window.baseDomain}${reportLocation}${fileName}`)
+    );
+    confProps.isPlayGroundReadView = true;
+    confProps.isPlayGround = true;
+    return confProps;
+  });
+  pageConfigs.push(...(await Promise.all(getPageProps)));
 
-    const getPageProps = await reportPages.map( async page => {
-        const  confProps = JSON.parse(await fetchFromServer(`${window.baseUrl}${reportPagesLocation}${page.fileName}`));
-        confProps.isPlayGroundReadView = true;
-        confProps.isPlayGround = true;
-        return confProps;
-    })
-    pageJsons = await Promise.all(getPageProps);
-    
-    createNavBar(reportPages,selectedPageIndex,pageJsons);
-    runInforiver(selectedPageIndex,pageJsons);
+  createNavBar(labels, selectedPageIndex, pageConfigs, enableReadMode);
+  runInforiver(selectedPageIndex, pageConfigs, enableReadMode);
 }
 
-
-fetchAndRun()
-
-
+fetchAndRun();

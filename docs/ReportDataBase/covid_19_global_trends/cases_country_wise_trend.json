@@ -6814,44 +6814,9 @@
           "key": "{\"World_Covid_Cases.location\":[{\"identityIndex\":88}]}[]"
         },
         "values": [
-          9254,
-          196,
-          69554,
-          2624,
-          2923,
-          472,
-          1677,
-          1328,
-          190,
-          1,
-          639,
-          3,
-          2870,
-          20,
-          2259,
-          62,
-          631,
-          16,
-          821,
-          0,
-          1536,
-          4,
-          3061,
-          39,
-          95415,
-          4765,
-          4100,
-          35,
-          902,
-          18,
-          767,
-          6,
-          568,
-          4,
-          6337,
-          63,
-          101752,
-          4828
+          9254, 196, 69554, 2624, 2923, 472, 1677, 1328, 190, 1, 639, 3, 2870,
+          20, 2259, 62, 631, 16, 821, 0, 1536, 4, 3061, 39, 95415, 4765, 4100,
+          35, 902, 18, 767, 6, 568, 4, 6337, 63, 101752, 4828
         ],
         "isSubtotal": false
       },
@@ -16872,44 +16837,11 @@
     "subTotals": {
       "rows": {
         "values": [
-          9370,
-          196,
-          75381,
-          2723,
-          789666,
-          41580,
-          2403356,
-          192864,
-          2908063,
-          137608,
-          4268016,
-          133125,
-          7141307,
-          167149,
-          7899198,
-          175266,
-          8500479,
-          163804,
-          12126819,
-          181749,
-          17248196,
-          274478,
-          19314103,
-          353021,
-          82683954,
-          1823563,
-          19458688,
-          410848,
-          11144149,
-          297365,
-          14697221,
-          282311,
-          14617815,
-          239816,
-          59917873,
-          1230340,
-          142601827,
-          3053903
+          9370, 196, 75381, 2723, 789666, 41580, 2403356, 192864, 2908063,
+          137608, 4268016, 133125, 7141307, 167149, 7899198, 175266, 8500479,
+          163804, 12126819, 181749, 17248196, 274478, 19314103, 353021,
+          82683954, 1823563, 19458688, 410848, 11144149, 297365, 14697221,
+          282311, 14617815, 239816, 59917873, 1230340, 142601827, 3053903
         ]
       },
       "columns": {}
@@ -17403,13 +17335,7 @@
         "colorScheme": {
           "selectedColorScheme": "Blues",
           "numberOfRanges": 5,
-          "colors": [
-            "#d0e1f2",
-            "#94c4df",
-            "#4a98c9",
-            "#1764ab",
-            "#08306b"
-          ],
+          "colors": ["#d0e1f2", "#94c4df", "#4a98c9", "#1764ab", "#08306b"],
           "minColor": "red",
           "middleColor": "blue",
           "maxColor": "green"
@@ -17600,11 +17526,7 @@
         "rankingBucketsValueType": "percent",
         "iconGroupValueType": "percent",
         "textValueType": "percent",
-        "icons": [
-          "Cancel",
-          "exclamation-mark",
-          "Accept"
-        ],
+        "icons": ["Cancel", "exclamation-mark", "Accept"],
         "conditionalOperator": "or",
         "conditions": [
           {
@@ -17672,13 +17594,7 @@
         "invertColor": false,
         "colorScaleColorFor": "background",
         "colorScheme": {
-          "colors": [
-            "#fdd9b4",
-            "#fda762",
-            "#f3701b",
-            "#c54102",
-            "#7f2704"
-          ],
+          "colors": ["#fdd9b4", "#fda762", "#f3701b", "#c54102", "#7f2704"],
           "numberOfRanges": 5,
           "minColor": "#008000",
           "middleColor": "rgba(242,232,179,1)",
@@ -17831,11 +17747,7 @@
         "iconGroupValueType": "percent",
         "textGroupValueType": "percent",
         "textColorFor": "font",
-        "ratingIcons": [
-          "Cancel",
-          "exclamation-mark",
-          "Accept"
-        ],
+        "ratingIcons": ["Cancel", "exclamation-mark", "Accept"],
         "conditionalOperator": "or",
         "conditions": [
           {
@@ -17910,13 +17822,7 @@
         "colorScheme": {
           "selectedColorScheme": "Reds",
           "numberOfRanges": 5,
-          "colors": [
-            "#fdcab5",
-            "#fc8a6a",
-            "#f14432",
-            "#bc141a",
-            "#67000d"
-          ],
+          "colors": ["#fdcab5", "#fc8a6a", "#f14432", "#bc141a", "#67000d"],
           "minColor": "red",
           "middleColor": "blue",
           "maxColor": "green"
@@ -18068,11 +17974,7 @@
         "iconGroupValueType": "percent",
         "textGroupValueType": "percent",
         "textColorFor": "font",
-        "ratingIcons": [
-          "cross",
-          "alert",
-          "tick"
-        ],
+        "ratingIcons": ["cross", "alert", "tick"],
         "conditionalOperator": "or",
         "conditions": [
           {
@@ -18171,10 +18073,7 @@
       "measureType": "data",
       "isOriginalMeasure": true,
       "width": 110,
-      "associatedColIds": [
-        "2020__AC",
-        "2021__AC"
-      ],
+      "associatedColIds": ["2020__AC", "2021__AC"],
       "isWidthEnabled": true,
       "operation": "IND",
       "isNumericMeasure": true,
@@ -18217,10 +18116,7 @@
       "measureType": "data",
       "isOriginalMeasure": true,
       "width": 110,
-      "associatedColIds": [
-        "2020__AC1",
-        "2021__AC1"
-      ],
+      "associatedColIds": ["2020__AC1", "2021__AC1"],
       "isWidthEnabled": true,
       "operation": "IND",
       "isNumericMeasure": true,
@@ -18235,10 +18131,7 @@
       "visible": false,
       "isOriginalMeasure": false,
       "width": 0,
-      "associatedColIds": [
-        "2020__CALC_COL_1",
-        "2021__CALC_COL_1"
-      ],
+      "associatedColIds": ["2020__CALC_COL_1", "2021__CALC_COL_1"],
       "isWidthEnabled": true,
       "isHierMeasure": false,
       "isCalculatedMeasure": true,
@@ -18670,9 +18563,7 @@
         {
           "colId": "2020_sparkline_Sum(World_Covid_Cases.new_cases)_spark_sum_spark_sum",
           "type": 3,
-          "columnHierarchy": [
-            null
-          ],
+          "columnHierarchy": [null],
           "rowHierarchy": []
         }
       ],
@@ -18689,9 +18580,7 @@
         {
           "colId": "2020__AC1",
           "type": 3,
-          "columnHierarchy": [
-            "new_deaths"
-          ],
+          "columnHierarchy": ["new_deaths"],
           "rowHierarchy": []
         }
       ],
@@ -18709,10 +18598,7 @@
           "colId": "2020_sparkline_Sum(World_Covid_Cases.new_cases)_Sum_Sum",
           "mesColId": null,
           "type": 3,
-          "columnHierarchy": [
-            "2020",
-            "Total Cases"
-          ],
+          "columnHierarchy": ["2020", "Total Cases"],
           "rowHierarchy": []
         }
       ],
@@ -18730,9 +18616,7 @@
           "colId": null,
           "type": 4,
           "mesColId": "AC",
-          "columnHierarchy": [
-            "new_cases"
-          ],
+          "columnHierarchy": ["new_cases"],
           "rowHierarchy": []
         }
       ],
@@ -18750,10 +18634,7 @@
           "colId": "2020_sparkline_Sum(World_Covid_Cases.new_cases)_Sum_Sum",
           "type": 3,
           "mesColId": null,
-          "columnHierarchy": [
-            "2020",
-            "new_cases - Sum"
-          ],
+          "columnHierarchy": ["2020", "new_cases - Sum"],
           "rowHierarchy": []
         }
       ],
@@ -18824,10 +18705,7 @@
   "rowAutoGroupConfig": {
     "ruleName": "none"
   },
-  "recentColors": [
-    "#e6e6e6ff",
-    "#000000"
-  ],
+  "recentColors": ["#e6e6e6ff", "#000000"],
   "frequentColors": [],
   "tooltipOthersDimension": [],
   "varianceInvertColumn": {},
@@ -18850,25 +18728,6 @@
     "hierarchyHeader": false
   },
   "measureAttributes": {},
-  "userSession": {
-    "isLoggedIn": false,
-    "accessToken": "",
-    "refreshToken": "",
-    "userAccessToken": "",
-    "visualAccessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2aXN1YWxJZCI6IjAiLCJjd3MiOiIzIiwic2NvcGUiOnsiY29tbWVudHMiOnRydWUsIndyaXRlQmFja0FQSSI6dHJ1ZX0sInVzZXJJZCI6IjAiLCJpYXQiOjE2NDU1OTcxODIsImV4cCI6MTY0NTY4MzU4Mn0.u71khjzLCeIka2_BMfVDslPzAgZdozMAhhk6ZtBzm8c",
-    "userId": "",
-    "userName": "",
-    "email": "",
-    "profileImg": "",
-    "x_request_cws": null,
-    "visualId": "LKMNKJDCAKFIKNP",
-    "syncState": false,
-    "visualDomain": "LUMEL.COM",
-    "authTypes": [],
-    "processingLogin": false,
-    "loginType": "",
-    "domainMatch": false
-  },
   "commentOnline": {
     "isOnline": false,
     "commentList": [],

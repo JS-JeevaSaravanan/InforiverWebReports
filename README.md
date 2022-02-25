@@ -7,21 +7,16 @@ Serving Inforiver Standlone for inforiver demo reports... https://inforiver.com/
 
 ### ReportDataServer
 
-meta.json format
+* Each folder have meta.json file which have the details of that report pages
+* Folder name must be that same meta name that is used in the url
 
 ```
 {
-"report-title":{
-         "location":"folder-name/",
-         "name": "Report Name",
-         "pages": [
-             {
-                 "label":"Page Lable",
-                 "fileName":"file-name.json"
-             }
-         ]
-     }
+  "Page1 Label": "page1_file.json",
+  "Page2 Label": "page2_file.json",
+  "Page3 Label": "page3_file.json"
 }
+
 ```
 
 
@@ -48,7 +43,8 @@ meta.json format
 
 ## Links
 
-### StandAlone Inforiver running at https://visualbis.github.io/InforiverWebReports/index.html?name=MetaName
+
+### StandAlone Inforiver running at https://visualbis.github.io/InforiverWebReports/?name=MetaName[&read-mode=true]
 
 
 ### Professional
